@@ -1,0 +1,1280 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<debugInfo>
+<manifest filename="C:\STRIDE\ciq_projects\STRIDE_CIQ_CustomBleProfile\manifest.xml"/>
+<pcToLineNum>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\ProfileManager.mc" id="1" lineNum="15" parent="globals/ProfileManager" pc="268435460" symbol="&lt;init&gt;"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\ProfileManager.mc" id="1" lineNum="22" parent="globals/ProfileManager" pc="268435484" symbol="&lt;init&gt;"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\ProfileManager.mc" id="1" lineNum="29" parent="globals/ProfileManager" pc="268435508" symbol="&lt;init&gt;"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\ProfileManager.mc" id="1" lineNum="31" parent="globals/ProfileManager" pc="268435532" symbol="&lt;init&gt;"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\BluetoothDelegate.mc" id="2" lineNum="11" parent="globals/BluetoothDelegate" pc="268435650" symbol="&lt;init&gt;"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\ScanView.mc" id="3" lineNum="13" parent="globals/ScanView" pc="268435662" symbol="&lt;init&gt;"/>
+<entry filename="c:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\vva5\\gen\\006-B4257-00\\source\\Rez.mcgen" id="4" lineNum="7" parent="globals/Rez" pc="268435674" symbol="&lt;init&gt;"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\PhoneCommunication.mc" id="5" lineNum="12" parent="globals/CommListener" pc="268435694" symbol="&lt;init&gt;"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\ScanMenuDelegate.mc" id="6" lineNum="11" parent="globals/ScanMenuDelegate" pc="268435706" symbol="&lt;init&gt;"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\ScanDelegate.mc" id="7" lineNum="10" parent="globals/ScanDelegate" pc="268435718" symbol="&lt;init&gt;"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceView.mc" id="8" lineNum="12" parent="globals/DeviceView" pc="268435730" symbol="&lt;init&gt;"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceDelegate.mc" id="9" lineNum="10" parent="globals/DeviceDelegate" pc="268435742" symbol="&lt;init&gt;"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DukeSampleApp.mc" id="10" lineNum="13" parent="globals/DukeSampleApp" pc="268435754" symbol="&lt;init&gt;"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\ProfileManager.mc" id="11" lineNum="45" parent="globals/ProfileManager" pc="268435766" symbol="registerProfiles"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\ProfileManager.mc" id="11" lineNum="46" parent="globals/ProfileManager" pc="268435768" symbol="registerProfiles"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\PhoneCommunication.mc" id="13" lineNum="53" parent="globals/PhoneCommunication" pc="268435787" symbol="handleMessageFromPhone"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\PhoneCommunication.mc" id="13" lineNum="54" parent="globals/PhoneCommunication" pc="268435789" symbol="handleMessageFromPhone"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\PhoneCommunication.mc" id="13" lineNum="58" parent="globals/PhoneCommunication" pc="268435807" symbol="handleMessageFromPhone"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\PhoneCommunication.mc" id="13" lineNum="59" parent="globals/PhoneCommunication" pc="268435833" symbol="handleMessageFromPhone"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\PhoneCommunication.mc" id="13" lineNum="60" parent="globals/PhoneCommunication" pc="268435865" symbol="handleMessageFromPhone"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\PhoneCommunication.mc" id="13" lineNum="61" parent="globals/PhoneCommunication" pc="268435889" symbol="handleMessageFromPhone"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\PhoneCommunication.mc" id="13" lineNum="62" parent="globals/PhoneCommunication" pc="268435898" symbol="handleMessageFromPhone"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\PhoneCommunication.mc" id="13" lineNum="64" parent="globals/PhoneCommunication" pc="268435920" symbol="handleMessageFromPhone"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\PhoneCommunication.mc" id="13" lineNum="65" parent="globals/PhoneCommunication" pc="268435944" symbol="handleMessageFromPhone"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\PhoneCommunication.mc" id="13" lineNum="66" parent="globals/PhoneCommunication" pc="268435953" symbol="handleMessageFromPhone"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\PhoneCommunication.mc" id="14" lineNum="81" parent="globals/PhoneCommunication" pc="268435979" symbol="transmitMessageToPhone"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\PhoneCommunication.mc" id="14" lineNum="82" parent="globals/PhoneCommunication" pc="268435982" symbol="transmitMessageToPhone"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\PhoneCommunication.mc" id="14" lineNum="83" parent="globals/PhoneCommunication" pc="268436009" symbol="transmitMessageToPhone"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\PhoneCommunication.mc" id="14" lineNum="85" parent="globals/PhoneCommunication" pc="268436033" symbol="transmitMessageToPhone"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\PhoneCommunication.mc" id="14" lineNum="86" parent="globals/PhoneCommunication" pc="268436042" symbol="transmitMessageToPhone"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\PhoneCommunication.mc" id="14" lineNum="89" parent="globals/PhoneCommunication" pc="268436069" symbol="transmitMessageToPhone"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\PhoneCommunication.mc" id="14" lineNum="90" parent="globals/PhoneCommunication" pc="268436073" symbol="transmitMessageToPhone"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\PhoneCommunication.mc" id="15" lineNum="75" parent="globals/PhoneCommunication" pc="268436112" symbol="setDeviceView"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\PhoneCommunication.mc" id="15" lineNum="76" parent="globals/PhoneCommunication" pc="268436114" symbol="setDeviceView"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\PhoneCommunication.mc" id="15" lineNum="77" parent="globals/PhoneCommunication" pc="268436132" symbol="setDeviceView"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\PhoneCommunication.mc" id="16" lineNum="32" parent="globals/PhoneCommunication" pc="268436142" symbol="initialize"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\PhoneCommunication.mc" id="16" lineNum="38" parent="globals/PhoneCommunication" pc="268436145" symbol="initialize"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\PhoneCommunication.mc" id="16" lineNum="39" parent="globals/PhoneCommunication" pc="268436157" symbol="initialize"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\PhoneCommunication.mc" id="16" lineNum="44" parent="globals/PhoneCommunication" pc="268436234" symbol="initialize"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\PhoneCommunication.mc" id="16" lineNum="45" parent="globals/PhoneCommunication" pc="268436254" symbol="initialize"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\PhoneCommunication.mc" id="16" lineNum="46" parent="globals/PhoneCommunication" pc="268436269" symbol="initialize"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\PhoneCommunication.mc" id="16" lineNum="47" parent="globals/PhoneCommunication" pc="268436278" symbol="initialize"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\BluetoothDelegate.mc" id="17" lineNum="70" parent="globals/BluetoothDelegate" pc="268436303" symbol="onCharacteristicChanged"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\BluetoothDelegate.mc" id="17" lineNum="71" parent="globals/BluetoothDelegate" pc="268436306" symbol="onCharacteristicChanged"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\BluetoothDelegate.mc" id="17" lineNum="72" parent="globals/BluetoothDelegate" pc="268436327" symbol="onCharacteristicChanged"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\BluetoothDelegate.mc" id="17" lineNum="73" parent="globals/BluetoothDelegate" pc="268436334" symbol="onCharacteristicChanged"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\BluetoothDelegate.mc" id="17" lineNum="74" parent="globals/BluetoothDelegate" pc="268436340" symbol="onCharacteristicChanged"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\BluetoothDelegate.mc" id="17" lineNum="75" parent="globals/BluetoothDelegate" pc="268436351" symbol="onCharacteristicChanged"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\BluetoothDelegate.mc" id="18" lineNum="111" parent="globals/BluetoothDelegate" pc="268436379" symbol="notifyCharacteristicChanged"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\BluetoothDelegate.mc" id="18" lineNum="112" parent="globals/BluetoothDelegate" pc="268436381" symbol="notifyCharacteristicChanged"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\BluetoothDelegate.mc" id="19" lineNum="99" parent="globals/BluetoothDelegate" pc="268436396" symbol="notifyConnection"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\BluetoothDelegate.mc" id="19" lineNum="100" parent="globals/BluetoothDelegate" pc="268436398" symbol="notifyConnection"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\BluetoothDelegate.mc" id="20" lineNum="93" parent="globals/BluetoothDelegate" pc="268436413" symbol="notifyScanResult"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\BluetoothDelegate.mc" id="20" lineNum="94" parent="globals/BluetoothDelegate" pc="268436415" symbol="notifyScanResult"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\BluetoothDelegate.mc" id="21" lineNum="57" parent="globals/BluetoothDelegate" pc="268436430" symbol="onDescriptorWrite"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\BluetoothDelegate.mc" id="21" lineNum="58" parent="globals/BluetoothDelegate" pc="268436433" symbol="onDescriptorWrite"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\BluetoothDelegate.mc" id="21" lineNum="59" parent="globals/BluetoothDelegate" pc="268436451" symbol="onDescriptorWrite"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\BluetoothDelegate.mc" id="21" lineNum="60" parent="globals/BluetoothDelegate" pc="268436458" symbol="onDescriptorWrite"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\BluetoothDelegate.mc" id="21" lineNum="61" parent="globals/BluetoothDelegate" pc="268436464" symbol="onDescriptorWrite"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\BluetoothDelegate.mc" id="21" lineNum="62" parent="globals/BluetoothDelegate" pc="268436475" symbol="onDescriptorWrite"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\BluetoothDelegate.mc" id="22" lineNum="81" parent="globals/BluetoothDelegate" pc="268436503" symbol="onCharacteristicWrite"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\BluetoothDelegate.mc" id="22" lineNum="82" parent="globals/BluetoothDelegate" pc="268436505" symbol="onCharacteristicWrite"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\BluetoothDelegate.mc" id="23" lineNum="44" parent="globals/BluetoothDelegate" pc="268436536" symbol="onConnectedStateChanged"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\BluetoothDelegate.mc" id="23" lineNum="45" parent="globals/BluetoothDelegate" pc="268436539" symbol="onConnectedStateChanged"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\BluetoothDelegate.mc" id="23" lineNum="46" parent="globals/BluetoothDelegate" pc="268436557" symbol="onConnectedStateChanged"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\BluetoothDelegate.mc" id="23" lineNum="47" parent="globals/BluetoothDelegate" pc="268436564" symbol="onConnectedStateChanged"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\BluetoothDelegate.mc" id="23" lineNum="48" parent="globals/BluetoothDelegate" pc="268436570" symbol="onConnectedStateChanged"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\BluetoothDelegate.mc" id="23" lineNum="49" parent="globals/BluetoothDelegate" pc="268436581" symbol="onConnectedStateChanged"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\BluetoothDelegate.mc" id="24" lineNum="115" parent="globals/BluetoothDelegate" pc="268436607" symbol="onScanStateChange"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\BluetoothDelegate.mc" id="24" lineNum="116" parent="globals/BluetoothDelegate" pc="268436610" symbol="onScanStateChange"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\BluetoothDelegate.mc" id="24" lineNum="117" parent="globals/BluetoothDelegate" pc="268436640" symbol="onScanStateChange"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\BluetoothDelegate.mc" id="24" lineNum="118" parent="globals/BluetoothDelegate" pc="268436647" symbol="onScanStateChange"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\BluetoothDelegate.mc" id="24" lineNum="119" parent="globals/BluetoothDelegate" pc="268436653" symbol="onScanStateChange"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\BluetoothDelegate.mc" id="24" lineNum="120" parent="globals/BluetoothDelegate" pc="268436664" symbol="onScanStateChange"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\BluetoothDelegate.mc" id="25" lineNum="87" parent="globals/BluetoothDelegate" pc="268436690" symbol="onProfileRegister"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\BluetoothDelegate.mc" id="25" lineNum="88" parent="globals/BluetoothDelegate" pc="268436692" symbol="onProfileRegister"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\BluetoothDelegate.mc" id="26" lineNum="155" parent="globals/BluetoothDelegate" pc="268436723" symbol="&lt;globals/BluetoothDelegate/&lt;&gt;contains&gt;"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\BluetoothDelegate.mc" id="26" lineNum="156" parent="globals/BluetoothDelegate" pc="268436726" symbol="&lt;globals/BluetoothDelegate/&lt;&gt;contains&gt;"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\BluetoothDelegate.mc" id="26" lineNum="157" parent="globals/BluetoothDelegate" pc="268436741" symbol="&lt;globals/BluetoothDelegate/&lt;&gt;contains&gt;"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\BluetoothDelegate.mc" id="26" lineNum="158" parent="globals/BluetoothDelegate" pc="268436756" symbol="&lt;globals/BluetoothDelegate/&lt;&gt;contains&gt;"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\BluetoothDelegate.mc" id="26" lineNum="162" parent="globals/BluetoothDelegate" pc="268436773" symbol="&lt;globals/BluetoothDelegate/&lt;&gt;contains&gt;"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\BluetoothDelegate.mc" id="27" lineNum="105" parent="globals/BluetoothDelegate" pc="268436775" symbol="notifyDescriptorWrite"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\BluetoothDelegate.mc" id="27" lineNum="106" parent="globals/BluetoothDelegate" pc="268436777" symbol="notifyDescriptorWrite"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\BluetoothDelegate.mc" id="28" lineNum="126" parent="globals/BluetoothDelegate" pc="268436792" symbol="queueCharacteristicWrite"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\BluetoothDelegate.mc" id="28" lineNum="127" parent="globals/BluetoothDelegate" pc="268436795" symbol="queueCharacteristicWrite"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\BluetoothDelegate.mc" id="28" lineNum="129" parent="globals/BluetoothDelegate" pc="268436813" symbol="queueCharacteristicWrite"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\BluetoothDelegate.mc" id="28" lineNum="130" parent="globals/BluetoothDelegate" pc="268436832" symbol="queueCharacteristicWrite"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\BluetoothDelegate.mc" id="28" lineNum="133" parent="globals/BluetoothDelegate" pc="268436865" symbol="queueCharacteristicWrite"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\BluetoothDelegate.mc" id="28" lineNum="134" parent="globals/BluetoothDelegate" pc="268436869" symbol="queueCharacteristicWrite"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\BluetoothDelegate.mc" id="29" lineNum="141" parent="globals/BluetoothDelegate" pc="268436908" symbol="&lt;globals/BluetoothDelegate/&lt;&gt;broadcastScanResult&gt;"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\BluetoothDelegate.mc" id="29" lineNum="142" parent="globals/BluetoothDelegate" pc="268436911" symbol="&lt;globals/BluetoothDelegate/&lt;&gt;broadcastScanResult&gt;"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\BluetoothDelegate.mc" id="29" lineNum="143" parent="globals/BluetoothDelegate" pc="268436929" symbol="&lt;globals/BluetoothDelegate/&lt;&gt;broadcastScanResult&gt;"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\BluetoothDelegate.mc" id="29" lineNum="144" parent="globals/BluetoothDelegate" pc="268436936" symbol="&lt;globals/BluetoothDelegate/&lt;&gt;broadcastScanResult&gt;"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\BluetoothDelegate.mc" id="29" lineNum="145" parent="globals/BluetoothDelegate" pc="268436942" symbol="&lt;globals/BluetoothDelegate/&lt;&gt;broadcastScanResult&gt;"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\BluetoothDelegate.mc" id="29" lineNum="146" parent="globals/BluetoothDelegate" pc="268436953" symbol="&lt;globals/BluetoothDelegate/&lt;&gt;broadcastScanResult&gt;"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\BluetoothDelegate.mc" id="30" lineNum="21" parent="globals/BluetoothDelegate" pc="268436979" symbol="initialize"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\BluetoothDelegate.mc" id="30" lineNum="22" parent="globals/BluetoothDelegate" pc="268436981" symbol="initialize"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\BluetoothDelegate.mc" id="30" lineNum="23" parent="globals/BluetoothDelegate" pc="268436993" symbol="initialize"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\BluetoothDelegate.mc" id="31" lineNum="28" parent="globals/BluetoothDelegate" pc="268437003" symbol="onScanResults"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\BluetoothDelegate.mc" id="31" lineNum="29" parent="globals/BluetoothDelegate" pc="268437006" symbol="onScanResults"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\BluetoothDelegate.mc" id="31" lineNum="30" parent="globals/BluetoothDelegate" pc="268437024" symbol="onScanResults"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\BluetoothDelegate.mc" id="31" lineNum="31" parent="globals/BluetoothDelegate" pc="268437039" symbol="onScanResults"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\BluetoothDelegate.mc" id="31" lineNum="32" parent="globals/BluetoothDelegate" pc="268437054" symbol="onScanResults"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\BluetoothDelegate.mc" id="31" lineNum="33" parent="globals/BluetoothDelegate" pc="268437081" symbol="onScanResults"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\BluetoothDelegate.mc" id="31" lineNum="34" parent="globals/BluetoothDelegate" pc="268437110" symbol="onScanResults"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\BluetoothDelegate.mc" id="31" lineNum="35" parent="globals/BluetoothDelegate" pc="268437128" symbol="onScanResults"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\ScanView.mc" id="33" lineNum="26" parent="globals/ScanView" pc="268437158" symbol="onLayout"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\ScanView.mc" id="34" lineNum="18" parent="globals/ScanView" pc="268437161" symbol="initialize"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\ScanView.mc" id="34" lineNum="19" parent="globals/ScanView" pc="268437163" symbol="initialize"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\ScanView.mc" id="34" lineNum="21" parent="globals/ScanView" pc="268437175" symbol="initialize"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\ScanView.mc" id="36" lineNum="37" parent="globals/ScanView" pc="268437185" symbol="onUpdate"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\ScanView.mc" id="36" lineNum="38" parent="globals/ScanView" pc="268437188" symbol="onUpdate"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\ScanView.mc" id="36" lineNum="40" parent="globals/ScanView" pc="268437201" symbol="onUpdate"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\ScanView.mc" id="36" lineNum="41" parent="globals/ScanView" pc="268437208" symbol="onUpdate"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\ScanView.mc" id="36" lineNum="43" parent="globals/ScanView" pc="268437215" symbol="onUpdate"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\ScanView.mc" id="36" lineNum="45" parent="globals/ScanView" pc="268437230" symbol="onUpdate"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\ScanView.mc" id="36" lineNum="46" parent="globals/ScanView" pc="268437240" symbol="onUpdate"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\ScanView.mc" id="36" lineNum="47" parent="globals/ScanView" pc="268437246" symbol="onUpdate"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\ScanView.mc" id="36" lineNum="49" parent="globals/ScanView" pc="268437322" symbol="onUpdate"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\ScanView.mc" id="36" lineNum="52" parent="globals/ScanView" pc="268437329" symbol="onUpdate"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\ScanView.mc" id="36" lineNum="53" parent="globals/ScanView" pc="268437344" symbol="onUpdate"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\ScanView.mc" id="36" lineNum="55" parent="globals/ScanView" pc="268437359" symbol="onUpdate"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\ScanView.mc" id="36" lineNum="56" parent="globals/ScanView" pc="268437375" symbol="onUpdate"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\ScanView.mc" id="36" lineNum="57" parent="globals/ScanView" pc="268437383" symbol="onUpdate"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\ScanView.mc" id="36" lineNum="58" parent="globals/ScanView" pc="268437411" symbol="onUpdate"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\PhoneCommunication.mc" id="37" lineNum="21" parent="globals/CommListener" pc="268437446" symbol="onError"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\PhoneCommunication.mc" id="37" lineNum="22" parent="globals/CommListener" pc="268437448" symbol="onError"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\PhoneCommunication.mc" id="38" lineNum="17" parent="globals/CommListener" pc="268437467" symbol="onComplete"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\PhoneCommunication.mc" id="38" lineNum="18" parent="globals/CommListener" pc="268437469" symbol="onComplete"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\PhoneCommunication.mc" id="39" lineNum="13" parent="globals/CommListener" pc="268437488" symbol="initialize"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\PhoneCommunication.mc" id="39" lineNum="14" parent="globals/CommListener" pc="268437490" symbol="initialize"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\ScanMenuDelegate.mc" id="40" lineNum="20" parent="globals/ScanMenuDelegate" pc="268437507" symbol="onMenuItem"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\ScanMenuDelegate.mc" id="40" lineNum="21" parent="globals/ScanMenuDelegate" pc="268437509" symbol="onMenuItem"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\ScanMenuDelegate.mc" id="40" lineNum="22" parent="globals/ScanMenuDelegate" pc="268437520" symbol="onMenuItem"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\ScanMenuDelegate.mc" id="40" lineNum="23" parent="globals/ScanMenuDelegate" pc="268437538" symbol="onMenuItem"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\ScanMenuDelegate.mc" id="40" lineNum="24" parent="globals/ScanMenuDelegate" pc="268437549" symbol="onMenuItem"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\ScanMenuDelegate.mc" id="41" lineNum="14" parent="globals/ScanMenuDelegate" pc="268437567" symbol="initialize"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\ScanMenuDelegate.mc" id="41" lineNum="15" parent="globals/ScanMenuDelegate" pc="268437569" symbol="initialize"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\ScanDataModel.mc" id="42" lineNum="52" parent="globals/ScanDataModel" pc="268437582" symbol="nextResult"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\ScanDataModel.mc" id="42" lineNum="53" parent="globals/ScanDataModel" pc="268437584" symbol="nextResult"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\ScanDataModel.mc" id="42" lineNum="54" parent="globals/ScanDataModel" pc="268437607" symbol="nextResult"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\ScanDataModel.mc" id="42" lineNum="55" parent="globals/ScanDataModel" pc="268437622" symbol="nextResult"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\ScanDataModel.mc" id="43" lineNum="31" parent="globals/ScanDataModel" pc="268437637" symbol="procScanResult"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\ScanDataModel.mc" id="43" lineNum="32" parent="globals/ScanDataModel" pc="268437640" symbol="procScanResult"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\ScanDataModel.mc" id="43" lineNum="33" parent="globals/ScanDataModel" pc="268437643" symbol="procScanResult"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\ScanDataModel.mc" id="43" lineNum="36" parent="globals/ScanDataModel" pc="268437661" symbol="procScanResult"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\ScanDataModel.mc" id="43" lineNum="37" parent="globals/ScanDataModel" pc="268437681" symbol="procScanResult"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\ScanDataModel.mc" id="43" lineNum="38" parent="globals/ScanDataModel" pc="268437701" symbol="procScanResult"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\ScanDataModel.mc" id="43" lineNum="39" parent="globals/ScanDataModel" pc="268437704" symbol="procScanResult"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\ScanDataModel.mc" id="43" lineNum="40" parent="globals/ScanDataModel" pc="268437714" symbol="procScanResult"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\ScanDataModel.mc" id="43" lineNum="44" parent="globals/ScanDataModel" pc="268437730" symbol="procScanResult"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\ScanDataModel.mc" id="43" lineNum="45" parent="globals/ScanDataModel" pc="268437735" symbol="procScanResult"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\ScanDataModel.mc" id="43" lineNum="48" parent="globals/ScanDataModel" pc="268437754" symbol="procScanResult"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\ScanDataModel.mc" id="44" lineNum="60" parent="globals/ScanDataModel" pc="268437766" symbol="previousResult"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\ScanDataModel.mc" id="44" lineNum="61" parent="globals/ScanDataModel" pc="268437768" symbol="previousResult"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\ScanDataModel.mc" id="44" lineNum="62" parent="globals/ScanDataModel" pc="268437778" symbol="previousResult"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\ScanDataModel.mc" id="44" lineNum="63" parent="globals/ScanDataModel" pc="268437793" symbol="previousResult"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\ScanDataModel.mc" id="45" lineNum="101" parent="globals/ScanDataModel" pc="268437808" symbol="isScanning"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\ScanDataModel.mc" id="45" lineNum="102" parent="globals/ScanDataModel" pc="268437810" symbol="isScanning"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\ScanDataModel.mc" id="46" lineNum="79" parent="globals/ScanDataModel" pc="268437819" symbol="getDisplayIndex"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\ScanDataModel.mc" id="46" lineNum="80" parent="globals/ScanDataModel" pc="268437821" symbol="getDisplayIndex"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\ScanDataModel.mc" id="46" lineNum="81" parent="globals/ScanDataModel" pc="268437837" symbol="getDisplayIndex"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\ScanDataModel.mc" id="46" lineNum="84" parent="globals/ScanDataModel" pc="268437842" symbol="getDisplayIndex"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\ScanDataModel.mc" id="47" lineNum="69" parent="globals/ScanDataModel" pc="268437851" symbol="getDisplayResult"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\ScanDataModel.mc" id="47" lineNum="70" parent="globals/ScanDataModel" pc="268437853" symbol="getDisplayResult"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\ScanDataModel.mc" id="47" lineNum="71" parent="globals/ScanDataModel" pc="268437869" symbol="getDisplayResult"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\ScanDataModel.mc" id="47" lineNum="74" parent="globals/ScanDataModel" pc="268437874" symbol="getDisplayResult"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\ScanDataModel.mc" id="48" lineNum="89" parent="globals/ScanDataModel" pc="268437886" symbol="getResultCount"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\ScanDataModel.mc" id="48" lineNum="90" parent="globals/ScanDataModel" pc="268437888" symbol="getResultCount"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\ScanDataModel.mc" id="49" lineNum="21" parent="globals/ScanDataModel" pc="268437900" symbol="initialize"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\ScanDataModel.mc" id="49" lineNum="22" parent="globals/ScanDataModel" pc="268437902" symbol="initialize"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\ScanDataModel.mc" id="49" lineNum="23" parent="globals/ScanDataModel" pc="268437920" symbol="initialize"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\ScanDataModel.mc" id="49" lineNum="25" parent="globals/ScanDataModel" pc="268437931" symbol="initialize"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\ScanDataModel.mc" id="49" lineNum="26" parent="globals/ScanDataModel" pc="268437940" symbol="initialize"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\ScanDataModel.mc" id="50" lineNum="94" parent="globals/ScanDataModel" pc="268437949" symbol="setScanState"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\ScanDataModel.mc" id="50" lineNum="95" parent="globals/ScanDataModel" pc="268437951" symbol="setScanState"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\ScanDataModel.mc" id="50" lineNum="96" parent="globals/ScanDataModel" pc="268437960" symbol="setScanState"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\ViewController.mc" id="51" lineNum="34" parent="globals/ViewController" pc="268437972" symbol="pushDeviceView"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\ViewController.mc" id="51" lineNum="35" parent="globals/ViewController" pc="268437975" symbol="pushDeviceView"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\ViewController.mc" id="51" lineNum="36" parent="globals/ViewController" pc="268437992" symbol="pushDeviceView"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\ViewController.mc" id="51" lineNum="37" parent="globals/ViewController" pc="268438018" symbol="pushDeviceView"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\ViewController.mc" id="51" lineNum="39" parent="globals/ViewController" pc="268438040" symbol="pushDeviceView"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\ViewController.mc" id="52" lineNum="22" parent="globals/ViewController" pc="268438084" symbol="getInitialView"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\ViewController.mc" id="52" lineNum="23" parent="globals/ViewController" pc="268438087" symbol="getInitialView"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\ViewController.mc" id="52" lineNum="24" parent="globals/ViewController" pc="268438100" symbol="getInitialView"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\ViewController.mc" id="53" lineNum="28" parent="globals/ViewController" pc="268438160" symbol="pushScanMenu"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\ViewController.mc" id="53" lineNum="29" parent="globals/ViewController" pc="268438162" symbol="pushScanMenu"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\ViewController.mc" id="54" lineNum="16" parent="globals/ViewController" pc="268438232" symbol="initialize"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\ViewController.mc" id="54" lineNum="17" parent="globals/ViewController" pc="268438234" symbol="initialize"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceDataModel.mc" id="55" lineNum="74" parent="globals/DeviceDataModel" pc="268438244" symbol="isConnected"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceDataModel.mc" id="55" lineNum="75" parent="globals/DeviceDataModel" pc="268438246" symbol="isConnected"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceDataModel.mc" id="55" lineNum="76" parent="globals/DeviceDataModel" pc="268438255" symbol="isConnected"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceDataModel.mc" id="55" lineNum="78" parent="globals/DeviceDataModel" pc="268438270" symbol="isConnected"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceDataModel.mc" id="56" lineNum="53" parent="globals/DeviceDataModel" pc="268438272" symbol="unpair"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceDataModel.mc" id="56" lineNum="54" parent="globals/DeviceDataModel" pc="268438274" symbol="unpair"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceDataModel.mc" id="56" lineNum="55" parent="globals/DeviceDataModel" pc="268438283" symbol="unpair"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceDataModel.mc" id="56" lineNum="57" parent="globals/DeviceDataModel" pc="268438304" symbol="unpair"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceDataModel.mc" id="57" lineNum="21" parent="globals/DeviceDataModel" pc="268438313" symbol="initialize"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceDataModel.mc" id="57" lineNum="22" parent="globals/DeviceDataModel" pc="268438315" symbol="initialize"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceDataModel.mc" id="57" lineNum="23" parent="globals/DeviceDataModel" pc="268438324" symbol="initialize"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceDataModel.mc" id="57" lineNum="25" parent="globals/DeviceDataModel" pc="268438333" symbol="initialize"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceDataModel.mc" id="57" lineNum="27" parent="globals/DeviceDataModel" pc="268438344" symbol="initialize"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceDataModel.mc" id="57" lineNum="28" parent="globals/DeviceDataModel" pc="268438352" symbol="initialize"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceDataModel.mc" id="58" lineNum="33" parent="globals/DeviceDataModel" pc="268438361" symbol="procConnection"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceDataModel.mc" id="58" lineNum="34" parent="globals/DeviceDataModel" pc="268438363" symbol="procConnection"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceDataModel.mc" id="58" lineNum="36" parent="globals/DeviceDataModel" pc="268438374" symbol="procConnection"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceDataModel.mc" id="58" lineNum="39" parent="globals/DeviceDataModel" pc="268438378" symbol="procConnection"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceDataModel.mc" id="58" lineNum="40" parent="globals/DeviceDataModel" pc="268438388" symbol="procConnection"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceDataModel.mc" id="58" lineNum="43" parent="globals/DeviceDataModel" pc="268438398" symbol="procConnection"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceDataModel.mc" id="59" lineNum="62" parent="globals/DeviceDataModel" pc="268438410" symbol="getActiveProfile"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceDataModel.mc" id="59" lineNum="63" parent="globals/DeviceDataModel" pc="268438412" symbol="getActiveProfile"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceDataModel.mc" id="59" lineNum="64" parent="globals/DeviceDataModel" pc="268438421" symbol="getActiveProfile"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceDataModel.mc" id="59" lineNum="65" parent="globals/DeviceDataModel" pc="268438436" symbol="getActiveProfile"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceDataModel.mc" id="59" lineNum="69" parent="globals/DeviceDataModel" pc="268438444" symbol="getActiveProfile"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceDataModel.mc" id="60" lineNum="47" parent="globals/DeviceDataModel" pc="268438450" symbol="pair"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceDataModel.mc" id="60" lineNum="48" parent="globals/DeviceDataModel" pc="268438452" symbol="pair"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceDataModel.mc" id="60" lineNum="49" parent="globals/DeviceDataModel" pc="268438466" symbol="pair"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceDataModel.mc" id="61" lineNum="82" parent="globals/DeviceDataModel" pc="268438491" symbol="&lt;globals/DeviceDataModel/&lt;&gt;procDeviceConnected&gt;"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceDataModel.mc" id="61" lineNum="83" parent="globals/DeviceDataModel" pc="268438493" symbol="&lt;globals/DeviceDataModel/&lt;&gt;procDeviceConnected&gt;"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceDataModel.mc" id="61" lineNum="84" parent="globals/DeviceDataModel" pc="268438502" symbol="&lt;globals/DeviceDataModel/&lt;&gt;procDeviceConnected&gt;"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\ScanDelegate.mc" id="62" lineNum="26" parent="globals/ScanDelegate" pc="268438531" symbol="onMenu"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\ScanDelegate.mc" id="62" lineNum="27" parent="globals/ScanDelegate" pc="268438533" symbol="onMenu"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\ScanDelegate.mc" id="62" lineNum="28" parent="globals/ScanDelegate" pc="268438545" symbol="onMenu"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\ScanDelegate.mc" id="63" lineNum="50" parent="globals/ScanDelegate" pc="268438547" symbol="onPreviousPage"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\ScanDelegate.mc" id="63" lineNum="51" parent="globals/ScanDelegate" pc="268438549" symbol="onPreviousPage"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\ScanDelegate.mc" id="63" lineNum="52" parent="globals/ScanDelegate" pc="268438561" symbol="onPreviousPage"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\ScanDelegate.mc" id="64" lineNum="17" parent="globals/ScanDelegate" pc="268438563" symbol="initialize"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\ScanDelegate.mc" id="64" lineNum="18" parent="globals/ScanDelegate" pc="268438565" symbol="initialize"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\ScanDelegate.mc" id="64" lineNum="20" parent="globals/ScanDelegate" pc="268438577" symbol="initialize"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\ScanDelegate.mc" id="64" lineNum="21" parent="globals/ScanDelegate" pc="268438586" symbol="initialize"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\ScanDelegate.mc" id="65" lineNum="33" parent="globals/ScanDelegate" pc="268438596" symbol="onSelect"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\ScanDelegate.mc" id="65" lineNum="34" parent="globals/ScanDelegate" pc="268438599" symbol="onSelect"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\ScanDelegate.mc" id="65" lineNum="35" parent="globals/ScanDelegate" pc="268438612" symbol="onSelect"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\ScanDelegate.mc" id="65" lineNum="36" parent="globals/ScanDelegate" pc="268438618" symbol="onSelect"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\ScanDelegate.mc" id="65" lineNum="38" parent="globals/ScanDelegate" pc="268438637" symbol="onSelect"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\ScanDelegate.mc" id="66" lineNum="43" parent="globals/ScanDelegate" pc="268438639" symbol="onNextPage"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\ScanDelegate.mc" id="66" lineNum="44" parent="globals/ScanDelegate" pc="268438641" symbol="onNextPage"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\ScanDelegate.mc" id="66" lineNum="45" parent="globals/ScanDelegate" pc="268438653" symbol="onNextPage"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceView.mc" id="67" lineNum="98" parent="globals/DeviceView" pc="268438655" symbol="&lt;globals/DeviceView/&lt;&gt;drawCustomData&gt;"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceView.mc" id="67" lineNum="99" parent="globals/DeviceView" pc="268438658" symbol="&lt;globals/DeviceView/&lt;&gt;drawCustomData&gt;"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceView.mc" id="67" lineNum="101" parent="globals/DeviceView" pc="268438676" symbol="&lt;globals/DeviceView/&lt;&gt;drawCustomData&gt;"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceView.mc" id="67" lineNum="102" parent="globals/DeviceView" pc="268438682" symbol="&lt;globals/DeviceView/&lt;&gt;drawCustomData&gt;"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceView.mc" id="67" lineNum="103" parent="globals/DeviceView" pc="268438686" symbol="&lt;globals/DeviceView/&lt;&gt;drawCustomData&gt;"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceView.mc" id="67" lineNum="104" parent="globals/DeviceView" pc="268438696" symbol="&lt;globals/DeviceView/&lt;&gt;drawCustomData&gt;"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceView.mc" id="67" lineNum="105" parent="globals/DeviceView" pc="268438703" symbol="&lt;globals/DeviceView/&lt;&gt;drawCustomData&gt;"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceView.mc" id="67" lineNum="106" parent="globals/DeviceView" pc="268438710" symbol="&lt;globals/DeviceView/&lt;&gt;drawCustomData&gt;"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceView.mc" id="67" lineNum="107" parent="globals/DeviceView" pc="268438713" symbol="&lt;globals/DeviceView/&lt;&gt;drawCustomData&gt;"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceView.mc" id="67" lineNum="109" parent="globals/DeviceView" pc="268438718" symbol="&lt;globals/DeviceView/&lt;&gt;drawCustomData&gt;"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceView.mc" id="67" lineNum="114" parent="globals/DeviceView" pc="268438748" symbol="&lt;globals/DeviceView/&lt;&gt;drawCustomData&gt;"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceView.mc" id="67" lineNum="117" parent="globals/DeviceView" pc="268438769" symbol="&lt;globals/DeviceView/&lt;&gt;drawCustomData&gt;"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceView.mc" id="67" lineNum="118" parent="globals/DeviceView" pc="268438773" symbol="&lt;globals/DeviceView/&lt;&gt;drawCustomData&gt;"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceView.mc" id="67" lineNum="119" parent="globals/DeviceView" pc="268438796" symbol="&lt;globals/DeviceView/&lt;&gt;drawCustomData&gt;"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceView.mc" id="67" lineNum="120" parent="globals/DeviceView" pc="268438807" symbol="&lt;globals/DeviceView/&lt;&gt;drawCustomData&gt;"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceView.mc" id="67" lineNum="122" parent="globals/DeviceView" pc="268438846" symbol="&lt;globals/DeviceView/&lt;&gt;drawCustomData&gt;"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceView.mc" id="67" lineNum="125" parent="globals/DeviceView" pc="268438872" symbol="&lt;globals/DeviceView/&lt;&gt;drawCustomData&gt;"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceView.mc" id="67" lineNum="126" parent="globals/DeviceView" pc="268438893" symbol="&lt;globals/DeviceView/&lt;&gt;drawCustomData&gt;"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceView.mc" id="67" lineNum="127" parent="globals/DeviceView" pc="268438924" symbol="&lt;globals/DeviceView/&lt;&gt;drawCustomData&gt;"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceView.mc" id="67" lineNum="129" parent="globals/DeviceView" pc="268438948" symbol="&lt;globals/DeviceView/&lt;&gt;drawCustomData&gt;"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceView.mc" id="67" lineNum="130" parent="globals/DeviceView" pc="268438969" symbol="&lt;globals/DeviceView/&lt;&gt;drawCustomData&gt;"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceView.mc" id="67" lineNum="131" parent="globals/DeviceView" pc="268438984" symbol="&lt;globals/DeviceView/&lt;&gt;drawCustomData&gt;"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceView.mc" id="67" lineNum="132" parent="globals/DeviceView" pc="268438988" symbol="&lt;globals/DeviceView/&lt;&gt;drawCustomData&gt;"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceView.mc" id="67" lineNum="133" parent="globals/DeviceView" pc="268439019" symbol="&lt;globals/DeviceView/&lt;&gt;drawCustomData&gt;"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceView.mc" id="67" lineNum="135" parent="globals/DeviceView" pc="268439043" symbol="&lt;globals/DeviceView/&lt;&gt;drawCustomData&gt;"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceView.mc" id="68" lineNum="179" parent="globals/DeviceView" pc="268439058" symbol="drawButtons"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceView.mc" id="68" lineNum="180" parent="globals/DeviceView" pc="268439061" symbol="drawButtons"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceView.mc" id="68" lineNum="182" parent="globals/DeviceView" pc="268439085" symbol="drawButtons"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceView.mc" id="68" lineNum="186" parent="globals/DeviceView" pc="268439121" symbol="drawButtons"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceView.mc" id="68" lineNum="193" parent="globals/DeviceView" pc="268439162" symbol="drawButtons"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceView.mc" id="68" lineNum="197" parent="globals/DeviceView" pc="268439199" symbol="drawButtons"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceView.mc" id="68" lineNum="204" parent="globals/DeviceView" pc="268439240" symbol="drawButtons"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceView.mc" id="68" lineNum="205" parent="globals/DeviceView" pc="268439257" symbol="drawButtons"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceView.mc" id="68" lineNum="206" parent="globals/DeviceView" pc="268439261" symbol="drawButtons"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceView.mc" id="68" lineNum="207" parent="globals/DeviceView" pc="268439282" symbol="drawButtons"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceView.mc" id="68" lineNum="208" parent="globals/DeviceView" pc="268439303" symbol="drawButtons"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceView.mc" id="68" lineNum="209" parent="globals/DeviceView" pc="268439340" symbol="drawButtons"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceView.mc" id="68" lineNum="210" parent="globals/DeviceView" pc="268439363" symbol="drawButtons"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceView.mc" id="68" lineNum="212" parent="globals/DeviceView" pc="268439386" symbol="drawButtons"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceView.mc" id="69" lineNum="228" parent="globals/DeviceView" pc="268439425" symbol="&lt;globals/DeviceView/&lt;&gt;setButtonPositions&gt;"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceView.mc" id="69" lineNum="229" parent="globals/DeviceView" pc="268439428" symbol="&lt;globals/DeviceView/&lt;&gt;setButtonPositions&gt;"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceView.mc" id="69" lineNum="230" parent="globals/DeviceView" pc="268439437" symbol="&lt;globals/DeviceView/&lt;&gt;setButtonPositions&gt;"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceView.mc" id="69" lineNum="231" parent="globals/DeviceView" pc="268439446" symbol="&lt;globals/DeviceView/&lt;&gt;setButtonPositions&gt;"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceView.mc" id="69" lineNum="232" parent="globals/DeviceView" pc="268439453" symbol="&lt;globals/DeviceView/&lt;&gt;setButtonPositions&gt;"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceView.mc" id="69" lineNum="233" parent="globals/DeviceView" pc="268439462" symbol="&lt;globals/DeviceView/&lt;&gt;setButtonPositions&gt;"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceView.mc" id="69" lineNum="234" parent="globals/DeviceView" pc="268439472" symbol="&lt;globals/DeviceView/&lt;&gt;setButtonPositions&gt;"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceView.mc" id="69" lineNum="235" parent="globals/DeviceView" pc="268439493" symbol="&lt;globals/DeviceView/&lt;&gt;setButtonPositions&gt;"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceView.mc" id="69" lineNum="236" parent="globals/DeviceView" pc="268439509" symbol="&lt;globals/DeviceView/&lt;&gt;setButtonPositions&gt;"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceView.mc" id="69" lineNum="237" parent="globals/DeviceView" pc="268439525" symbol="&lt;globals/DeviceView/&lt;&gt;setButtonPositions&gt;"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceView.mc" id="69" lineNum="238" parent="globals/DeviceView" pc="268439546" symbol="&lt;globals/DeviceView/&lt;&gt;setButtonPositions&gt;"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceView.mc" id="69" lineNum="240" parent="globals/DeviceView" pc="268439559" symbol="&lt;globals/DeviceView/&lt;&gt;setButtonPositions&gt;"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceView.mc" id="69" lineNum="241" parent="globals/DeviceView" pc="268439575" symbol="&lt;globals/DeviceView/&lt;&gt;setButtonPositions&gt;"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceView.mc" id="69" lineNum="242" parent="globals/DeviceView" pc="268439591" symbol="&lt;globals/DeviceView/&lt;&gt;setButtonPositions&gt;"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceView.mc" id="69" lineNum="243" parent="globals/DeviceView" pc="268439603" symbol="&lt;globals/DeviceView/&lt;&gt;setButtonPositions&gt;"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceView.mc" id="69" lineNum="245" parent="globals/DeviceView" pc="268439616" symbol="&lt;globals/DeviceView/&lt;&gt;setButtonPositions&gt;"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceView.mc" id="70" lineNum="289" parent="globals/DeviceView" pc="268439628" symbol="setGpioState"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceView.mc" id="70" lineNum="290" parent="globals/DeviceView" pc="268439631" symbol="setGpioState"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceView.mc" id="70" lineNum="291" parent="globals/DeviceView" pc="268439634" symbol="setGpioState"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceView.mc" id="70" lineNum="292" parent="globals/DeviceView" pc="268439641" symbol="setGpioState"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceView.mc" id="70" lineNum="293" parent="globals/DeviceView" pc="268439659" symbol="setGpioState"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceView.mc" id="70" lineNum="294" parent="globals/DeviceView" pc="268439669" symbol="setGpioState"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceView.mc" id="70" lineNum="296" parent="globals/DeviceView" pc="268439675" symbol="setGpioState"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceView.mc" id="70" lineNum="297" parent="globals/DeviceView" pc="268439695" symbol="setGpioState"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceView.mc" id="70" lineNum="298" parent="globals/DeviceView" pc="268439704" symbol="setGpioState"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceView.mc" id="70" lineNum="301" parent="globals/DeviceView" pc="268439713" symbol="setGpioState"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceView.mc" id="70" lineNum="302" parent="globals/DeviceView" pc="268439718" symbol="setGpioState"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceView.mc" id="70" lineNum="303" parent="globals/DeviceView" pc="268439731" symbol="setGpioState"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceView.mc" id="70" lineNum="304" parent="globals/DeviceView" pc="268439751" symbol="setGpioState"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceView.mc" id="70" lineNum="305" parent="globals/DeviceView" pc="268439797" symbol="setGpioState"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceView.mc" id="70" lineNum="307" parent="globals/DeviceView" pc="268439816" symbol="setGpioState"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceView.mc" id="71" lineNum="140" parent="globals/DeviceView" pc="268439831" symbol="&lt;globals/DeviceView/&lt;&gt;storeGpioData&gt;"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceView.mc" id="71" lineNum="141" parent="globals/DeviceView" pc="268439834" symbol="&lt;globals/DeviceView/&lt;&gt;storeGpioData&gt;"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceView.mc" id="71" lineNum="143" parent="globals/DeviceView" pc="268439840" symbol="&lt;globals/DeviceView/&lt;&gt;storeGpioData&gt;"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceView.mc" id="71" lineNum="144" parent="globals/DeviceView" pc="268439850" symbol="&lt;globals/DeviceView/&lt;&gt;storeGpioData&gt;"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceView.mc" id="71" lineNum="145" parent="globals/DeviceView" pc="268439857" symbol="&lt;globals/DeviceView/&lt;&gt;storeGpioData&gt;"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceView.mc" id="71" lineNum="146" parent="globals/DeviceView" pc="268439878" symbol="&lt;globals/DeviceView/&lt;&gt;storeGpioData&gt;"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceView.mc" id="71" lineNum="147" parent="globals/DeviceView" pc="268439889" symbol="&lt;globals/DeviceView/&lt;&gt;storeGpioData&gt;"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceView.mc" id="71" lineNum="149" parent="globals/DeviceView" pc="268439913" symbol="&lt;globals/DeviceView/&lt;&gt;storeGpioData&gt;"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceView.mc" id="71" lineNum="152" parent="globals/DeviceView" pc="268439946" symbol="&lt;globals/DeviceView/&lt;&gt;storeGpioData&gt;"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceView.mc" id="71" lineNum="153" parent="globals/DeviceView" pc="268439956" symbol="&lt;globals/DeviceView/&lt;&gt;storeGpioData&gt;"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceView.mc" id="71" lineNum="156" parent="globals/DeviceView" pc="268439970" symbol="&lt;globals/DeviceView/&lt;&gt;storeGpioData&gt;"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceView.mc" id="71" lineNum="160" parent="globals/DeviceView" pc="268439993" symbol="&lt;globals/DeviceView/&lt;&gt;storeGpioData&gt;"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceView.mc" id="71" lineNum="161" parent="globals/DeviceView" pc="268440004" symbol="&lt;globals/DeviceView/&lt;&gt;storeGpioData&gt;"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceView.mc" id="71" lineNum="164" parent="globals/DeviceView" pc="268440020" symbol="&lt;globals/DeviceView/&lt;&gt;storeGpioData&gt;"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceView.mc" id="71" lineNum="168" parent="globals/DeviceView" pc="268440044" symbol="&lt;globals/DeviceView/&lt;&gt;storeGpioData&gt;"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceView.mc" id="71" lineNum="169" parent="globals/DeviceView" pc="268440055" symbol="&lt;globals/DeviceView/&lt;&gt;storeGpioData&gt;"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceView.mc" id="71" lineNum="172" parent="globals/DeviceView" pc="268440071" symbol="&lt;globals/DeviceView/&lt;&gt;storeGpioData&gt;"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceView.mc" id="72" lineNum="250" parent="globals/DeviceView" pc="268440102" symbol="onTapEvent"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceView.mc" id="72" lineNum="251" parent="globals/DeviceView" pc="268440105" symbol="onTapEvent"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceView.mc" id="72" lineNum="252" parent="globals/DeviceView" pc="268440123" symbol="onTapEvent"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceView.mc" id="72" lineNum="254" parent="globals/DeviceView" pc="268440126" symbol="onTapEvent"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceView.mc" id="72" lineNum="256" parent="globals/DeviceView" pc="268440198" symbol="onTapEvent"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceView.mc" id="72" lineNum="259" parent="globals/DeviceView" pc="268440223" symbol="onTapEvent"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceView.mc" id="72" lineNum="260" parent="globals/DeviceView" pc="268440249" symbol="onTapEvent"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceView.mc" id="72" lineNum="263" parent="globals/DeviceView" pc="268440255" symbol="onTapEvent"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceView.mc" id="72" lineNum="265" parent="globals/DeviceView" pc="268440327" symbol="onTapEvent"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceView.mc" id="72" lineNum="268" parent="globals/DeviceView" pc="268440354" symbol="onTapEvent"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceView.mc" id="72" lineNum="269" parent="globals/DeviceView" pc="268440381" symbol="onTapEvent"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceView.mc" id="72" lineNum="272" parent="globals/DeviceView" pc="268440387" symbol="onTapEvent"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceView.mc" id="72" lineNum="273" parent="globals/DeviceView" pc="268440392" symbol="onTapEvent"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceView.mc" id="72" lineNum="274" parent="globals/DeviceView" pc="268440405" symbol="onTapEvent"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceView.mc" id="72" lineNum="275" parent="globals/DeviceView" pc="268440425" symbol="onTapEvent"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceView.mc" id="72" lineNum="278" parent="globals/DeviceView" pc="268440444" symbol="onTapEvent"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceView.mc" id="73" lineNum="52" parent="globals/DeviceView" pc="268440459" symbol="initialize"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceView.mc" id="73" lineNum="53" parent="globals/DeviceView" pc="268440461" symbol="initialize"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceView.mc" id="73" lineNum="55" parent="globals/DeviceView" pc="268440473" symbol="initialize"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceView.mc" id="73" lineNum="56" parent="globals/DeviceView" pc="268440482" symbol="initialize"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceView.mc" id="73" lineNum="57" parent="globals/DeviceView" pc="268440494" symbol="initialize"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceView.mc" id="73" lineNum="58" parent="globals/DeviceView" pc="268440502" symbol="initialize"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceView.mc" id="73" lineNum="59" parent="globals/DeviceView" pc="268440510" symbol="initialize"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceView.mc" id="73" lineNum="60" parent="globals/DeviceView" pc="268440522" symbol="initialize"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceView.mc" id="74" lineNum="65" parent="globals/DeviceView" pc="268440535" symbol="onUpdate"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceView.mc" id="74" lineNum="66" parent="globals/DeviceView" pc="268440538" symbol="onUpdate"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceView.mc" id="74" lineNum="68" parent="globals/DeviceView" pc="268440556" symbol="onUpdate"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceView.mc" id="74" lineNum="69" parent="globals/DeviceView" pc="268440572" symbol="onUpdate"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceView.mc" id="74" lineNum="71" parent="globals/DeviceView" pc="268440580" symbol="onUpdate"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceView.mc" id="74" lineNum="73" parent="globals/DeviceView" pc="268440593" symbol="onUpdate"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceView.mc" id="74" lineNum="74" parent="globals/DeviceView" pc="268440598" symbol="onUpdate"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceView.mc" id="74" lineNum="76" parent="globals/DeviceView" pc="268440608" symbol="onUpdate"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceView.mc" id="74" lineNum="79" parent="globals/DeviceView" pc="268440615" symbol="onUpdate"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceView.mc" id="74" lineNum="80" parent="globals/DeviceView" pc="268440635" symbol="onUpdate"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceView.mc" id="74" lineNum="81" parent="globals/DeviceView" pc="268440674" symbol="onUpdate"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceView.mc" id="74" lineNum="83" parent="globals/DeviceView" pc="268440698" symbol="onUpdate"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceView.mc" id="74" lineNum="84" parent="globals/DeviceView" pc="268440711" symbol="onUpdate"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceView.mc" id="74" lineNum="85" parent="globals/DeviceView" pc="268440722" symbol="onUpdate"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceView.mc" id="74" lineNum="86" parent="globals/DeviceView" pc="268440741" symbol="onUpdate"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceView.mc" id="74" lineNum="87" parent="globals/DeviceView" pc="268440751" symbol="onUpdate"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceView.mc" id="74" lineNum="88" parent="globals/DeviceView" pc="268440762" symbol="onUpdate"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceView.mc" id="74" lineNum="89" parent="globals/DeviceView" pc="268440781" symbol="onUpdate"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceView.mc" id="74" lineNum="90" parent="globals/DeviceView" pc="268440792" symbol="onUpdate"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceView.mc" id="75" lineNum="215" parent="globals/DeviceView" pc="268440810" symbol="drawInputGpioText"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceView.mc" id="75" lineNum="216" parent="globals/DeviceView" pc="268440813" symbol="drawInputGpioText"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceView.mc" id="75" lineNum="217" parent="globals/DeviceView" pc="268440825" symbol="drawInputGpioText"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceView.mc" id="75" lineNum="218" parent="globals/DeviceView" pc="268440829" symbol="drawInputGpioText"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceView.mc" id="75" lineNum="219" parent="globals/DeviceView" pc="268440845" symbol="drawInputGpioText"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceView.mc" id="75" lineNum="220" parent="globals/DeviceView" pc="268440871" symbol="drawInputGpioText"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceView.mc" id="75" lineNum="221" parent="globals/DeviceView" pc="268440895" symbol="drawInputGpioText"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceView.mc" id="75" lineNum="222" parent="globals/DeviceView" pc="268440908" symbol="drawInputGpioText"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceView.mc" id="75" lineNum="223" parent="globals/DeviceView" pc="268440928" symbol="drawInputGpioText"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceView.mc" id="75" lineNum="224" parent="globals/DeviceView" pc="268440957" symbol="drawInputGpioText"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceView.mc" id="75" lineNum="225" parent="globals/DeviceView" pc="268440980" symbol="drawInputGpioText"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\EnvironmentProfileModel.mc" id="76" lineNum="58" parent="globals/EnvironmentProfileModel" pc="268441005" symbol="onCharacteristicChanged"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\EnvironmentProfileModel.mc" id="76" lineNum="59" parent="globals/EnvironmentProfileModel" pc="268441007" symbol="onCharacteristicChanged"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\EnvironmentProfileModel.mc" id="76" lineNum="60" parent="globals/EnvironmentProfileModel" pc="268441014" symbol="onCharacteristicChanged"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\EnvironmentProfileModel.mc" id="76" lineNum="64" parent="globals/EnvironmentProfileModel" pc="268441038" symbol="onCharacteristicChanged"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\EnvironmentProfileModel.mc" id="76" lineNum="61" parent="globals/EnvironmentProfileModel" pc="268441065" symbol="onCharacteristicChanged"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\EnvironmentProfileModel.mc" id="76" lineNum="62" parent="globals/EnvironmentProfileModel" pc="268441091" symbol="onCharacteristicChanged"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\EnvironmentProfileModel.mc" id="76" lineNum="63" parent="globals/EnvironmentProfileModel" pc="268441102" symbol="onCharacteristicChanged"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\EnvironmentProfileModel.mc" id="76" lineNum="65" parent="globals/EnvironmentProfileModel" pc="268441105" symbol="onCharacteristicChanged"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\EnvironmentProfileModel.mc" id="76" lineNum="66" parent="globals/EnvironmentProfileModel" pc="268441131" symbol="onCharacteristicChanged"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\EnvironmentProfileModel.mc" id="76" lineNum="67" parent="globals/EnvironmentProfileModel" pc="268441142" symbol="onCharacteristicChanged"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\EnvironmentProfileModel.mc" id="77" lineNum="91" parent="globals/EnvironmentProfileModel" pc="268441147" symbol="getGpioDataByteArray"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\EnvironmentProfileModel.mc" id="77" lineNum="92" parent="globals/EnvironmentProfileModel" pc="268441149" symbol="getGpioDataByteArray"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\EnvironmentProfileModel.mc" id="77" lineNum="93" parent="globals/EnvironmentProfileModel" pc="268441165" symbol="getGpioDataByteArray"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\EnvironmentProfileModel.mc" id="77" lineNum="95" parent="globals/EnvironmentProfileModel" pc="268441174" symbol="getGpioDataByteArray"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\EnvironmentProfileModel.mc" id="78" lineNum="99" parent="globals/EnvironmentProfileModel" pc="268441176" symbol="writeGpioDataByteArray"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\EnvironmentProfileModel.mc" id="78" lineNum="100" parent="globals/EnvironmentProfileModel" pc="268441178" symbol="writeGpioDataByteArray"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\EnvironmentProfileModel.mc" id="79" lineNum="74" parent="globals/EnvironmentProfileModel" pc="268441200" symbol="onDescriptorWrite"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\EnvironmentProfileModel.mc" id="79" lineNum="75" parent="globals/EnvironmentProfileModel" pc="268441202" symbol="onDescriptorWrite"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\EnvironmentProfileModel.mc" id="79" lineNum="76" parent="globals/EnvironmentProfileModel" pc="268441230" symbol="onDescriptorWrite"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\EnvironmentProfileModel.mc" id="80" lineNum="132" parent="globals/EnvironmentProfileModel" pc="268441241" symbol="&lt;globals/EnvironmentProfileModel/&lt;&gt;processCustomData&gt;"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\EnvironmentProfileModel.mc" id="80" lineNum="133" parent="globals/EnvironmentProfileModel" pc="268441243" symbol="&lt;globals/EnvironmentProfileModel/&lt;&gt;processCustomData&gt;"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\EnvironmentProfileModel.mc" id="80" lineNum="134" parent="globals/EnvironmentProfileModel" pc="268441269" symbol="&lt;globals/EnvironmentProfileModel/&lt;&gt;processCustomData&gt;"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\EnvironmentProfileModel.mc" id="80" lineNum="135" parent="globals/EnvironmentProfileModel" pc="268441278" symbol="&lt;globals/EnvironmentProfileModel/&lt;&gt;processCustomData&gt;"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\EnvironmentProfileModel.mc" id="80" lineNum="136" parent="globals/EnvironmentProfileModel" pc="268441294" symbol="&lt;globals/EnvironmentProfileModel/&lt;&gt;processCustomData&gt;"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\EnvironmentProfileModel.mc" id="81" lineNum="141" parent="globals/EnvironmentProfileModel" pc="268441306" symbol="&lt;globals/EnvironmentProfileModel/&lt;&gt;processLedData&gt;"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\EnvironmentProfileModel.mc" id="81" lineNum="142" parent="globals/EnvironmentProfileModel" pc="268441309" symbol="&lt;globals/EnvironmentProfileModel/&lt;&gt;processLedData&gt;"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\EnvironmentProfileModel.mc" id="81" lineNum="143" parent="globals/EnvironmentProfileModel" pc="268441335" symbol="&lt;globals/EnvironmentProfileModel/&lt;&gt;processLedData&gt;"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\EnvironmentProfileModel.mc" id="81" lineNum="144" parent="globals/EnvironmentProfileModel" pc="268441342" symbol="&lt;globals/EnvironmentProfileModel/&lt;&gt;processLedData&gt;"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\EnvironmentProfileModel.mc" id="81" lineNum="145" parent="globals/EnvironmentProfileModel" pc="268441351" symbol="&lt;globals/EnvironmentProfileModel/&lt;&gt;processLedData&gt;"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\EnvironmentProfileModel.mc" id="81" lineNum="149" parent="globals/EnvironmentProfileModel" pc="268441367" symbol="&lt;globals/EnvironmentProfileModel/&lt;&gt;processLedData&gt;"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\EnvironmentProfileModel.mc" id="81" lineNum="152" parent="globals/EnvironmentProfileModel" pc="268441438" symbol="&lt;globals/EnvironmentProfileModel/&lt;&gt;processLedData&gt;"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\EnvironmentProfileModel.mc" id="81" lineNum="154" parent="globals/EnvironmentProfileModel" pc="268441465" symbol="&lt;globals/EnvironmentProfileModel/&lt;&gt;processLedData&gt;"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\EnvironmentProfileModel.mc" id="81" lineNum="157" parent="globals/EnvironmentProfileModel" pc="268441484" symbol="&lt;globals/EnvironmentProfileModel/&lt;&gt;processLedData&gt;"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\EnvironmentProfileModel.mc" id="82" lineNum="104" parent="globals/EnvironmentProfileModel" pc="268441496" symbol="&lt;globals/EnvironmentProfileModel/&lt;&gt;activateNextNotification&gt;"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\EnvironmentProfileModel.mc" id="82" lineNum="105" parent="globals/EnvironmentProfileModel" pc="268441499" symbol="&lt;globals/EnvironmentProfileModel/&lt;&gt;activateNextNotification&gt;"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\EnvironmentProfileModel.mc" id="82" lineNum="106" parent="globals/EnvironmentProfileModel" pc="268441515" symbol="&lt;globals/EnvironmentProfileModel/&lt;&gt;activateNextNotification&gt;"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\EnvironmentProfileModel.mc" id="82" lineNum="107" parent="globals/EnvironmentProfileModel" pc="268441533" symbol="&lt;globals/EnvironmentProfileModel/&lt;&gt;activateNextNotification&gt;"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\EnvironmentProfileModel.mc" id="82" lineNum="110" parent="globals/EnvironmentProfileModel" pc="268441537" symbol="&lt;globals/EnvironmentProfileModel/&lt;&gt;activateNextNotification&gt;"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\EnvironmentProfileModel.mc" id="82" lineNum="111" parent="globals/EnvironmentProfileModel" pc="268441567" symbol="&lt;globals/EnvironmentProfileModel/&lt;&gt;activateNextNotification&gt;"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\EnvironmentProfileModel.mc" id="82" lineNum="112" parent="globals/EnvironmentProfileModel" pc="268441576" symbol="&lt;globals/EnvironmentProfileModel/&lt;&gt;activateNextNotification&gt;"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\EnvironmentProfileModel.mc" id="82" lineNum="113" parent="globals/EnvironmentProfileModel" pc="268441597" symbol="&lt;globals/EnvironmentProfileModel/&lt;&gt;activateNextNotification&gt;"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\EnvironmentProfileModel.mc" id="82" lineNum="114" parent="globals/EnvironmentProfileModel" pc="268441603" symbol="&lt;globals/EnvironmentProfileModel/&lt;&gt;activateNextNotification&gt;"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\EnvironmentProfileModel.mc" id="83" lineNum="82" parent="globals/EnvironmentProfileModel" pc="268441623" symbol="getCustomDataByteArray"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\EnvironmentProfileModel.mc" id="83" lineNum="83" parent="globals/EnvironmentProfileModel" pc="268441625" symbol="getCustomDataByteArray"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\EnvironmentProfileModel.mc" id="83" lineNum="84" parent="globals/EnvironmentProfileModel" pc="268441641" symbol="getCustomDataByteArray"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\EnvironmentProfileModel.mc" id="83" lineNum="86" parent="globals/EnvironmentProfileModel" pc="268441650" symbol="getCustomDataByteArray"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\EnvironmentProfileModel.mc" id="84" lineNum="119" parent="globals/EnvironmentProfileModel" pc="268441652" symbol="&lt;globals/EnvironmentProfileModel/&lt;&gt;processCccdWrite&gt;"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\EnvironmentProfileModel.mc" id="84" lineNum="120" parent="globals/EnvironmentProfileModel" pc="268441654" symbol="&lt;globals/EnvironmentProfileModel/&lt;&gt;processCccdWrite&gt;"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\EnvironmentProfileModel.mc" id="84" lineNum="121" parent="globals/EnvironmentProfileModel" pc="268441684" symbol="&lt;globals/EnvironmentProfileModel/&lt;&gt;processCccdWrite&gt;"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\EnvironmentProfileModel.mc" id="84" lineNum="122" parent="globals/EnvironmentProfileModel" pc="268441701" symbol="&lt;globals/EnvironmentProfileModel/&lt;&gt;processCccdWrite&gt;"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\EnvironmentProfileModel.mc" id="84" lineNum="123" parent="globals/EnvironmentProfileModel" pc="268441734" symbol="&lt;globals/EnvironmentProfileModel/&lt;&gt;processCccdWrite&gt;"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\EnvironmentProfileModel.mc" id="84" lineNum="125" parent="globals/EnvironmentProfileModel" pc="268441744" symbol="&lt;globals/EnvironmentProfileModel/&lt;&gt;processCccdWrite&gt;"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\EnvironmentProfileModel.mc" id="85" lineNum="27" parent="globals/EnvironmentProfileModel" pc="268441754" symbol="initialize"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\EnvironmentProfileModel.mc" id="85" lineNum="28" parent="globals/EnvironmentProfileModel" pc="268441757" symbol="initialize"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\EnvironmentProfileModel.mc" id="85" lineNum="29" parent="globals/EnvironmentProfileModel" pc="268441766" symbol="initialize"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\EnvironmentProfileModel.mc" id="85" lineNum="30" parent="globals/EnvironmentProfileModel" pc="268441781" symbol="initialize"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\EnvironmentProfileModel.mc" id="85" lineNum="32" parent="globals/EnvironmentProfileModel" pc="268441796" symbol="initialize"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\EnvironmentProfileModel.mc" id="85" lineNum="33" parent="globals/EnvironmentProfileModel" pc="268441805" symbol="initialize"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\EnvironmentProfileModel.mc" id="85" lineNum="34" parent="globals/EnvironmentProfileModel" pc="268441827" symbol="initialize"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\EnvironmentProfileModel.mc" id="85" lineNum="36" parent="globals/EnvironmentProfileModel" pc="268441857" symbol="initialize"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\EnvironmentProfileModel.mc" id="85" lineNum="38" parent="globals/EnvironmentProfileModel" pc="268441866" symbol="initialize"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\EnvironmentProfileModel.mc" id="85" lineNum="39" parent="globals/EnvironmentProfileModel" pc="268441875" symbol="initialize"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\EnvironmentProfileModel.mc" id="85" lineNum="40" parent="globals/EnvironmentProfileModel" pc="268441884" symbol="initialize"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\EnvironmentProfileModel.mc" id="85" lineNum="42" parent="globals/EnvironmentProfileModel" pc="268441893" symbol="initialize"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\EnvironmentProfileModel.mc" id="85" lineNum="43" parent="globals/EnvironmentProfileModel" pc="268441900" symbol="initialize"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\EnvironmentProfileModel.mc" id="85" lineNum="44" parent="globals/EnvironmentProfileModel" pc="268441906" symbol="initialize"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\EnvironmentProfileModel.mc" id="85" lineNum="45" parent="globals/EnvironmentProfileModel" pc="268441916" symbol="initialize"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\EnvironmentProfileModel.mc" id="85" lineNum="46" parent="globals/EnvironmentProfileModel" pc="268441925" symbol="initialize"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\EnvironmentProfileModel.mc" id="85" lineNum="47" parent="globals/EnvironmentProfileModel" pc="268441931" symbol="initialize"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\EnvironmentProfileModel.mc" id="85" lineNum="48" parent="globals/EnvironmentProfileModel" pc="268441953" symbol="initialize"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\EnvironmentProfileModel.mc" id="85" lineNum="52" parent="globals/EnvironmentProfileModel" pc="268441968" symbol="initialize"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DataModelFactory.mc" id="86" lineNum="33" parent="globals/DataModelFactory" pc="268441976" symbol="getScanDataModel"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DataModelFactory.mc" id="86" lineNum="34" parent="globals/DataModelFactory" pc="268441979" symbol="getScanDataModel"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DataModelFactory.mc" id="86" lineNum="35" parent="globals/DataModelFactory" pc="268441986" symbol="getScanDataModel"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DataModelFactory.mc" id="86" lineNum="36" parent="globals/DataModelFactory" pc="268441992" symbol="getScanDataModel"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DataModelFactory.mc" id="86" lineNum="37" parent="globals/DataModelFactory" pc="268442003" symbol="getScanDataModel"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DataModelFactory.mc" id="86" lineNum="41" parent="globals/DataModelFactory" pc="268442018" symbol="getScanDataModel"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DataModelFactory.mc" id="86" lineNum="42" parent="globals/DataModelFactory" pc="268442047" symbol="getScanDataModel"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DataModelFactory.mc" id="86" lineNum="44" parent="globals/DataModelFactory" pc="268442061" symbol="getScanDataModel"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DataModelFactory.mc" id="87" lineNum="83" parent="globals/DataModelFactory" pc="268442064" symbol="GetPhoneCommunication"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DataModelFactory.mc" id="87" lineNum="84" parent="globals/DataModelFactory" pc="268442066" symbol="GetPhoneCommunication"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DataModelFactory.mc" id="88" lineNum="25" parent="globals/DataModelFactory" pc="268442072" symbol="initialize"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DataModelFactory.mc" id="88" lineNum="26" parent="globals/DataModelFactory" pc="268442074" symbol="initialize"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DataModelFactory.mc" id="88" lineNum="27" parent="globals/DataModelFactory" pc="268442083" symbol="initialize"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DataModelFactory.mc" id="88" lineNum="28" parent="globals/DataModelFactory" pc="268442092" symbol="initialize"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DataModelFactory.mc" id="89" lineNum="50" parent="globals/DataModelFactory" pc="268442102" symbol="getDeviceDataModel"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DataModelFactory.mc" id="89" lineNum="51" parent="globals/DataModelFactory" pc="268442105" symbol="getDeviceDataModel"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DataModelFactory.mc" id="89" lineNum="52" parent="globals/DataModelFactory" pc="268442112" symbol="getDeviceDataModel"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DataModelFactory.mc" id="89" lineNum="53" parent="globals/DataModelFactory" pc="268442118" symbol="getDeviceDataModel"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DataModelFactory.mc" id="89" lineNum="54" parent="globals/DataModelFactory" pc="268442129" symbol="getDeviceDataModel"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DataModelFactory.mc" id="89" lineNum="58" parent="globals/DataModelFactory" pc="268442144" symbol="getDeviceDataModel"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DataModelFactory.mc" id="89" lineNum="59" parent="globals/DataModelFactory" pc="268442176" symbol="getDeviceDataModel"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DataModelFactory.mc" id="89" lineNum="61" parent="globals/DataModelFactory" pc="268442190" symbol="getDeviceDataModel"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DataModelFactory.mc" id="90" lineNum="67" parent="globals/DataModelFactory" pc="268442193" symbol="getEnvironmentModel"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DataModelFactory.mc" id="90" lineNum="68" parent="globals/DataModelFactory" pc="268442196" symbol="getEnvironmentModel"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DataModelFactory.mc" id="90" lineNum="69" parent="globals/DataModelFactory" pc="268442203" symbol="getEnvironmentModel"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DataModelFactory.mc" id="90" lineNum="70" parent="globals/DataModelFactory" pc="268442209" symbol="getEnvironmentModel"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DataModelFactory.mc" id="90" lineNum="71" parent="globals/DataModelFactory" pc="268442220" symbol="getEnvironmentModel"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DataModelFactory.mc" id="90" lineNum="75" parent="globals/DataModelFactory" pc="268442235" symbol="getEnvironmentModel"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DataModelFactory.mc" id="90" lineNum="76" parent="globals/DataModelFactory" pc="268442276" symbol="getEnvironmentModel"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DataModelFactory.mc" id="90" lineNum="78" parent="globals/DataModelFactory" pc="268442290" symbol="getEnvironmentModel"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceDelegate.mc" id="91" lineNum="26" parent="globals/DeviceDelegate" pc="268442293" symbol="onBack"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceDelegate.mc" id="91" lineNum="27" parent="globals/DeviceDelegate" pc="268442295" symbol="onBack"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceDelegate.mc" id="91" lineNum="28" parent="globals/DeviceDelegate" pc="268442307" symbol="onBack"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceDelegate.mc" id="91" lineNum="29" parent="globals/DeviceDelegate" pc="268442322" symbol="onBack"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceDelegate.mc" id="92" lineNum="16" parent="globals/DeviceDelegate" pc="268442324" symbol="initialize"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceDelegate.mc" id="92" lineNum="17" parent="globals/DeviceDelegate" pc="268442326" symbol="initialize"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceDelegate.mc" id="92" lineNum="19" parent="globals/DeviceDelegate" pc="268442338" symbol="initialize"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceDelegate.mc" id="92" lineNum="20" parent="globals/DeviceDelegate" pc="268442347" symbol="initialize"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceDelegate.mc" id="92" lineNum="21" parent="globals/DeviceDelegate" pc="268442356" symbol="initialize"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceDelegate.mc" id="93" lineNum="32" parent="globals/DeviceDelegate" pc="268442369" symbol="onTap"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceDelegate.mc" id="93" lineNum="33" parent="globals/DeviceDelegate" pc="268442372" symbol="onTap"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceDelegate.mc" id="93" lineNum="34" parent="globals/DeviceDelegate" pc="268442381" symbol="onTap"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceDelegate.mc" id="93" lineNum="35" parent="globals/DeviceDelegate" pc="268442394" symbol="onTap"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceDelegate.mc" id="93" lineNum="36" parent="globals/DeviceDelegate" pc="268442429" symbol="onTap"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DeviceDelegate.mc" id="93" lineNum="38" parent="globals/DeviceDelegate" pc="268442455" symbol="onTap"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DukeSampleApp.mc" id="94" lineNum="28" parent="globals/DukeSampleApp" pc="268442457" symbol="onStart"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DukeSampleApp.mc" id="94" lineNum="29" parent="globals/DukeSampleApp" pc="268442459" symbol="onStart"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DukeSampleApp.mc" id="94" lineNum="30" parent="globals/DukeSampleApp" pc="268442488" symbol="onStart"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DukeSampleApp.mc" id="94" lineNum="31" parent="globals/DukeSampleApp" pc="268442522" symbol="onStart"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DukeSampleApp.mc" id="94" lineNum="32" parent="globals/DukeSampleApp" pc="268442566" symbol="onStart"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DukeSampleApp.mc" id="94" lineNum="34" parent="globals/DukeSampleApp" pc="268442600" symbol="onStart"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DukeSampleApp.mc" id="94" lineNum="35" parent="globals/DukeSampleApp" pc="268442618" symbol="onStart"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DukeSampleApp.mc" id="94" lineNum="36" parent="globals/DukeSampleApp" pc="268442627" symbol="onStart"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DukeSampleApp.mc" id="95" lineNum="51" parent="globals/DukeSampleApp" pc="268442643" symbol="getInitialView"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DukeSampleApp.mc" id="95" lineNum="52" parent="globals/DukeSampleApp" pc="268442645" symbol="getInitialView"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DukeSampleApp.mc" id="96" lineNum="21" parent="globals/DukeSampleApp" pc="268442657" symbol="initialize"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DukeSampleApp.mc" id="96" lineNum="22" parent="globals/DukeSampleApp" pc="268442659" symbol="initialize"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DukeSampleApp.mc" id="96" lineNum="23" parent="globals/DukeSampleApp" pc="268442671" symbol="initialize"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DukeSampleApp.mc" id="97" lineNum="42" parent="globals/DukeSampleApp" pc="268442701" symbol="onStop"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DukeSampleApp.mc" id="97" lineNum="43" parent="globals/DukeSampleApp" pc="268442703" symbol="onStop"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DukeSampleApp.mc" id="97" lineNum="44" parent="globals/DukeSampleApp" pc="268442711" symbol="onStop"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DukeSampleApp.mc" id="97" lineNum="45" parent="globals/DukeSampleApp" pc="268442719" symbol="onStop"/>
+<entry filename="C:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\source\\DukeSampleApp.mc" id="97" lineNum="46" parent="globals/DukeSampleApp" pc="268442727" symbol="onStop"/>
+<entry filename="c:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\vva5\\gen\\006-B4257-00\\source\\Rez.mcgen" id="98" lineNum="18" parent="globals/Rez/Menus/MainMenu" pc="268442736" symbol="&lt;init&gt;"/>
+<entry filename="c:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\vva5\\gen\\006-B4257-00\\source\\Rez.mcgen" id="99" lineNum="19" parent="globals/Rez/Menus/MainMenu" pc="268442748" symbol="initialize"/>
+<entry filename="c:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\vva5\\gen\\006-B4257-00\\source\\Rez.mcgen" id="99" lineNum="20" parent="globals/Rez/Menus/MainMenu" pc="268442750" symbol="initialize"/>
+<entry filename="c:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\vva5\\gen\\006-B4257-00\\source\\Rez.mcgen" id="99" lineNum="21" parent="globals/Rez/Menus/MainMenu" pc="268442762" symbol="initialize"/>
+<entry filename="c:\\STRIDE\\ciq_projects\\STRIDE_CIQ_CustomBleProfile\\vva5\\gen\\006-B4257-00\\source\\Rez.mcgen" id="99" lineNum="22" parent="globals/Rez/Menus/MainMenu" pc="268442807" symbol="initialize"/>
+</pcToLineNum>
+<symbolTable>
+<entry id="18" object="true" symbol="ScanMenuDelegate"/>
+<entry id="8388639" module="true" symbol="Graphics"/>
+<entry id="57" method="true" symbol="pushDeviceView"/>
+<entry field="true" id="33" symbol="&lt;globals/BluetoothDelegate/&lt;&gt;_onConnection&gt;"/>
+<entry id="87" method="true" symbol="&lt;globals/DeviceView/&lt;&gt;storeGpioData&gt;"/>
+<entry id="8389939" method="true" symbol="registerForPhoneAppMessages"/>
+<entry id="41" method="true" symbol="notifyDescriptorWrite"/>
+<entry id="8388632" method="true" symbol="&lt;init&gt;"/>
+<entry id="84" method="true" symbol="onTapEvent"/>
+<entry id="76" method="true" symbol="&lt;globals/DeviceView/&lt;&gt;drawCustomData&gt;"/>
+<entry id="4" module="true" symbol="globals/Rez/Menus"/>
+<entry field="true" id="34" symbol="&lt;globals/BluetoothDelegate/&lt;&gt;_onDescriptorWrite&gt;"/>
+<entry field="true" id="74" symbol="&lt;globals/DeviceView/&lt;&gt;InitialYOffsetPercent&gt;"/>
+<entry id="8390552" symbol="toRepresentation"/>
+<entry field="true" id="46" symbol="&lt;globals/ScanDataModel/&lt;&gt;_displayResult&gt;"/>
+<entry id="8390551" symbol="fromRepresentation"/>
+<entry field="true" id="32" symbol="&lt;globals/BluetoothDelegate/&lt;&gt;_onCharChanged&gt;"/>
+<entry field="true" id="95" symbol="&lt;globals/EnvironmentProfileModel/&lt;&gt;_service&gt;"/>
+<entry field="true" id="71" symbol="&lt;globals/DeviceView/&lt;&gt;ButtonXPaddingPercent&gt;"/>
+<entry field="true" id="83" symbol="&lt;globals/DeviceView/&lt;&gt;mYOffset&gt;"/>
+<entry id="43" method="true" symbol="queueCharacteristicWrite"/>
+<entry id="64" method="true" symbol="pair"/>
+<entry id="103" method="true" symbol="GetPhoneCommunication"/>
+<entry field="true" id="24" symbol="&lt;globals/ProfileManager/&lt;&gt;_envProfileDef&gt;"/>
+<entry id="20" object="true" symbol="ViewController"/>
+<entry field="true" id="21" symbol="DUKE_CUSTOM_CHARACTERISTIC"/>
+<entry id="99" method="true" symbol="&lt;globals/EnvironmentProfileModel/&lt;&gt;processCccdWrite&gt;"/>
+<entry field="true" id="8388611" module="true" symbol="Toybox"/>
+<entry field="true" id="81" symbol="&lt;globals/DeviceView/&lt;&gt;mGpioDataByteArray&gt;"/>
+<entry id="9" object="true" symbol="DeviceDataModel"/>
+<entry id="8391256" method="true" symbol="onScanResults"/>
+<entry field="true" id="93" symbol="&lt;globals/EnvironmentProfileModel/&lt;&gt;_pendingNotifies&gt;"/>
+<entry id="65" method="true" symbol="procConnection"/>
+<entry id="101" method="true" symbol="&lt;globals/EnvironmentProfileModel/&lt;&gt;processLedData&gt;"/>
+<entry id="97" method="true" symbol="getCustomDataByteArray"/>
+<entry field="true" id="115" symbol="&lt;globals/DukeSampleApp/&lt;&gt;_bleDelegate&gt;"/>
+<entry id="112" method="true" symbol="getScanDataModel"/>
+<entry field="true" id="29" symbol="&lt;globals/PhoneCommunication/&lt;&gt;msgFromPhoneMethod&gt;"/>
+<entry field="true" id="127" symbol="AppName"/>
+<entry field="true" id="114" symbol="&lt;globals/DeviceDelegate/&lt;&gt;_parentView&gt;"/>
+<entry field="true" id="125" symbol="TempInd"/>
+<entry id="14" object="true" symbol="PhoneCommunication"/>
+<entry id="8391255" method="true" symbol="onScanStateChange"/>
+<entry id="8391262" method="true" symbol="onDescriptorWrite"/>
+<entry field="true" id="91" symbol="&lt;globals/EnvironmentProfileModel/&lt;&gt;_custom_data_byte_array&gt;"/>
+<entry id="5" module="true" symbol="globals/Rez/Strings"/>
+<entry id="8389080" method="true" symbol="onMenu"/>
+<entry field="true" id="22" symbol="DUKE_CUSTOM_SERVICE"/>
+<entry id="31" method="true" symbol="transmitMessageToPhone"/>
+<entry id="13" object="true" symbol="EnvironmentProfileModel"/>
+<entry id="38" method="true" symbol="&lt;globals/BluetoothDelegate/&lt;&gt;contains&gt;"/>
+<entry id="8388648" module="true" symbol="WatchUi"/>
+<entry id="8389081" method="true" symbol="onBack"/>
+<entry field="true" id="121" symbol="HumidityInd"/>
+<entry field="true" id="79" symbol="&lt;globals/DeviceView/&lt;&gt;mDataModel&gt;"/>
+<entry id="28" method="true" symbol="handleMessageFromPhone"/>
+<entry id="2" module="true" symbol="globals/Rez"/>
+<entry field="true" id="48" symbol="&lt;globals/ScanDataModel/&lt;&gt;_scanState&gt;"/>
+<entry id="8391340" symbol="descriptors"/>
+<entry id="30" method="true" symbol="setDeviceView"/>
+<entry id="10" object="true" symbol="DeviceDelegate"/>
+<entry id="8389124" method="true" symbol="onUpdate"/>
+<entry id="8391263" method="true" symbol="onCharacteristicChanged"/>
+<entry field="true" id="72" symbol="&lt;globals/DeviceView/&lt;&gt;ButtonYPaddingPercent&gt;"/>
+<entry id="8388771" module="true" object="true" symbol="Drawables"/>
+<entry id="8391258" method="true" symbol="onConnectedStateChanged"/>
+<entry id="15" object="true" symbol="ProfileManager"/>
+<entry id="131" symbol="item_2"/>
+<entry id="130" symbol="item_1"/>
+<entry id="8389079" method="true" symbol="onPreviousPage"/>
+<entry id="45" module="true" symbol="Menus"/>
+<entry id="63" method="true" symbol="getActiveProfile"/>
+<entry field="true" id="78" symbol="&lt;globals/DeviceView/&lt;&gt;mButtonPositionsSet&gt;"/>
+<entry field="true" id="8390387" symbol="encoding"/>
+<entry field="true" id="108" symbol="&lt;globals/DataModelFactory/&lt;&gt;_profileManager&gt;"/>
+<entry id="8389122" method="true" symbol="onLayout"/>
+<entry id="11" object="true" symbol="DeviceView"/>
+<entry field="true" id="62" symbol="&lt;globals/DeviceDataModel/&lt;&gt;_scanResult&gt;"/>
+<entry id="8389098" method="true" symbol="onTap"/>
+<entry id="111" method="true" symbol="getEnvironmentModel"/>
+<entry id="54" method="true" symbol="previousResult"/>
+<entry field="true" id="80" symbol="&lt;globals/DeviceView/&lt;&gt;mGpio11ButtonPosition&gt;"/>
+<entry id="67" method="true" symbol="unpair"/>
+<entry id="53" method="true" symbol="nextResult"/>
+<entry field="true" id="106" symbol="&lt;globals/DataModelFactory/&lt;&gt;_envModel&gt;"/>
+<entry id="96" method="true" symbol="&lt;globals/EnvironmentProfileModel/&lt;&gt;activateNextNotification&gt;"/>
+<entry field="true" id="122" symbol="Launcher"/>
+<entry id="8388637" module="true" symbol="Communications"/>
+<entry field="true" id="113" symbol="&lt;globals/DeviceDelegate/&lt;&gt;_deviceDataModel&gt;"/>
+<entry id="86" method="true" symbol="setGpioState"/>
+<entry field="true" id="124" symbol="PressureInd"/>
+<entry id="8391335" symbol="writeType"/>
+<entry id="3" module="true" symbol="globals/Rez/Drawables"/>
+<entry field="true" id="23" symbol="DUKE_GPIO_CHARACTERISTIC"/>
+<entry id="8388828" method="true" symbol="onError"/>
+<entry id="126" object="true" symbol="MainMenu"/>
+<entry field="true" id="107" symbol="&lt;globals/DataModelFactory/&lt;&gt;_phoneCommunication&gt;"/>
+<entry id="110" method="true" symbol="getDeviceDataModel"/>
+<entry id="51" method="true" symbol="getResultCount"/>
+<entry id="8391244" method="true" symbol="isConnected"/>
+<entry field="true" id="61" symbol="&lt;globals/DeviceDataModel/&lt;&gt;_environmentProfile&gt;"/>
+<entry id="39" method="true" symbol="notifyCharacteristicChanged"/>
+<entry field="true" id="116" symbol="&lt;globals/DukeSampleApp/&lt;&gt;_modelFactory&gt;"/>
+<entry field="true" id="73" symbol="&lt;globals/DeviceView/&lt;&gt;GpioDataExpectedSize&gt;"/>
+<entry field="true" id="90" symbol="&lt;globals/EnvironmentProfileModel/&lt;&gt;_PhoneCommunication&gt;"/>
+<entry id="8388644" module="true" symbol="System"/>
+<entry id="25" method="true" symbol="registerProfiles"/>
+<entry field="true" id="104" symbol="&lt;globals/DataModelFactory/&lt;&gt;_delegate&gt;"/>
+<entry id="8391257" method="true" symbol="onProfileRegister"/>
+<entry id="8389619" method="true" symbol="onSelect"/>
+<entry field="true" id="105" symbol="&lt;globals/DataModelFactory/&lt;&gt;_deviceDataModel&gt;"/>
+<entry id="8388769" module="true" object="true" symbol="Rez"/>
+<entry field="true" id="119" symbol="&lt;globals/DukeSampleApp/&lt;&gt;_viewController&gt;"/>
+<entry id="98" method="true" symbol="getGpioDataByteArray"/>
+<entry id="37" method="true" symbol="&lt;globals/BluetoothDelegate/&lt;&gt;broadcastScanResult&gt;"/>
+<entry field="true" id="56" symbol="&lt;globals/ViewController/&lt;&gt;_modelFactory&gt;"/>
+<entry field="true" id="88" symbol="&lt;globals/EnvironmentProfileModel/&lt;&gt;_BluetoothDelegate&gt;"/>
+<entry id="102" method="true" symbol="writeGpioDataByteArray"/>
+<entry field="true" id="89" symbol="&lt;globals/EnvironmentProfileModel/&lt;&gt;_GpioCharacteristic&gt;"/>
+<entry id="8388640" module="true" symbol="Lang"/>
+<entry id="52" method="true" symbol="isScanning"/>
+<entry field="true" id="118" symbol="&lt;globals/DukeSampleApp/&lt;&gt;_profileManager&gt;"/>
+<entry id="7" object="true" symbol="CommListener"/>
+<entry id="8388610" symbol="statics"/>
+<entry id="8389123" method="true" symbol="onShow"/>
+<entry id="42" method="true" symbol="notifyScanResult"/>
+<entry field="true" id="68" symbol="&lt;globals/ScanDelegate/&lt;&gt;_scanDataModel&gt;"/>
+<entry id="8391228" method="true" symbol="setScanState"/>
+<entry id="49" method="true" symbol="getDisplayIndex"/>
+<entry field="true" id="117" symbol="_phoneCommunication"/>
+<entry id="8389350" module="true" symbol="globals"/>
+<entry field="true" id="123" symbol="LeafInd"/>
+<entry id="8391334" symbol="uuid"/>
+<entry id="58" method="true" symbol="pushScanMenu"/>
+<entry id="8388770" module="true" object="true" symbol="Strings"/>
+<entry id="6" object="true" symbol="BluetoothDelegate"/>
+<entry id="8391193" module="true" symbol="BluetoothLowEnergy"/>
+<entry id="8388702" method="true" symbol="initialize"/>
+<entry id="8389279" method="true" symbol="onStart"/>
+<entry field="true" id="47" symbol="&lt;globals/ScanDataModel/&lt;&gt;_scanResults&gt;"/>
+<entry id="8389280" method="true" symbol="getInitialView"/>
+<entry id="8389281" method="true" symbol="onStop"/>
+<entry id="8389109" method="true" symbol="onMenuItem"/>
+<entry field="true" id="27" symbol="&lt;globals/PhoneCommunication/&lt;&gt;_isSimulator&gt;"/>
+<entry id="12" object="true" symbol="DukeSampleApp"/>
+<entry id="8" object="true" symbol="DataModelFactory"/>
+<entry id="8391341" symbol="characteristics"/>
+<entry id="77" method="true" symbol="drawInputGpioText"/>
+<entry id="19" object="true" symbol="ScanView"/>
+<entry field="true" id="26" symbol="&lt;globals/PhoneCommunication/&lt;&gt;_deviceView&gt;"/>
+<entry field="true" id="70" symbol="&lt;globals/DeviceView/&lt;&gt;ButtonDimensionsPercent&gt;"/>
+<entry id="75" method="true" symbol="drawButtons"/>
+<entry id="100" method="true" symbol="&lt;globals/EnvironmentProfileModel/&lt;&gt;processCustomData&gt;"/>
+<entry id="8388829" method="true" symbol="onComplete"/>
+<entry id="85" method="true" symbol="&lt;globals/DeviceView/&lt;&gt;setButtonPositions&gt;"/>
+<entry field="true" id="35" symbol="&lt;globals/BluetoothDelegate/&lt;&gt;_onScanResult&gt;"/>
+<entry id="16" object="true" symbol="ScanDataModel"/>
+<entry field="true" id="120" symbol="Co2Ind"/>
+<entry field="true" id="94" symbol="&lt;globals/EnvironmentProfileModel/&lt;&gt;_profileManager&gt;"/>
+<entry id="50" method="true" symbol="getDisplayResult"/>
+<entry field="true" id="69" symbol="&lt;globals/ScanDelegate/&lt;&gt;_viewController&gt;"/>
+<entry id="66" method="true" symbol="&lt;globals/DeviceDataModel/&lt;&gt;procDeviceConnected&gt;"/>
+<entry field="true" id="44" symbol="&lt;globals/ScanView/&lt;&gt;_scanDataModel&gt;"/>
+<entry id="17" object="true" symbol="ScanDelegate"/>
+<entry id="8391260" method="true" symbol="onCharacteristicWrite"/>
+<entry field="true" id="92" symbol="&lt;globals/EnvironmentProfileModel/&lt;&gt;_gpio_data_byte_array&gt;"/>
+<entry field="true" id="60" symbol="&lt;globals/DeviceDataModel/&lt;&gt;_device&gt;"/>
+<entry id="8389125" method="true" symbol="onHide"/>
+<entry field="true" id="109" symbol="&lt;globals/DataModelFactory/&lt;&gt;_scanDataModel&gt;"/>
+<entry field="true" id="36" symbol="&lt;globals/BluetoothDelegate/&lt;&gt;_profileManager&gt;"/>
+<entry field="true" id="59" symbol="&lt;globals/DeviceDataModel/&lt;&gt;_dataModelFactory&gt;"/>
+<entry id="40" method="true" symbol="notifyConnection"/>
+<entry id="8389078" method="true" symbol="onNextPage"/>
+<entry id="8388635" module="true" symbol="Application"/>
+<entry id="55" method="true" symbol="procScanResult"/>
+<entry field="true" id="129" symbol="menu_label_2"/>
+<entry field="true" id="128" symbol="menu_label_1"/>
+<entry field="true" id="82" symbol="&lt;globals/DeviceView/&lt;&gt;mLedButtonPosition&gt;"/>
+</symbolTable>
+<localVars>
+<entry arg="true" endPc="268435978" name="msg" stackId="1" startPc="268435787"/>
+<entry arg="true" endPc="268436111" name="message" stackId="1" startPc="268435979"/>
+<entry endPc="268436110" name="listener" stackId="2" startPc="268435982"/>
+<entry endPc="268436105" name="ex" stackId="3" startPc="268436069"/>
+<entry arg="true" endPc="268436141" name="dv" stackId="1" startPc="268436112"/>
+<entry endPc="268436301" name="systemStats" stackId="1" startPc="268436145"/>
+<entry arg="true" endPc="268436378" name="char" stackId="1" startPc="268436303"/>
+<entry arg="true" endPc="268436378" name="value" stackId="2" startPc="268436303"/>
+<entry endPc="268436377" name="onCharChanged" stackId="3" startPc="268436306"/>
+<entry arg="true" endPc="268436395" name="model" stackId="1" startPc="268436379"/>
+<entry arg="true" endPc="268436412" name="model" stackId="1" startPc="268436396"/>
+<entry arg="true" endPc="268436429" name="model" stackId="1" startPc="268436413"/>
+<entry arg="true" endPc="268436502" name="descriptor" stackId="1" startPc="268436430"/>
+<entry arg="true" endPc="268436502" name="status" stackId="2" startPc="268436430"/>
+<entry endPc="268436501" name="onDescriptorWrite" stackId="3" startPc="268436433"/>
+<entry arg="true" endPc="268436535" name="char" stackId="1" startPc="268436503"/>
+<entry arg="true" endPc="268436535" name="status" stackId="2" startPc="268436503"/>
+<entry arg="true" endPc="268436606" name="device" stackId="1" startPc="268436536"/>
+<entry arg="true" endPc="268436606" name="state" stackId="2" startPc="268436536"/>
+<entry endPc="268436605" name="onConnection" stackId="3" startPc="268436539"/>
+<entry arg="true" endPc="268436689" name="scanState" stackId="1" startPc="268436607"/>
+<entry arg="true" endPc="268436689" name="status" stackId="2" startPc="268436607"/>
+<entry endPc="268436688" name="onScanResult" stackId="3" startPc="268436610"/>
+<entry arg="true" endPc="268436722" name="uuid" stackId="1" startPc="268436690"/>
+<entry arg="true" endPc="268436722" name="status" stackId="2" startPc="268436690"/>
+<entry arg="true" endPc="268436774" name="iter" stackId="1" startPc="268436723"/>
+<entry arg="true" endPc="268436774" name="obj" stackId="2" startPc="268436723"/>
+<entry endPc="268436772" name="uuid" stackId="3" startPc="268436741"/>
+<entry arg="true" endPc="268436791" name="model" stackId="1" startPc="268436775"/>
+<entry arg="true" endPc="268436907" name="char" stackId="1" startPc="268436792"/>
+<entry arg="true" endPc="268436907" name="data" stackId="2" startPc="268436792"/>
+<entry endPc="268436901" name="ex" stackId="3" startPc="268436865"/>
+<entry arg="true" endPc="268436978" name="scanResult" stackId="1" startPc="268436908"/>
+<entry endPc="268436977" name="onScanResult" stackId="2" startPc="268436911"/>
+<entry arg="true" endPc="268437002" name="profileManager" stackId="1" startPc="268436979"/>
+<entry arg="true" endPc="268437157" name="scanResults" stackId="1" startPc="268437003"/>
+<entry endPc="268437156" name="result" stackId="2" startPc="268437039"/>
+<entry arg="true" endPc="268437184" name="scanDataModel" stackId="1" startPc="268437161"/>
+<entry arg="true" endPc="268437445" name="dc" stackId="1" startPc="268437185"/>
+<entry endPc="268437444" name="displayResult" stackId="2" startPc="268437188"/>
+<entry endPc="268437444" name="title" stackId="3" startPc="268437188"/>
+<entry endPc="268437444" name="subtext" stackId="4" startPc="268437188"/>
+<entry endPc="268437444" name="strDimenTitle" stackId="5" startPc="268437188"/>
+<entry endPc="268437444" name="yOffset" stackId="6" startPc="268437188"/>
+<entry arg="true" endPc="268437566" name="item" stackId="1" startPc="268437507"/>
+<entry arg="true" endPc="268437765" name="scanResult" stackId="1" startPc="268437637"/>
+<entry endPc="268437764" name="newDevice" stackId="2" startPc="268437640"/>
+<entry endPc="268437729" name="i" stackId="3" startPc="268437681"/>
+<entry arg="true" endPc="268437948" name="bleDelegate" stackId="1" startPc="268437900"/>
+<entry arg="true" endPc="268437971" name="scanState" stackId="1" startPc="268437949"/>
+<entry arg="true" endPc="268438083" name="scanResult" stackId="1" startPc="268437972"/>
+<entry endPc="268438082" name="deviceDataModel" stackId="2" startPc="268437975"/>
+<entry endPc="268438082" name="deviceView" stackId="3" startPc="268437975"/>
+<entry endPc="268438159" name="scanDataModel" stackId="1" startPc="268438087"/>
+<entry arg="true" endPc="268438243" name="modelFactory" stackId="1" startPc="268438232"/>
+<entry arg="true" endPc="268438360" name="bleDelegate" stackId="1" startPc="268438313"/>
+<entry arg="true" endPc="268438360" name="dataModelFactory" stackId="2" startPc="268438313"/>
+<entry arg="true" endPc="268438360" name="scanResult" stackId="3" startPc="268438313"/>
+<entry arg="true" endPc="268438409" name="device" stackId="1" startPc="268438361"/>
+<entry arg="true" endPc="268438595" name="scanDataModel" stackId="1" startPc="268438563"/>
+<entry arg="true" endPc="268438595" name="viewController" stackId="2" startPc="268438563"/>
+<entry endPc="268438638" name="displayResult" stackId="1" startPc="268438599"/>
+<entry arg="true" endPc="268439057" name="dc" stackId="1" startPc="268438655"/>
+<entry arg="true" endPc="268439057" name="customData" stackId="2" startPc="268438655"/>
+<entry endPc="268439053" name="font" stackId="3" startPc="268438682"/>
+<entry endPc="268439053" name="dataSize" stackId="4" startPc="268438682"/>
+<entry endPc="268439053" name="dataValuesLabel" stackId="5" startPc="268438682"/>
+<entry endPc="268438868" name="HELLO_WORLD" stackId="6" startPc="268438710"/>
+<entry endPc="268438765" name="options" stackId="7" startPc="268438718"/>
+<entry endPc="268438868" name="MAX_DISPLAY_COUNT" stackId="8" startPc="268438769"/>
+<entry endPc="268438868" name="displayCount" stackId="9" startPc="268438769"/>
+<entry endPc="268438845" name="i" stackId="10" startPc="268438807"/>
+<entry endPc="268439053" name="dataSizeLabel" stackId="11" startPc="268438682"/>
+<entry arg="true" endPc="268439424" name="dc" stackId="1" startPc="268439058"/>
+<entry endPc="268439423" name="font" stackId="2" startPc="268439061"/>
+<entry endPc="268439423" name="ledButtonXCenter" stackId="3" startPc="268439061"/>
+<entry endPc="268439423" name="gpio11ButtonXCenter" stackId="4" startPc="268439061"/>
+<entry endPc="268439423" name="buttonYCenter" stackId="5" startPc="268439061"/>
+<entry arg="true" endPc="268439627" name="dc" stackId="1" startPc="268439425"/>
+<entry endPc="268439623" name="screenWidth" stackId="2" startPc="268439437"/>
+<entry endPc="268439623" name="screenXCenter" stackId="3" startPc="268439437"/>
+<entry endPc="268439623" name="screenHeight" stackId="4" startPc="268439437"/>
+<entry endPc="268439623" name="buttonXPadding" stackId="5" startPc="268439437"/>
+<entry arg="true" endPc="268439830" name="gpio" stackId="1" startPc="268439628"/>
+<entry arg="true" endPc="268439830" name="on" stackId="2" startPc="268439628"/>
+<entry endPc="268439829" name="gpioDataUpdated" stackId="3" startPc="268439631"/>
+<entry endPc="268439826" name="profile" stackId="4" startPc="268439718"/>
+<entry arg="true" endPc="268440101" name="gpioData" stackId="1" startPc="268439831"/>
+<entry endPc="268440097" name="gpioDataSize" stackId="2" startPc="268439840"/>
+<entry arg="true" endPc="268440458" name="x" stackId="1" startPc="268440102"/>
+<entry arg="true" endPc="268440458" name="y" stackId="2" startPc="268440102"/>
+<entry endPc="268440457" name="gpioDataUpdated" stackId="3" startPc="268440105"/>
+<entry endPc="268440454" name="profile" stackId="4" startPc="268440392"/>
+<entry arg="true" endPc="268440534" name="dataModel" stackId="1" startPc="268440459"/>
+<entry arg="true" endPc="268440809" name="dc" stackId="1" startPc="268440535"/>
+<entry endPc="268440808" name="isConnected" stackId="2" startPc="268440538"/>
+<entry endPc="268440808" name="statusString" stackId="3" startPc="268440538"/>
+<entry endPc="268440808" name="profile" stackId="4" startPc="268440538"/>
+<entry endPc="268440805" name="gpioData" stackId="5" startPc="268440722"/>
+<entry arg="true" endPc="268441004" name="dc" stackId="1" startPc="268440810"/>
+<entry endPc="268441003" name="screenCenter" stackId="2" startPc="268440813"/>
+<entry endPc="268441003" name="font" stackId="3" startPc="268440813"/>
+<entry endPc="268441003" name="isGpioSet" stackId="4" startPc="268440813"/>
+<entry endPc="268441003" name="textGpio12" stackId="5" startPc="268440813"/>
+<entry arg="true" endPc="268441146" name="char" stackId="1" startPc="268441005"/>
+<entry arg="true" endPc="268441146" name="data" stackId="2" startPc="268441005"/>
+<entry arg="true" endPc="268441199" name="writeGpioDataByteArray" stackId="1" startPc="268441176"/>
+<entry arg="true" endPc="268441240" name="descriptor" stackId="1" startPc="268441200"/>
+<entry arg="true" endPc="268441240" name="status" stackId="2" startPc="268441200"/>
+<entry arg="true" endPc="268441305" name="data" stackId="1" startPc="268441241"/>
+<entry arg="true" endPc="268441495" name="data" stackId="1" startPc="268441306"/>
+<entry endPc="268441494" name="old_gpio_data" stackId="2" startPc="268441309"/>
+<entry endPc="268441480" name="message" stackId="3" startPc="268441438"/>
+<entry endPc="268441621" name="char" stackId="1" startPc="268441499"/>
+<entry endPc="268441621" name="cccd" stackId="2" startPc="268441499"/>
+<entry arg="true" endPc="268441975" name="delegate" stackId="1" startPc="268441754"/>
+<entry arg="true" endPc="268441975" name="profileManager" stackId="2" startPc="268441754"/>
+<entry arg="true" endPc="268441975" name="device" stackId="3" startPc="268441754"/>
+<entry arg="true" endPc="268441975" name="phoneComm" stackId="4" startPc="268441754"/>
+<entry endPc="268441974" name="service" stackId="5" startPc="268441757"/>
+<entry endPc="268441964" name="characteristics" stackId="6" startPc="268441906"/>
+<entry endPc="268441964" name="characteristic" stackId="7" startPc="268441906"/>
+<entry endPc="268442063" name="scanDataModel" stackId="1" startPc="268441979"/>
+<entry endPc="268442063" name="dataModel" stackId="2" startPc="268441979"/>
+<entry arg="true" endPc="268442101" name="delegate" stackId="1" startPc="268442072"/>
+<entry arg="true" endPc="268442101" name="profileManager" stackId="2" startPc="268442072"/>
+<entry arg="true" endPc="268442101" name="phoneComm" stackId="3" startPc="268442072"/>
+<entry arg="true" endPc="268442192" name="scanResult" stackId="1" startPc="268442102"/>
+<entry endPc="268442192" name="deviceDataModel" stackId="2" startPc="268442105"/>
+<entry endPc="268442192" name="dataModel" stackId="3" startPc="268442105"/>
+<entry arg="true" endPc="268442292" name="device" stackId="1" startPc="268442193"/>
+<entry endPc="268442292" name="envModel" stackId="2" startPc="268442196"/>
+<entry endPc="268442292" name="dataModel" stackId="3" startPc="268442196"/>
+<entry arg="true" endPc="268442368" name="deviceDataModel" stackId="1" startPc="268442324"/>
+<entry arg="true" endPc="268442368" name="parentView" stackId="2" startPc="268442324"/>
+<entry arg="true" endPc="268442456" name="clickEvent" stackId="1" startPc="268442369"/>
+<entry endPc="268442456" name="coords" stackId="2" startPc="268442372"/>
+<entry arg="true" endPc="268442642" name="state" stackId="1" startPc="268442457"/>
+<entry arg="true" endPc="268442735" name="state" stackId="1" startPc="268442701"/>
+</localVars>
+<deviceInfo deviceVersion="de121dfa604491767422db2c3063530f8fd6465b" partNumber="006-B4257-00"/>
+<annotations>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="menu_label_2"/>
+<annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="Co2Ind"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="menu_label_1"/>
+<annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="HumidityInd"/>
+<annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="TempInd"/>
+<annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LeafInd"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="AppName"/>
+<annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="Launcher"/>
+<annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="PressureInd"/>
+</annotations>
+<dataEntryOffsetMappings>
+<dataEntry label="globals" offset="58" parentId="" symbolId="globals" type="module"/>
+<dataEntry label="globals/ProfileManager" offset="233" parentId="globals" symbolId="ProfileManager" type="class"/>
+<dataEntry label="globals/PhoneCommunication" offset="322" parentId="globals" symbolId="PhoneCommunication" type="class"/>
+<dataEntry label="globals/BluetoothDelegate" offset="420" parentId="globals" symbolId="BluetoothDelegate" type="class"/>
+<dataEntry label="globals/ScanView" offset="635" parentId="globals" symbolId="ScanView" type="class"/>
+<dataEntry label="globals/Rez" offset="724" parentId="globals" symbolId="Rez" type="module"/>
+<dataEntry label="globals/CommListener" offset="777" parentId="globals" symbolId="CommListener" type="class"/>
+<dataEntry label="globals/ScanMenuDelegate" offset="839" parentId="globals" symbolId="ScanMenuDelegate" type="class"/>
+<dataEntry label="globals/ScanDataModel" offset="892" parentId="globals" symbolId="ScanDataModel" type="class"/>
+<dataEntry label="globals/ViewController" offset="1035" parentId="globals" symbolId="ViewController" type="class"/>
+<dataEntry label="globals/DeviceDataModel" offset="1115" parentId="globals" symbolId="DeviceDataModel" type="class"/>
+<dataEntry label="globals/ScanDelegate" offset="1249" parentId="globals" symbolId="ScanDelegate" type="class"/>
+<dataEntry label="globals/DeviceView" offset="1347" parentId="globals" symbolId="DeviceView" type="class"/>
+<dataEntry label="globals/EnvironmentProfileModel" offset="1562" parentId="globals" symbolId="EnvironmentProfileModel" type="class"/>
+<dataEntry label="globals/DataModelFactory" offset="1759" parentId="globals" symbolId="DataModelFactory" type="class"/>
+<dataEntry label="globals/DeviceDelegate" offset="1893" parentId="globals" symbolId="DeviceDelegate" type="class"/>
+<dataEntry label="globals/DukeSampleApp" offset="1973" parentId="globals" symbolId="DukeSampleApp" type="class"/>
+<dataEntry label="globals/Rez/Drawables" offset="2089" parentId="Rez" symbolId="Drawables" type="module"/>
+<dataEntry label="globals/Rez/Menus" offset="2169" parentId="Rez" symbolId="Menus" type="module"/>
+<dataEntry label="globals/Rez/Strings" offset="2204" parentId="Rez" symbolId="Strings" type="module"/>
+<dataEntry label="globals/Rez/Menus/MainMenu" offset="2257" parentId="Menus" symbolId="MainMenu" type="class"/>
+</dataEntryOffsetMappings>
+<functions>
+<functionEntry accessMode="public" endPc="268435649" name="&lt;init&gt;" parent="ProfileManager" startPc="268435460">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="PhoneCommunication">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435661" name="&lt;init&gt;" parent="BluetoothDelegate" startPc="268435650">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435673" name="&lt;init&gt;" parent="ScanView" startPc="268435662">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435693" name="&lt;init&gt;" parent="Rez" startPc="268435674">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435705" name="&lt;init&gt;" parent="CommListener" startPc="268435694">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435717" name="&lt;init&gt;" parent="ScanMenuDelegate" startPc="268435706">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="ScanDataModel">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="ViewController">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="DeviceDataModel">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435729" name="&lt;init&gt;" parent="ScanDelegate" startPc="268435718">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435741" name="&lt;init&gt;" parent="DeviceView" startPc="268435730">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="EnvironmentProfileModel">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="DataModelFactory">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435753" name="&lt;init&gt;" parent="DeviceDelegate" startPc="268435742">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435765" name="&lt;init&gt;" parent="DukeSampleApp" startPc="268435754">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435786" name="registerProfiles" parent="ProfileManager" startPc="268435766">
+<documentation><![CDATA[<div class="description"> Register the bluetooth profile<br/></div>]]></documentation>
+</functionEntry>
+<functionEntry accessMode="public" name="initialize" parent="ProfileManager">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435978" name="handleMessageFromPhone" parent="PhoneCommunication" startPc="268435787">
+<param id="msg"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436111" name="transmitMessageToPhone" parent="PhoneCommunication" startPc="268435979">
+<param id="message"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436141" name="setDeviceView" parent="PhoneCommunication" startPc="268436112">
+<param id="dv"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436302" name="initialize" parent="PhoneCommunication" startPc="268436142">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436378" name="onCharacteristicChanged" parent="BluetoothDelegate" startPc="268436303">
+<param id="char"/>
+<param id="value"/>
+<documentation><![CDATA[<div class="description"> Handle a characteristic being changed<br/> <div class="param"> char The characteristic that changed</div><br/> <div class="param"> value The updated value of the characteristic</div><br/></div>]]></documentation>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436395" name="notifyCharacteristicChanged" parent="BluetoothDelegate" startPc="268436379">
+<param id="model"/>
+<documentation><![CDATA[<div class="description"> Store a new model to handle characteristic changes<br/> <div class="param"> model The model for characteristics</div><br/></div>]]></documentation>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436412" name="notifyConnection" parent="BluetoothDelegate" startPc="268436396">
+<param id="model"/>
+<documentation><![CDATA[<div class="description"> Store a new model to manage device data connections<br/> <div class="param"> model The model for device data</div><br/></div>]]></documentation>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436429" name="notifyScanResult" parent="BluetoothDelegate" startPc="268436413">
+<param id="model"/>
+<documentation><![CDATA[<div class="description"> Store a new model to manage scan results<br/> <div class="param"> model The model containing scan results</div><br/></div>]]></documentation>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436502" name="onDescriptorWrite" parent="BluetoothDelegate" startPc="268436430">
+<param id="descriptor"/>
+<param id="status"/>
+<documentation><![CDATA[<div class="description"> Handle the completion of a write operation on a descriptor<br/> <div class="param"> descriptor The descriptor that was written</div><br/> <div class="param"> status The BluetoothLowEnergy status indicating the result of the operation</div><br/></div>]]></documentation>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436535" name="onCharacteristicWrite" parent="BluetoothDelegate" startPc="268436503">
+<param id="char"/>
+<param id="status"/>
+<documentation><![CDATA[<div class="description"> Callback after Characteristic.requestWrite() is complete<br/></div>]]></documentation>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436606" name="onConnectedStateChanged" parent="BluetoothDelegate" startPc="268436536">
+<param id="device"/>
+<param id="state"/>
+<documentation><![CDATA[<div class="description"> Handle pairing and connecting to a device<br/> <div class="param"> device The device state that was changed</div><br/> <div class="param"> state The state of the connection</div><br/></div>]]></documentation>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436689" name="onScanStateChange" parent="BluetoothDelegate" startPc="268436607">
+<param id="scanState"/>
+<param id="status"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436722" name="onProfileRegister" parent="BluetoothDelegate" startPc="268436690">
+<param id="uuid"/>
+<param id="status"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="private" endPc="268436774" name="&lt;globals/BluetoothDelegate/&lt;&gt;contains&gt;" parent="BluetoothDelegate" startPc="268436723">
+<param id="iter"/>
+<param id="obj"/>
+<documentation><![CDATA[<div class="description"> Get whether the iterator contains a specific uuid<br/> <div class="param"> iter Iterator of uuid objects</div><br/> <div class="param"> obj Uuid to search for</div><br/> <div class="returns">Returns  true if object found, false otherwise</div><br/></div>]]></documentation>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436791" name="notifyDescriptorWrite" parent="BluetoothDelegate" startPc="268436775">
+<param id="model"/>
+<documentation><![CDATA[<div class="description"> Store a new model to handle descriptor writes<br/> <div class="param"> model The model for descriptors</div><br/></div>]]></documentation>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436907" name="queueCharacteristicWrite" parent="BluetoothDelegate" startPc="268436792">
+<param id="char"/>
+<param id="data"/>
+<documentation><![CDATA[<div class="description"> Perform a write. If BLE is busy then queue the operation to run later<br/></div>]]></documentation>
+</functionEntry>
+<functionEntry accessMode="private" endPc="268436978" name="&lt;globals/BluetoothDelegate/&lt;&gt;broadcastScanResult&gt;" parent="BluetoothDelegate" startPc="268436908">
+<param id="scanResult"/>
+<documentation><![CDATA[<div class="description"> Broadcast a new scan result<br/> <div class="param"> scanResult The new scan result</div><br/></div>]]></documentation>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437002" name="initialize" parent="BluetoothDelegate" startPc="268436979">
+<param id="profileManager"/>
+<documentation><![CDATA[<div class="description"> Constructor<br/> <div class="param"> profileManager The profile manager</div><br/></div>]]></documentation>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437157" name="onScanResults" parent="BluetoothDelegate" startPc="268437003">
+<param id="scanResults"/>
+<documentation><![CDATA[<div class="description"> Handle new scan results being received<br/> <div class="param"> scanResults An iterator of new scan results</div><br/></div>]]></documentation>
+</functionEntry>
+<functionEntry accessMode="public" name="onShow" parent="ScanView">
+<documentation><![CDATA[<div class="description"> Called when this View is brought to the foreground. Restore<br/> the state of this View and prepare it to be shown. This includes<br/> loading resources into memory.<br/></div>]]></documentation>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437160" name="onLayout" parent="ScanView" startPc="268437158">
+<param id="dc"/>
+<documentation><![CDATA[<div class="description"> Load your resources here<br/> <div class="param"> dc Device context</div><br/></div>]]></documentation>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437184" name="initialize" parent="ScanView" startPc="268437161">
+<param id="scanDataModel"/>
+<documentation><![CDATA[<div class="description"> Constructor<br/> <div class="param"> scanDataModel The model containing the scan results</div><br/></div>]]></documentation>
+</functionEntry>
+<functionEntry accessMode="public" name="onHide" parent="ScanView">
+<documentation><![CDATA[<div class="description"> Called when this View is removed from the screen. Save the<br/> state of this View here. This includes freeing resources from<br/> memory.<br/></div>]]></documentation>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437445" name="onUpdate" parent="ScanView" startPc="268437185">
+<param id="dc"/>
+<documentation><![CDATA[<div class="description"> Update the view<br/> <div class="param"> dc Device context</div><br/></div>]]></documentation>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Drawables">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Menus">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Strings">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437466" name="onError" parent="CommListener" startPc="268437446">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437487" name="onComplete" parent="CommListener" startPc="268437467">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437506" name="initialize" parent="CommListener" startPc="268437488">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437566" name="onMenuItem" parent="ScanMenuDelegate" startPc="268437507">
+<param id="item"/>
+<documentation><![CDATA[<div class="description"> Handle a menu item being chosen<br/> <div class="param"> item The identifier of the chosen item</div><br/></div>]]></documentation>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437581" name="initialize" parent="ScanMenuDelegate" startPc="268437567">
+<documentation><![CDATA[<div class="description"> Constructor<br/></div>]]></documentation>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437636" name="nextResult" parent="ScanDataModel" startPc="268437582">
+<documentation><![CDATA[<div class="description"> Update display to next result<br/></div>]]></documentation>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437765" name="procScanResult" parent="ScanDataModel" startPc="268437637">
+<param id="scanResult"/>
+<documentation><![CDATA[<div class="description"> Process a new scan result<br/> <div class="param"> scanResult The new scan result</div><br/></div>]]></documentation>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437807" name="previousResult" parent="ScanDataModel" startPc="268437766">
+<documentation><![CDATA[<div class="description"> Update display to previous result<br/></div>]]></documentation>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437818" name="isScanning" parent="ScanDataModel" startPc="268437808">
+<documentation><![CDATA[<div class="description"> Get whether the watch is scanning<br/> <div class="returns">Returns  true if scanning, false otherwise</div><br/></div>]]></documentation>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437850" name="getDisplayIndex" parent="ScanDataModel" startPc="268437819">
+<documentation><![CDATA[<div class="description"> Get the current display index<br/> <div class="returns">Returns  The display index</div><br/></div>]]></documentation>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437885" name="getDisplayResult" parent="ScanDataModel" startPc="268437851">
+<documentation><![CDATA[<div class="description"> Get the current scan result<br/> <div class="returns">Returns  The current scan result</div><br/></div>]]></documentation>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437899" name="getResultCount" parent="ScanDataModel" startPc="268437886">
+<documentation><![CDATA[<div class="description"> Get the number of scan results<br/> <div class="returns">Returns  The number of scan results</div><br/></div>]]></documentation>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437948" name="initialize" parent="ScanDataModel" startPc="268437900">
+<param id="bleDelegate"/>
+<documentation><![CDATA[<div class="description"> Constructor<br/> <div class="param"> bleDelegate The BLE delegate for this model</div><br/></div>]]></documentation>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437971" name="setScanState" parent="ScanDataModel" startPc="268437949">
+<param id="scanState"/>
+<documentation><![CDATA[<div class="description"> Update display to the new scan state<br/></div>]]></documentation>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268438083" name="pushDeviceView" parent="ViewController" startPc="268437972">
+<param id="scanResult"/>
+<documentation><![CDATA[<div class="description"> Push the device view<br/> <div class="param"> scanResult The scan result for the device view to push</div><br/></div>]]></documentation>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268438159" name="getInitialView" parent="ViewController" startPc="268438084">
+<documentation><![CDATA[<div class="description"> Return the initial views for the app<br/> <div class="returns">Returns  Array Pair [View, InputDelegate]</div><br/></div>]]></documentation>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268438231" name="pushScanMenu" parent="ViewController" startPc="268438160">
+<documentation><![CDATA[<div class="description"> Push the scan menu view (hold menu button to push this view)<br/></div>]]></documentation>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268438243" name="initialize" parent="ViewController" startPc="268438232">
+<param id="modelFactory"/>
+<documentation><![CDATA[<div class="description"> Constructor<br/> <div class="param"> modelFactory Factory to create models</div><br/></div>]]></documentation>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268438271" name="isConnected" parent="DeviceDataModel" startPc="268438244">
+<documentation><![CDATA[<div class="description"> Get whether a device is connected<br/> <div class="returns">Returns  true if connected, false otherwise</div><br/></div>]]></documentation>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268438312" name="unpair" parent="DeviceDataModel" startPc="268438272">
+<documentation><![CDATA[<div class="description"> Unpair the current device<br/></div>]]></documentation>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268438360" name="initialize" parent="DeviceDataModel" startPc="268438313">
+<param id="bleDelegate"/>
+<param id="dataModelFactory"/>
+<param id="scanResult"/>
+<documentation><![CDATA[<div class="description"> Constructor<br/> <div class="param"> bleDelegate The BLE delegate for the model</div><br/> <div class="param"> dataModelFactory The factory to create models</div><br/> <div class="param"> scanResult The device scan result</div><br/></div>]]></documentation>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268438409" name="procConnection" parent="DeviceDataModel" startPc="268438361">
+<param id="device"/>
+<documentation><![CDATA[<div class="description"> Process a new device connection<br/> <div class="param"> device The device that was connected</div><br/></div>]]></documentation>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268438449" name="getActiveProfile" parent="DeviceDataModel" startPc="268438410">
+<documentation><![CDATA[<div class="description"> Get the active profile<br/> <div class="returns">Returns  The current profile, or null if no device connected</div><br/></div>]]></documentation>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268438490" name="pair" parent="DeviceDataModel" startPc="268438450">
+<documentation><![CDATA[<div class="description"> Pair the device associated with the current scan result<br/></div>]]></documentation>
+</functionEntry>
+<functionEntry accessMode="private" endPc="268438530" name="&lt;globals/DeviceDataModel/&lt;&gt;procDeviceConnected&gt;" parent="DeviceDataModel" startPc="268438491">
+<documentation><![CDATA[<div class="description"> Update the profile after a is device connected<br/></div>]]></documentation>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268438546" name="onMenu" parent="ScanDelegate" startPc="268438531">
+<documentation><![CDATA[<div class="description"> Handle menu button press<br/> <div class="returns">Returns  true if handled, false otherwise</div><br/></div>]]></documentation>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268438562" name="onPreviousPage" parent="ScanDelegate" startPc="268438547">
+<documentation><![CDATA[<div class="description"> Handle previous page behavior<br/> <div class="returns">Returns  true if handled, false otherwise</div><br/></div>]]></documentation>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268438595" name="initialize" parent="ScanDelegate" startPc="268438563">
+<param id="scanDataModel"/>
+<param id="viewController"/>
+<documentation><![CDATA[<div class="description"> Constructor<br/> <div class="param"> scanDataModel The model containing the scan results</div><br/> <div class="param"> viewController Object that controls pushing new views</div><br/></div>]]></documentation>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268438638" name="onSelect" parent="ScanDelegate" startPc="268438596">
+<documentation><![CDATA[<div class="description"> Handle the select action<br/> <div class="returns">Returns  true if handled, false otherwise</div><br/></div>]]></documentation>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268438654" name="onNextPage" parent="ScanDelegate" startPc="268438639">
+<documentation><![CDATA[<div class="description"> Handle next page behavior<br/> <div class="returns">Returns  true if handled, false otherwise</div><br/></div>]]></documentation>
+</functionEntry>
+<functionEntry accessMode="private" endPc="268439057" name="&lt;globals/DeviceView/&lt;&gt;drawCustomData&gt;" parent="DeviceView" startPc="268438655">
+<param id="dc"/>
+<param id="customData"/>
+<documentation><![CDATA[<div class="description"> Update the screen with the data received<br/> <div class="param"> dc Device context</div><br/> <div class="param"> customData The custom data</div><br/></div>]]></documentation>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268439424" name="drawButtons" parent="DeviceView" startPc="268439058">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="private" endPc="268439627" name="&lt;globals/DeviceView/&lt;&gt;setButtonPositions&gt;" parent="DeviceView" startPc="268439425">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268439830" name="setGpioState" parent="DeviceView" startPc="268439628">
+<param id="gpio"/>
+<param id="on"/>
+<documentation><![CDATA[<div class="description"> <div class="param"> gpio indicates which gpio to set</div><br/> <div class="param"> on set to true to turn the gpio on, false to turn it off</div><br/></div>]]></documentation>
+</functionEntry>
+<functionEntry accessMode="private" endPc="268440101" name="&lt;globals/DeviceView/&lt;&gt;storeGpioData&gt;" parent="DeviceView" startPc="268439831">
+<param id="gpioData"/>
+<documentation><![CDATA[<div class="description"> <div class="param"> gpioData The GPIO data</div><br/></div>]]></documentation>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268440458" name="onTapEvent" parent="DeviceView" startPc="268440102">
+<param id="x"/>
+<param id="y"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268440534" name="initialize" parent="DeviceView" startPc="268440459">
+<param id="dataModel"/>
+<documentation><![CDATA[<div class="description"> Constructor<br/> <div class="param"> dataModel The data to show</div><br/></div>]]></documentation>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268440809" name="onUpdate" parent="DeviceView" startPc="268440535">
+<param id="dc"/>
+<documentation><![CDATA[<div class="description"> Update the view<br/> <div class="param"> dc Device Context</div><br/></div>]]></documentation>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268441004" name="drawInputGpioText" parent="DeviceView" startPc="268440810">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268441146" name="onCharacteristicChanged" parent="EnvironmentProfileModel" startPc="268441005">
+<param id="char"/>
+<param id="data"/>
+<documentation><![CDATA[<div class="description"> Handle a characteristic being changed<br/> <div class="param"> char The characteristic that changed</div><br/> <div class="param"> data The updated data of the characteristic</div><br/></div>]]></documentation>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268441175" name="getGpioDataByteArray" parent="EnvironmentProfileModel" startPc="268441147">
+<documentation><![CDATA[<div class="description"> Get the custom GPIO data ByteArray<br/> <div class="returns">Returns  The custom GPIO data ByteArray</div><br/></div>]]></documentation>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268441199" name="writeGpioDataByteArray" parent="EnvironmentProfileModel" startPc="268441176">
+<param id="writeGpioDataByteArray"/>
+<documentation><![CDATA[<div class="description"> Update the GPIO data by writing to the BLE characteristic<br/></div>]]></documentation>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268441240" name="onDescriptorWrite" parent="EnvironmentProfileModel" startPc="268441200">
+<param id="descriptor"/>
+<param id="status"/>
+<documentation><![CDATA[<div class="description"> Handle the completion of a write operation on a descriptor<br/> <div class="param"> descriptor The descriptor that was written</div><br/> <div class="param"> status The BluetoothLowEnergy status indicating the result of the operation</div><br/></div>]]></documentation>
+</functionEntry>
+<functionEntry accessMode="private" endPc="268441305" name="&lt;globals/EnvironmentProfileModel/&lt;&gt;processCustomData&gt;" parent="EnvironmentProfileModel" startPc="268441241">
+<param id="data"/>
+<documentation><![CDATA[<div class="description"> Process and set the custom data<br/> <div class="param"> data The new custom data</div><br/></div>]]></documentation>
+</functionEntry>
+<functionEntry accessMode="private" endPc="268441495" name="&lt;globals/EnvironmentProfileModel/&lt;&gt;processLedData&gt;" parent="EnvironmentProfileModel" startPc="268441306">
+<param id="data"/>
+<documentation><![CDATA[<div class="description"> Process and set the custom data processLedData<br/> <div class="param"> data The new custom data</div><br/></div>]]></documentation>
+</functionEntry>
+<functionEntry accessMode="private" endPc="268441622" name="&lt;globals/EnvironmentProfileModel/&lt;&gt;activateNextNotification&gt;" parent="EnvironmentProfileModel" startPc="268441496">
+<documentation><![CDATA[<div class="description"> Write the next notification to the descriptor<br/></div>]]></documentation>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268441651" name="getCustomDataByteArray" parent="EnvironmentProfileModel" startPc="268441623">
+<documentation><![CDATA[<div class="description"> Get the custom data ByteArray<br/> <div class="returns">Returns  The custom data ByteArray</div><br/></div>]]></documentation>
+</functionEntry>
+<functionEntry accessMode="private" endPc="268441753" name="&lt;globals/EnvironmentProfileModel/&lt;&gt;processCccdWrite&gt;" parent="EnvironmentProfileModel" startPc="268441652">
+<documentation><![CDATA[<div class="description"> Process a CCCD write operation<br/></div>]]></documentation>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268441975" name="initialize" parent="EnvironmentProfileModel" startPc="268441754">
+<param id="delegate"/>
+<param id="profileManager"/>
+<param id="device"/>
+<param id="phoneComm"/>
+<documentation><![CDATA[<div class="description"> Constructor<br/> <div class="param"> delegate The BLE delegate for the model</div><br/> <div class="param"> profileManager The profile manager for this model</div><br/> <div class="param"> device The current device</div><br/></div>]]></documentation>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268442063" name="getScanDataModel" parent="DataModelFactory" startPc="268441976">
+<documentation><![CDATA[<div class="description"> Get a scan data model instance<br/> <div class="returns">Returns  The current scan data model or a new one</div><br/></div>]]></documentation>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268442071" name="GetPhoneCommunication" parent="DataModelFactory" startPc="268442064">
+<documentation><![CDATA[<div class="description"> Get the PhoneCommunication instance<br/> <div class="returns">Returns  The current PhoneCommunication instance</div><br/></div>]]></documentation>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268442101" name="initialize" parent="DataModelFactory" startPc="268442072">
+<param id="delegate"/>
+<param id="profileManager"/>
+<param id="phoneComm"/>
+<documentation><![CDATA[<div class="description"> Constructor<br/> <div class="param"> delegate The BLE delegate to use for the models</div><br/> <div class="param"> profileManager The profile manager to use for a profile model</div><br/></div>]]></documentation>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268442192" name="getDeviceDataModel" parent="DataModelFactory" startPc="268442102">
+<param id="scanResult"/>
+<documentation><![CDATA[<div class="description"> Get a device data model instance<br/> <div class="param"> scanResult The scan result to use for a new model</div><br/> <div class="returns">Returns  The current device data model or a new one</div><br/></div>]]></documentation>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268442292" name="getEnvironmentModel" parent="DataModelFactory" startPc="268442193">
+<param id="device"/>
+<documentation><![CDATA[<div class="description"> Get a environment profile model instance<br/> <div class="param"> device The device to use for a new model</div><br/> <div class="returns">Returns  The current environment profile model or a new one</div><br/></div>]]></documentation>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268442323" name="onBack" parent="DeviceDelegate" startPc="268442293">
+<documentation><![CDATA[<div class="description"> Handle the back behavior<br/> <div class="returns">Returns  true if handled, false otherwise</div><br/></div>]]></documentation>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268442368" name="initialize" parent="DeviceDelegate" startPc="268442324">
+<param id="deviceDataModel"/>
+<param id="parentView"/>
+<documentation><![CDATA[<div class="description"> Constructor<br/> <div class="param"> deviceDataModel The device data model</div><br/></div>]]></documentation>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268442456" name="onTap" parent="DeviceDelegate" startPc="268442369">
+<param id="clickEvent"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268442642" name="onStart" parent="DukeSampleApp" startPc="268442457">
+<param id="state"/>
+<documentation><![CDATA[<div class="description"> Handle app startup<br/> <div class="param"> state Startup arguments</div><br/></div>]]></documentation>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268442656" name="getInitialView" parent="DukeSampleApp" startPc="268442643">
+<documentation><![CDATA[<div class="description"> Return the initial views for the app<br/> <div class="returns">Returns  Array Pair [View, InputDelegate]</div><br/></div>]]></documentation>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268442700" name="initialize" parent="DukeSampleApp" startPc="268442657">
+<documentation><![CDATA[<div class="description"> Constructor<br/></div>]]></documentation>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268442735" name="onStop" parent="DukeSampleApp" startPc="268442701">
+<param id="state"/>
+<documentation><![CDATA[<div class="description"> Handle app shutdown<br/> <div class="param"> state Shutdown arguments</div><br/></div>]]></documentation>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268442747" name="&lt;init&gt;" parent="MainMenu" startPc="268442736">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268442852" name="initialize" parent="MainMenu" startPc="268442748">
+<documentation/>
+</functionEntry>
+</functions>
+</debugInfo>
