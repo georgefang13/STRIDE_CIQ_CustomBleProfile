@@ -25,18 +25,29 @@ class BluetoothDelegate extends BluetoothLowEnergy.BleDelegate {
 
     //! Handle new scan results being received
     //! @param scanResults An iterator of new scan results
-    public function onScanResults(scanResults as Iterator) as Void {
-        System.println("BLE: onScanResults");
-        for (var result = scanResults.next(); result != null; result = scanResults.next()) {
-            if (result instanceof ScanResult) {
-                System.println("BLE: Result is a scan result  " + result.getDeviceName());
-                if (contains(result.getServiceUuids(), _profileManager.DUKE_CUSTOM_SERVICE)) {
-                    System.println("BLE: Found custom service, calling broadcast");
-                    broadcastScanResult(result);
+public function onScanResults(scanResults as Iterator) as Void {
+    System.println("BLE: onScanResults");
+    for (var result = scanResults.next(); result != null; result = scanResults.next()) {
+        if (result instanceof ScanResult) {
+            System.println("BLE: Found device " + result.getDeviceName());
+            var test = result.getServiceUuids();
+            if (test != null) {
+                System.println("Service UUIDs:"); 
+                for (var uuid = test.next(); uuid != null; uuid = test.next()) { 
+                    System.println(" " + uuid); 
                 }
+            }
+            else { 
+                System.println("No service UUIDs found for this device"); 
+            }
+
+            if (contains(result.getServiceUuids(), _profileManager.STRIDE_SERVICE)) {
+                System.println("BLE: Found STRIDE service, broadcasting scan result");
+                broadcastScanResult(result);
             }
         }
     }
+}
 
     //! Handle pairing and connecting to a device
     //! @param device The device state that was changed
@@ -67,16 +78,27 @@ class BluetoothDelegate extends BluetoothLowEnergy.BleDelegate {
     //! Handle a characteristic being changed
     //! @param char The characteristic that changed
     //! @param value The updated value of the characteristic
-    public function onCharacteristicChanged(char as Characteristic, value as ByteArray) as Void {
-        System.println("BLE: onCharacteristicChanged: " + char);
-        var onCharChanged = _onCharChanged;
-        if (null != onCharChanged) {
-            if (onCharChanged.stillAlive()) {
-                (onCharChanged.get() as EnvironmentProfileModel).onCharacteristicChanged(char, value);
-            }
-        }
+public function onCharacteristicChanged(char as Characteristic, data as ByteArray) as Void {
+    switch (char.getUuid()) {
+        case _profileManager.STRIDE_CHARACTERISTIC:
+            System.println("Size of packet: " + data.size().toString());
+            System.println("Received data from ESP32: " + data);
+            processEsp32Data(data);
+            break;
+    }
+}
+
+    private var incrementval as Number = 0;
+
+    private function processEsp32Data(data as ByteArray) as Void {
+        incrementval =  ((data[0] & 0xFF)|((data[1]&0xFF)<<8)|((data[2]&0xFF)<<16)|((data[3]&0xFF)<<24));
+        System.println("ESP32 Data: " +incrementval.toString());
+        WatchUi.requestUpdate();
     }
 
+    public function getData() as Number{
+        return incrementval;
+    }
     //! Callback after Characteristic.requestWrite() is complete
     public function onCharacteristicWrite(char as Characteristic, status as BluetoothLowEnergy.Status) as Void {
         System.println("BLE: onCharacteristicWrite: " + char + " status = " + status);
@@ -139,7 +161,7 @@ class BluetoothDelegate extends BluetoothLowEnergy.BleDelegate {
     //! Broadcast a new scan result
     //! @param scanResult The new scan result
     private function broadcastScanResult(scanResult as ScanResult) as Void {
-        System.println("BLE: broadcastScanResult");
+        System.println("BLE: WE FOUND OUR DEVICE");
         var onScanResult = _onScanResult;
         if (null != onScanResult) {
             if (onScanResult.stillAlive()) {

@@ -269,14 +269,14 @@ class DeviceView extends WatchUi.View {
             gpioDataUpdated = true;
         }
 
-        if (gpioDataUpdated) {
-            var profile = mDataModel.getActiveProfile();
-            if (mDataModel.isConnected() && profile != null) {
-                profile.writeGpioDataByteArray(mGpioDataByteArray);
-            }
+        // if (gpioDataUpdated) {
+        //     var profile = mDataModel.getActiveProfile();
+        //     if (mDataModel.isConnected() && profile != null) {
+        //         profile.writeGpioDataByteArray(mGpioDataByteArray);
+        //     }
 
-            WatchUi.requestUpdate();
-        }
+        //     WatchUi.requestUpdate();
+        // }
     }
 
     // Call this function to set a GPIO state. The new state is compared to the
@@ -302,7 +302,7 @@ class DeviceView extends WatchUi.View {
             var profile = mDataModel.getActiveProfile();
             if (mDataModel.isConnected() && profile != null) {
                 System.println("DeviceView::setGpioState gpio=" + gpio + "on=" + (on ? "yes": "no"));
-                profile.writeGpioDataByteArray(mGpioDataByteArray);
+                // profile.writeGpioDataByteArray(mGpioDataByteArray);
             }
             WatchUi.requestUpdate();
         }        

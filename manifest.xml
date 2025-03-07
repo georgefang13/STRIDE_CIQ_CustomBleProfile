@@ -4,9 +4,6 @@
     <iq:application entry="DukeSampleApp" id="0216938f8dbc40fcb7e697ed45a0fb1b" launcherIcon="@Drawables.Launcher" minSdkVersion="2.4.0" name="@Strings.AppName" type="watch-app" version="0.0.0">
         <iq:products>
             <iq:product id="fr265"/>
-            <iq:product id="fr265s"/>
-            <iq:product id="venu2"/>
-            <iq:product id="venu2s"/>
         </iq:products>
         <iq:permissions>
             <iq:uses-permission id="BluetoothLowEnergy"/>

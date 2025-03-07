@@ -13,7 +13,7 @@ class EnvironmentProfileModel {
     private var _service as Service?;
     private var _profileManager as ProfileManager;
     private var _pendingNotifies as Array<Characteristic>;
-    private var _GpioCharacteristic as Characteristic;
+    // private var _GpioCharacteristic as Characteristic;
     private var _BluetoothDelegate as BluetoothDelegate;
     private var _PhoneCommunication as PhoneCommunication;
 
@@ -30,9 +30,7 @@ class EnvironmentProfileModel {
         _BluetoothDelegate.notifyCharacteristicChanged(self);
 
         _profileManager = profileManager;
-        _service = device.getService(profileManager.DUKE_CUSTOM_SERVICE);
-        _GpioCharacteristic = _service.getCharacteristic(_profileManager.DUKE_GPIO_CHARACTERISTIC);
-
+        _service = device.getService(profileManager.STRIDE_SERVICE);
         _PhoneCommunication = phoneComm;
 
         _pendingNotifies = [] as Array<Characteristic>;
@@ -57,14 +55,14 @@ class EnvironmentProfileModel {
     //! @param data The updated data of the characteristic
     public function onCharacteristicChanged(char as Characteristic, data as ByteArray) as Void {
         switch (char.getUuid()) {
-            case _profileManager.DUKE_CUSTOM_CHARACTERISTIC:
-                System.println("onCharacteristicChanged(), DUKE_CUSTOM_CHARACTERISTIC, data.size()=" + data.size());
+            case _profileManager.STRIDE_CHARACTERISTIC:
+                System.println("onCharacteristicChanged(), STRIDE_CHARACTERISTIC, data.size()=" + data.size());
                 processCustomData(data);
                 break;
-            case _profileManager.DUKE_GPIO_CHARACTERISTIC:
-                System.println("onCharacteristicChanged(), DUKE_GPIO_CHARACTERISTIC, data.size()=" + data.size());
-                processLedData(data);
-                break;
+            // case _profileManager.DUKE_GPIO_CHARACTERISTIC:
+            //     System.println("onCharacteristicChanged(), DUKE_GPIO_CHARACTERISTIC, data.size()=" + data.size());
+            //     processLedData(data);
+            //     break;
         }
     }
 
@@ -96,9 +94,9 @@ class EnvironmentProfileModel {
     }
 
     //! Update the GPIO data by writing to the BLE characteristic
-    public function writeGpioDataByteArray(writeGpioDataByteArray as ByteArray) as Void {
-        _BluetoothDelegate.queueCharacteristicWrite(_GpioCharacteristic, writeGpioDataByteArray);
-    }
+    // public function writeGpioDataByteArray(writeGpioDataByteArray as ByteArray) as Void {
+    //     _BluetoothDelegate.queueCharacteristicWrite(_GpioCharacteristic, writeGpioDataByteArray);
+    // }
 
     //! Write the next notification to the descriptor
     private function activateNextNotification() as Void {

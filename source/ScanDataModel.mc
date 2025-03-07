@@ -35,8 +35,10 @@ class ScanDataModel {
         // Determine if this is a new Device
         for (var i = 0; i < _scanResults.size(); i++) {
             if (scanResult.isSameDevice(_scanResults[i])) {
+                if (scanResult.getDeviceName() != null){
+                    _scanResults[i] = scanResult;
+                }
                 newDevice = false;
-                _scanResults[i] = scanResult;
                 break;
             }
         }
