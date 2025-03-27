@@ -83,22 +83,26 @@ public function onCharacteristicChanged(char as Characteristic, data as ByteArra
         case _profileManager.STRIDE_CHARACTERISTIC:
             System.println("Size of packet: " + data.size().toString());
             System.println("Received data from ESP32: " + data);
-            processEsp32Data(data);
+            decodeStepData(data.slice(0,4)); // step part 1
+            decodeStepData(data.slice(4,8)); // step part 2
+            decodeStepData(data.slice(8,12)); // step part 3
             break;
     }
 }
 
-    private var incrementval as Number = 0;
-
-    private function processEsp32Data(data as ByteArray) as Void {
-        incrementval =  ((data[0] & 0xFF)|((data[1]&0xFF)<<8)|((data[2]&0xFF)<<16)|((data[3]&0xFF)<<24));
-        System.println("ESP32 Data: " +incrementval.toString());
-        WatchUi.requestUpdate();
+private function decodeStepData(bytes as ByteArray) as Array<Number> {
+    var values = [] as Array<Number>;
+    for (var i = 0; i < 4; i++) {
+        var b = bytes[i];
+        var highNibble = (b >> 4) & 0xF;
+        var lowNibble = b & 0xF;
+        values.add(highNibble);
+        values.add(lowNibble);
     }
+    System.println(values);
+    return values;
+}
 
-    public function getData() as Number{
-        return incrementval;
-    }
     //! Callback after Characteristic.requestWrite() is complete
     public function onCharacteristicWrite(char as Characteristic, status as BluetoothLowEnergy.Status) as Void {
         System.println("BLE: onCharacteristicWrite: " + char + " status = " + status);

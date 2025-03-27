@@ -59,10 +59,6 @@ class EnvironmentProfileModel {
                 System.println("onCharacteristicChanged(), STRIDE_CHARACTERISTIC, data.size()=" + data.size());
                 processCustomData(data);
                 break;
-            // case _profileManager.DUKE_GPIO_CHARACTERISTIC:
-            //     System.println("onCharacteristicChanged(), DUKE_GPIO_CHARACTERISTIC, data.size()=" + data.size());
-            //     processLedData(data);
-            //     break;
         }
     }
 

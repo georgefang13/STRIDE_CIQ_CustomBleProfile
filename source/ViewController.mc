@@ -19,9 +19,14 @@ class ViewController {
 
     //! Return the initial views for the app
     //! @return Array Pair [View, InputDelegate]
-    public function getInitialView() as [ScanView] or [ScanView, ScanDelegate] {
+    // public function getInitialView() as [ScanView] or [ScanView, ScanDelegate] {
+    //     var scanDataModel = _modelFactory.getScanDataModel();
+    //     return [new $.ScanView(scanDataModel), new $.ScanDelegate(scanDataModel, self)];
+    // }
+
+    public function getInitialView() as [MainView] or [MainView, MainViewDelegate] {
         var scanDataModel = _modelFactory.getScanDataModel();
-        return [new $.ScanView(scanDataModel), new $.ScanDelegate(scanDataModel, self)];
+        return [new $.MainView(scanDataModel), new $.MainViewDelegate(scanDataModel,self)];
     }
 
     //! Push the scan menu view (hold menu button to push this view)
