@@ -188,5 +188,7 @@ private function decodeStepData(bytes as ByteArray) as Array<Number> {
         return false;
     }
 
+    
+
 
 }

@@ -24,6 +24,7 @@ class MainViewDelegate extends WatchUi.BehaviorDelegate {
     //! Handle menu button press
     //! @return true if handled, false otherwise
     public function onMenu() as Boolean {
+        System.println("Pressed up button!");
         _viewController.pushScanMenu();
         return true;
     }
@@ -33,8 +34,10 @@ class MainViewDelegate extends WatchUi.BehaviorDelegate {
     public function onSelect() as Boolean {
         var displayResult = _scanDataModel.getDisplayResult();
         if (null != displayResult) {
-            _viewController.pushDeviceView(displayResult);
+            _viewController.pushDataView(displayResult);
+            BluetoothLowEnergy.setScanState(BluetoothLowEnergy.SCAN_STATE_OFF);
         }
+
         return true;
     }
 

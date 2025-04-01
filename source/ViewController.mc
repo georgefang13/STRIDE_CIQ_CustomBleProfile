@@ -34,13 +34,22 @@ class ViewController {
         WatchUi.pushView(new $.Rez.Menus.MainMenu(), new $.ScanMenuDelegate(), WatchUi.SLIDE_UP);
     }
 
-    //! Push the device view
+    //! Push the device view (OLD WE ARE CHANGING THIS TO DATA VIEW)
     //! @param scanResult The scan result for the device view to push
-    public function pushDeviceView(scanResult as ScanResult) as Void {
-        var deviceDataModel = _modelFactory.getDeviceDataModel(scanResult);
-        var deviceView = new $.DeviceView(deviceDataModel);
-        _modelFactory.GetPhoneCommunication().setDeviceView(deviceView);
+    // public function pushDeviceView(scanResult as ScanResult) as Void {
+    //     var deviceDataModel = _modelFactory.getDeviceDataModel(scanResult);
+    //     var deviceView = new $.DeviceView(deviceDataModel);
+    //     _modelFactory.GetPhoneCommunication().setDeviceView(deviceView);
 
-        WatchUi.pushView(deviceView, new $.DeviceDelegate(deviceDataModel, deviceView), WatchUi.SLIDE_UP);
+    //     WatchUi.pushView(deviceView, new $.DeviceDelegate(deviceDataModel, deviceView), WatchUi.SLIDE_UP);
+    // }
+
+
+    public function pushDataView(scanResult as ScanResult) as Void {
+        var deviceDataModel = _modelFactory.getDeviceDataModel(scanResult);
+        var dataView = new $.DataView(deviceDataModel);
+        _modelFactory.GetPhoneCommunication().setDeviceView(dataView);
+
+        WatchUi.pushView(dataView, new $.DataDelegate(deviceDataModel, dataView, self), WatchUi.SLIDE_UP);
     }
 }

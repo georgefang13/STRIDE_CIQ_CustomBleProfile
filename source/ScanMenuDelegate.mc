@@ -12,6 +12,7 @@ class ScanMenuDelegate extends WatchUi.MenuInputDelegate {
 
     //! Constructor
     public function initialize() {
+        System.println("We are in the scan menu!");
         MenuInputDelegate.initialize();
     }
 

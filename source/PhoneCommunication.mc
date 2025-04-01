@@ -25,7 +25,7 @@ class CommListener extends Communications.ConnectionListener {
 
 class PhoneCommunication {
     //  private var _deviceDataModel as DeviceDataModel?;
-    private var _deviceView as DeviceView?;
+    private var _dataView as DataView?;
     private var _isSimulator = false;
     private var msgFromPhoneMethod;
 
@@ -63,9 +63,9 @@ class PhoneCommunication {
         // might should be ignored. Adding a timestamp or a sequence number to the message might help.        
     }
 
-    function setDeviceView(dv as DeviceView) as Void {
+    function setDeviceView(dv as DataView) as Void {
         System.println("PhoneCommunication::setDeviceView");
-        _deviceView = dv;
+        _dataView = dv;
     }
 
     // Send a message to the application running on the phone

@@ -46,7 +46,7 @@ class ScanDataModel {
         if (newDevice) {
             _scanResults.add(scanResult);
         }
-
+        System.println("We are running on update again!");
         WatchUi.requestUpdate();
     }
 
