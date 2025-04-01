@@ -37,12 +37,12 @@ class ScanView extends WatchUi.View {
     public function onUpdate(dc as Dc) as Void {
         var displayResult = _scanDataModel.getDisplayResult();
 
-        var title = "BLE Scan\nResults";
+        var title = "";
         var subtext = "";
 
         if(!_scanDataModel.isScanning()) {
             // Update the next line of code to modify what is displayed on the watch
-            subtext = "Hold Menu Button\nto View Scan Menu\n I was TESTING";
+            subtext = "STRIDE \n Hold UP to scan";
         } else if (null != displayResult) {
             subtext = "Tap to Connect\nDevice: " + _scanDataModel.getDisplayIndex() + "/" + _scanDataModel.getResultCount() + "\nName:" + displayResult.getDeviceName() + "\nRSSI: " + displayResult.getRssi() + " dbm";
         } else {
