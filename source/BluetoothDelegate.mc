@@ -83,6 +83,14 @@ public function onCharacteristicChanged(char as Characteristic, data as ByteArra
         case _profileManager.STRIDE_CHARACTERISTIC:
             System.println("Size of packet: " + data.size().toString());
             System.println("Received data from ESP32: " + data);
+            WatchUi.requestUpdate();
+
+            // Forward to the model (add this code)
+            var onCharChanged = _onCharChanged;
+            if (null != onCharChanged && onCharChanged.stillAlive()) {
+                (onCharChanged.get() as EnvironmentProfileModel).onCharacteristicChanged(char, data);
+            }
+
             decodeStepData(data.slice(0,4)); // step part 1
             decodeStepData(data.slice(4,8)); // step part 2
             decodeStepData(data.slice(8,12)); // step part 3
