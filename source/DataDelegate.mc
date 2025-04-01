@@ -15,6 +15,8 @@ class DataDelegate extends WatchUi.BehaviorDelegate {
         _deviceDataModel = deviceDataModel;
         _parentView = parentView;
         _viewController = viewController;
+        _deviceDataModel.pair();
+
     }
 
     //! Handle back button press
