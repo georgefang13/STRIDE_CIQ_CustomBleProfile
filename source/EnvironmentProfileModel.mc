@@ -54,7 +54,6 @@ class EnvironmentProfileModel {
     //! @param char The characteristic that changed
     //! @param data The updated data of the characteristic
     public function onCharacteristicChanged(char as Characteristic, data as ByteArray) as Void {
-        System.println("huge pooooop");
         switch (char.getUuid()) {
             case _profileManager.STRIDE_CHARACTERISTIC:
                 System.println("onCharacteristicChanged(), STRIDE_CHARACTERISTIC, data.size()=" + data.size());
