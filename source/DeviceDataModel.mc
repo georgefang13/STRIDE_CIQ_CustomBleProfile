@@ -13,6 +13,7 @@ class DeviceDataModel {
     private var _device as Device?;
     private var _environmentProfile as EnvironmentProfileModel?;
     private var _dataModelFactory as DataModelFactory;
+    private var _dataPageIndex as Integer;
 
     //! Constructor
     //! @param bleDelegate The BLE delegate for the model
@@ -26,6 +27,7 @@ class DeviceDataModel {
 
         _device = null;
         _environmentProfile = null;
+        _dataPageIndex = 0;
     }
 
     //! Process a new device connection
@@ -84,4 +86,12 @@ class DeviceDataModel {
             _environmentProfile = _dataModelFactory.getEnvironmentModel(_device);
         }
     }
+
+    public function getDataPageIndex() as Integer {
+        return _dataPageIndex;
+    }
+    public function setDataPageIndex(index as Integer) as Void {
+        _dataPageIndex = index;
+    }
+    
 }

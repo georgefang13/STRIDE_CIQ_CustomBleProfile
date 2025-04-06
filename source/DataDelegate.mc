@@ -44,6 +44,25 @@ class DataDelegate extends WatchUi.BehaviorDelegate {
         return true;
     }
 
+    public function onSwipe(_swipeEvent) as Boolean {
+        
+        if (_swipeEvent.getDirection() == WatchUi.SWIPE_UP) {
+            System.println("Swiped up on DataView!");
+            //set a page index variable
+            _deviceDataModel.setDataPageIndex(1);
+            WatchUi.requestUpdate();
+            return true;
+        } else if (_swipeEvent.getDirection() == WatchUi.SWIPE_DOWN) {
+            System.println("Swiped down on DataView!");
+            // If on the second page, stop the session
+            _deviceDataModel.setDataPageIndex(0);
+            WatchUi.requestUpdate();
+            return true;
+        }
+
+        return false;
+    }
+
     // ! Handle menu button press
     // ! @return true if handled, false otherwise
     // public function onMenu() as Boolean {

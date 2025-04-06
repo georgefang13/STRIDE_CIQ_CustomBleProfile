@@ -52,6 +52,6 @@ class ViewController {
         _modelFactory.GetPhoneCommunication().setDeviceView(dataView);
   
 
-        WatchUi.pushView(dataView, new $.DataDelegate(sessionMgr, deviceDataModel, dataView, self), WatchUi.SLIDE_UP);
+        WatchUi.pushView(dataView, new $.DataDelegate(sessionMgr,deviceDataModel, dataView, self), WatchUi.SLIDE_UP);
     }
 }

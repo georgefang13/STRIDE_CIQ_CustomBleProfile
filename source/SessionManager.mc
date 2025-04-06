@@ -12,27 +12,27 @@ class SessionManager {
         System.println(myTime.hour.format("%02d") + ":" + myTime.min.format("%02d") + ":" + myTime.sec.format("%02d"));
         _currentSession = {
             :startTime => myTime.hour.format("%02d") + ":" + myTime.min.format("%02d") + ":" + myTime.sec.format("%02d"),
-            :heelData  => [] as Array<String>,
-            :middleData => [] as Array<String>,
-            :toeData   => [] as Array<String>
+            :landData  => [] as Array<String>,
+            :loadData => [] as Array<String>,
+            :launchData   => [] as Array<String>
         };
         
         System.println("Session started at " + _currentSession[:startTime]);
     }
 
     //! Add a new reading to the current session
-    //! Each reading is an array of 8 numbers for heel, middle, or toe pressure.
-    public function addReading(heel as Array<Number>, middle as Array<Number>, toe as Array<Number>) as Void {
+    //! Each reading is an array of 8 numbers for land, load, or launch pressure.
+    public function addReading(land as Array<Number>, load as Array<Number>, launch as Array<Number>) as Void {
         if (_currentSession == null) {
             System.println("No session started. Call startSession() first.");
             return;
         }
-        _currentSession[:heelData].add("heelTest");
-        _currentSession[:middleData].add("middleTest");
-        _currentSession[:toeData].add("toeTest");
-        System.println("Added reading, heel data: " + heel.toString());
-        System.println("Added reading, middle data: " + middle.toString());
-        System.println("Added reading, toe data: " + toe.toString());
+        _currentSession[:landData].add("landTest");
+        _currentSession[:loadData].add("loadTest");
+        _currentSession[:launchData].add("launchTest");
+        System.println("Added reading, land data: " + land.toString());
+        System.println("Added reading, load data: " + load.toString());
+        System.println("Added reading, launch data: " + launch.toString());
     }
 
     //! Save the current session to persistent storage

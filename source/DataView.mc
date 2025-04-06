@@ -21,53 +21,76 @@ class DataView extends WatchUi.View {
     //! @param dc Device context
     public function onUpdate(dc as Dc) as Void {
         System.println("onUpdate()");
-
         // Clear the screen first
         dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_BLACK);
         dc.clear();
-        
-        // Check connection and profile
-        var isConnected = _deviceDataModel.isConnected();
-        var profile = _deviceDataModel.getActiveProfile();
-        System.println("isConnected: " + isConnected);
-        System.println("profile: " + profile);
-        
-        if (isConnected && (profile != null)) {
-            var customData = profile.getCustomDataByteArray();
-            System.println("Data: " + customData);
-            // Draw heat map using the heel (first step) data
-            drawCustomData(dc, customData);
-        }
-        else {
+
+        //first data page
+        if(_deviceDataModel.getDataPageIndex()==0){
+            // Check connection and profile
+            var isConnected = _deviceDataModel.isConnected();
+            var profile = _deviceDataModel.getActiveProfile();
+            System.println("isConnected: " + isConnected);
+            System.println("profile: " + profile);
+            
+            if (isConnected && (profile != null)) {
+                var customData = profile.getCustomDataByteArray();
+                System.println("Data: " + customData);
+                // Draw heat map using the land (first step) data
+                drawCustomData(dc, customData);
+                //draw circles on side
+                dc.setColor(Graphics.COLOR_BLUE, Graphics.COLOR_TRANSPARENT);
+                dc.fillCircle(30,200,6);
+                dc.fillCircle(30,220,4);
+            }
+            else {
+                var screenWidth = dc.getWidth();
+                var screenHeight = dc.getHeight();
+                var strideY = screenHeight * 0.35;
+                dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
+                dc.drawText(screenWidth / 2, strideY, Graphics.FONT_LARGE, "Connecting...", Graphics.TEXT_JUSTIFY_CENTER);
+            }
+        } else {
+            // draw text on the screen saying Hi Page 2
             var screenWidth = dc.getWidth();
             var screenHeight = dc.getHeight();
             var strideY = screenHeight * 0.35;
             dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
-            dc.drawText(screenWidth / 2, strideY, Graphics.FONT_LARGE, "Connecting...", Graphics.TEXT_JUSTIFY_CENTER);
+            dc.drawText(screenWidth / 2, strideY, Graphics.FONT_LARGE, "Hi Page 2", Graphics.TEXT_JUSTIFY_CENTER);
+            dc.setColor(Graphics.COLOR_BLUE, Graphics.COLOR_TRANSPARENT);
+            dc.fillCircle(30,200,4);
+            dc.fillCircle(30,220,6);
         }
     }
 
     private function drawCustomData(dc as Dc, customData as ByteArray?) as Void {
         System.println("draw custom data function");
         if (customData != null) {
-            var heel = decodeStepData(customData.slice(0, 4)); // step part 1
-            var middle = decodeStepData(customData.slice(4, 8)); // step part 2
-            var toe = decodeStepData(customData.slice(8, 12)); // step part 3
+            System.print("Land");
+            var land = decodeStepData(customData.slice(0, 4)); // step part 1
+            System.print("Load");
+            var load = decodeStepData(customData.slice(4, 8)); // step part 2
+            System.print("Launch");
+            var launch = decodeStepData(customData.slice(8, 12)); // step part 3
             // Save the data to the session
-            _sessionMgr.addReading(heel, middle, toe);
+            _sessionMgr.addReading(land, load, launch);
 
 
-            drawHeatMap(dc, heel);
+            drawHeatMap(dc, land);
+            drawHeatMap(dc, load);
+            drawHeatMap(dc, launch);
+
+
 
 
             // var y =150; // Starting y-coordinate for drawing text
             // dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_BLACK);
 
-            // dc.drawText(10, y, Graphics.FONT_XTINY, "HEEL: " + heel.toString(), Graphics.TEXT_JUSTIFY_LEFT);
+            // dc.drawText(10, y, Graphics.FONT_XTINY, "land: " + land.toString(), Graphics.TEXT_JUSTIFY_LEFT);
             // y += 60; // Move down for the next line
-            // dc.drawText(10, y, Graphics.FONT_XTINY, "MIDDLE: " + middle.toString(), Graphics.TEXT_JUSTIFY_LEFT);
+            // dc.drawText(10, y, Graphics.FONT_XTINY, "load: " + load.toString(), Graphics.TEXT_JUSTIFY_LEFT);
             // y += 60; // Move down for the next line
-            // dc.drawText(10, y, Graphics.FONT_XTINY, "TOE: " + toe.toString(), Graphics.TEXT_JUSTIFY_LEFT);
+            // dc.drawText(10, y, Graphics.FONT_XTINY, "launch: " + launch.toString(), Graphics.TEXT_JUSTIFY_LEFT);
         }
         else {
             var screenWidth = dc.getWidth();
