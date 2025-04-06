@@ -50,8 +50,14 @@ class ViewController {
         var sessionMgr = new $.SessionManager(deviceDataModel);       
         var dataView = new $.DataView(sessionMgr, deviceDataModel);
         _modelFactory.GetPhoneCommunication().setDeviceView(dataView);
-  
+        var scanDataModel = _modelFactory.getScanDataModel();
 
-        WatchUi.pushView(dataView, new $.DataDelegate(sessionMgr,deviceDataModel, dataView, self), WatchUi.SLIDE_UP);
+        WatchUi.pushView(dataView, new $.DataDelegate(scanDataModel, sessionMgr,deviceDataModel, dataView, self), WatchUi.SLIDE_UP);
+    }
+
+    public function pushAnalysisView(scanResult as ScanResult) as Void {
+        var deviceDataModel = _modelFactory.getDeviceDataModel(scanResult); 
+        var analysisView = new $.AnalysisView(deviceDataModel);
+        WatchUi.pushView(analysisView, new $.AnalysisDelegate(analysisView, self), WatchUi.SLIDE_UP);
     }
 }

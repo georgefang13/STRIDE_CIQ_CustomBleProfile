@@ -9,18 +9,19 @@ class DataDelegate extends WatchUi.BehaviorDelegate {
     private var _viewController as ViewController;
     private var _isSessionActive as Boolean = false;
     private var _sessionMgr as SessionManager;
+    private var _scanDataModel as ScanDataModel;
 
     //! Constructor
     //! @param deviceDataModel The device data model
     //! @param parentView The parent view
-    public function initialize(sessionMgr as SessionManager, deviceDataModel as DeviceDataModel, parentView as DataView, viewController as ViewController) {
+    public function initialize(scanDataModel as ScanDataModel, sessionMgr as SessionManager, deviceDataModel as DeviceDataModel, parentView as DataView, viewController as ViewController) {
         BehaviorDelegate.initialize();
         _deviceDataModel = deviceDataModel;
         _parentView = parentView;
         _viewController = viewController;
         _deviceDataModel.pair();
         _sessionMgr = sessionMgr;
-
+        _scanDataModel = scanDataModel;
     }
 
     // Example: Press the "Start" session on the START button, 
@@ -33,6 +34,8 @@ class DataDelegate extends WatchUi.BehaviorDelegate {
         }
         else{
             stopSession();
+            var scanResult = _scanDataModel.getDisplayResult();
+            _viewController.pushAnalysisView(scanResult);
         }
         return true;
     }
