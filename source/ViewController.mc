@@ -46,11 +46,12 @@ class ViewController {
 
 
     public function pushDataView(scanResult as ScanResult) as Void {
-        var deviceDataModel = _modelFactory.getDeviceDataModel(scanResult);
-        
-        var dataView = new $.DataView(deviceDataModel);
+        var deviceDataModel = _modelFactory.getDeviceDataModel(scanResult); 
+        var sessionMgr = new $.SessionManager();       
+        var dataView = new $.DataView(sessionMgr, deviceDataModel);
         _modelFactory.GetPhoneCommunication().setDeviceView(dataView);
+  
 
-        WatchUi.pushView(dataView, new $.DataDelegate(deviceDataModel, dataView, self), WatchUi.SLIDE_UP);
+        WatchUi.pushView(dataView, new $.DataDelegate(sessionMgr, deviceDataModel, dataView, self), WatchUi.SLIDE_UP);
     }
 }

@@ -6,13 +6,15 @@ using Toybox.System;
 
 class DataView extends WatchUi.View {
     private var _deviceDataModel as DeviceDataModel;
+    private var _sessionMgr as SessionManager;
 
     //! Constructor
     //! @param deviceDataModel The model containing the device data
-    public function initialize(deviceDataModel as DeviceDataModel) {
+    public function initialize(sessionMgr as SessionManager, deviceDataModel as DeviceDataModel) {
         View.initialize();
-        
         _deviceDataModel = deviceDataModel;
+        _sessionMgr = sessionMgr;
+
     }
 
     //! Update the view
@@ -49,8 +51,12 @@ class DataView extends WatchUi.View {
         System.println("draw custom data function");
         if (customData != null) {
             var heel = decodeStepData(customData.slice(0, 4)); // step part 1
-            // var middle = decodeStepData(customData.slice(4, 8)); // step part 2
-            // var toe = decodeStepData(customData.slice(8, 12)); // step part 3
+            var middle = decodeStepData(customData.slice(4, 8)); // step part 2
+            var toe = decodeStepData(customData.slice(8, 12)); // step part 3
+            // Save the data to the session
+            _sessionMgr.addReading(heel, middle, toe);
+
+
             drawHeatMap(dc, heel);
 
 
