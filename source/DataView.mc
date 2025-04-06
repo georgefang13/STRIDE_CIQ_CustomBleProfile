@@ -56,7 +56,9 @@ class DataView extends WatchUi.View {
             var screenHeight = dc.getHeight();
             var strideY = screenHeight * 0.35;
             dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
-            dc.drawText(screenWidth / 2, strideY, Graphics.FONT_LARGE, "Hi Page 2", Graphics.TEXT_JUSTIFY_CENTER);
+            dc.drawText(screenWidth / 2, strideY, Graphics.FONT_LARGE, "IMU Data", Graphics.TEXT_JUSTIFY_CENTER);
+            var currSession = _deviceDataModel.getCurrentSessionID();
+            System.println(Application.Storage.getValue(currSession));
             dc.setColor(Graphics.COLOR_BLUE, Graphics.COLOR_TRANSPARENT);
             dc.fillCircle(30,200,4);
             dc.fillCircle(30,220,6);

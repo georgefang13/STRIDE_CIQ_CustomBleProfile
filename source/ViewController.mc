@@ -47,7 +47,7 @@ class ViewController {
 
     public function pushDataView(scanResult as ScanResult) as Void {
         var deviceDataModel = _modelFactory.getDeviceDataModel(scanResult); 
-        var sessionMgr = new $.SessionManager();       
+        var sessionMgr = new $.SessionManager(deviceDataModel);       
         var dataView = new $.DataView(sessionMgr, deviceDataModel);
         _modelFactory.GetPhoneCommunication().setDeviceView(dataView);
   

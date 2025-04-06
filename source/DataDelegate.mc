@@ -85,4 +85,5 @@ class DataDelegate extends WatchUi.BehaviorDelegate {
         _sessionMgr.saveSession();
     }
 
+
 }

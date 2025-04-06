@@ -14,6 +14,7 @@ class DeviceDataModel {
     private var _environmentProfile as EnvironmentProfileModel?;
     private var _dataModelFactory as DataModelFactory;
     private var _dataPageIndex as Integer;
+    private var _currentSessionID as String;
 
     //! Constructor
     //! @param bleDelegate The BLE delegate for the model
@@ -28,6 +29,7 @@ class DeviceDataModel {
         _device = null;
         _environmentProfile = null;
         _dataPageIndex = 0;
+        _currentSessionID = "";
     }
 
     //! Process a new device connection
@@ -92,6 +94,13 @@ class DeviceDataModel {
     }
     public function setDataPageIndex(index as Integer) as Void {
         _dataPageIndex = index;
+    }
+
+    public function getCurrentSessionID() as String {
+        return _currentSessionID;
+    }
+    public function setCurrentSessionID(sessionID as String) as Void {
+        _currentSessionID = sessionID;
     }
     
 }
