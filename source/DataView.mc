@@ -52,16 +52,94 @@ class DataView extends WatchUi.View {
             }
         } else {
             // draw text on the screen saying Hi Page 2
-            var screenWidth = dc.getWidth();
-            var screenHeight = dc.getHeight();
-            var strideY = screenHeight * 0.35;
-            dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
-            dc.drawText(screenWidth / 2, strideY, Graphics.FONT_LARGE, "IMU Data", Graphics.TEXT_JUSTIFY_CENTER);
-            var currSession = _deviceDataModel.getCurrentSessionID();
-            System.println(Application.Storage.getValue(currSession));
+            // var screenWidth = dc.getWidth();
+            // var screenHeight = dc.getHeight();
+            // var strideY = screenHeight * 0.35;
+            // dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
+            // dc.drawText(screenWidth / 2, strideY, Graphics.FONT_LARGE, "IMU Data", Graphics.TEXT_JUSTIFY_CENTER);
+            // var currSession = _deviceDataModel.getCurrentSessionID();
+            // System.println(Application.Storage.getValue(currSession));
+
+            // Draw circles on side
             dc.setColor(Graphics.COLOR_BLUE, Graphics.COLOR_TRANSPARENT);
             dc.fillCircle(30,200,4);
             dc.fillCircle(30,220,6);
+
+            // Check connection and profile
+            var isConnected = _deviceDataModel.isConnected();
+            var profile = _deviceDataModel.getActiveProfile();
+            System.println("isConnected: " + isConnected);
+            System.println("profile: " + profile);
+            
+            if (isConnected && (profile != null)) {
+                // Save the data to the session
+                var customData = profile.getCustomDataByteArray();
+                System.print("Land");
+                var land = decodeStepData(customData.slice(0, 4)); // step part 1
+                System.print("Load");
+                var load = decodeStepData(customData.slice(4, 8)); // step part 2
+                System.print("Launch");
+                var launch = decodeStepData(customData.slice(8, 12)); // step part 3
+                var imuData = decodeStepData(customData.slice(13, 20)); // imu data
+                _sessionMgr.addReading(land, load, launch, imuData);
+
+                // Process IMU Data
+                // (0,0) (13,14) (15,16) (17,18) (19, 0)
+                var x1y1 = customData.slice(13, 15); // note this x is implied negative
+                System.println("x1y1: " + x1y1);
+                var x2y2 = customData.slice(15, 17);
+                System.println("x2y2: " + x2y2);
+                var x3y3 = customData.slice(17, 19); 
+                System.println("x3y3: " + x3y3); 
+                var point4 = customData.slice(19, 20);
+                System.println("point4: " + point4);
+
+                // Draw graph and title
+                var screenWidth = dc.getWidth();
+                var screenHeight = dc.getHeight();
+                var strideY = screenHeight * 0.2;
+                dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
+                dc.drawText(screenWidth / 2, strideY, Graphics.FONT_MEDIUM, "IMU Data", Graphics.TEXT_JUSTIFY_CENTER);
+                dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_BLACK);
+                dc.drawLine(screenWidth*0.3, screenHeight*0.35, screenWidth*0.3, screenHeight*0.8); // y axis
+                dc.drawLine(screenWidth*0.2, screenHeight*0.8, screenWidth*0.8, screenHeight*0.8); // x axis
+
+                // Calculate points - max y is 100 max x is 200
+                var x1 = (0.3 - ((x1y1[0]/255)*0.5)) * screenWidth; // x was /200 and y was /100
+                var y1 = (((x1y1[1]/255)*0.45) + 0.35) * screenHeight; 
+
+                var x2 = (((x2y2[0]/255)*0.5) + 0.3) * screenWidth;
+                var y2 = (((x2y2[1]/255)*0.45) + 0.35) * screenHeight;
+
+                var x3 = (((x3y3[0]/255)*0.5) + 0.3) * screenWidth;
+                var y3 = (((x3y3[1]/255)*0.45) + 0.35) * screenHeight;
+
+                var x4 = (((point4[0]/255)*0.45) + 0.35) * screenHeight;
+                var y4 = 0.35 * screenWidth;
+
+                // Draw points
+                dc.setColor(Graphics.COLOR_BLUE, Graphics.COLOR_TRANSPARENT);
+                dc.fillCircle(0.3 * screenWidth, 0.8 * screenHeight, 4); // origin
+                dc.fillCircle(x1, y1, 4);
+                dc.fillCircle(x2, y2, 4);
+                dc.fillCircle(x3, y3, 4);
+                dc.fillCircle(x4, y4, 4);
+
+                // Connect points
+                dc.setColor(Graphics.COLOR_BLUE, Graphics.COLOR_BLACK);
+                dc.drawLine(0.3 * screenWidth, 0.8 * screenHeight, x1, y1); // origin to point 1
+                dc.drawLine(x1, y1, x2, y2); // point 1 to point 2
+                dc.drawLine(x2, y2, x3, y3); // point 2 to point 3
+                dc.drawLine(x3, y3, x4, y4); // point 3 to point 4
+
+            } else {
+                var screenWidth = dc.getWidth();
+                var screenHeight = dc.getHeight();
+                var strideY = screenHeight * 0.35;
+                dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
+                dc.drawText(screenWidth / 2, strideY, Graphics.FONT_MEDIUM, "IMU Connecting...", Graphics.TEXT_JUSTIFY_CENTER);
+            }
+
         }
     }
 
@@ -74,8 +152,9 @@ class DataView extends WatchUi.View {
             var load = decodeStepData(customData.slice(4, 8)); // step part 2
             System.print("Launch");
             var launch = decodeStepData(customData.slice(8, 12)); // step part 3
+            var imuData = decodeStepData(customData.slice(13, 20)); // step part 4
             // Save the data to the session
-            _sessionMgr.addReading(land, load, launch);
+            _sessionMgr.addReading(land, load, launch, imuData);
 
 
             drawHeatMap(dc, land);

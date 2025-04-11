@@ -58,6 +58,6 @@ class ViewController {
     public function pushAnalysisView(scanResult as ScanResult) as Void {
         var deviceDataModel = _modelFactory.getDeviceDataModel(scanResult); 
         var analysisView = new $.AnalysisView(deviceDataModel);
-        WatchUi.pushView(analysisView, new $.AnalysisDelegate(analysisView, self), WatchUi.SLIDE_UP);
+        WatchUi.pushView(analysisView, new $.AnalysisDelegate(analysisView, self, deviceDataModel), WatchUi.SLIDE_UP);
     }
 }

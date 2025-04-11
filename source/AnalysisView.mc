@@ -20,49 +20,104 @@ class AnalysisView extends WatchUi.View {
         // Clear the screen first
         dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_BLACK);
         dc.clear();
-
-        // var screenWidth = dc.getWidth();
-        // var screenHeight = dc.getHeight();
-        // var strideY = screenHeight * 0.35;
-        // dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
-        // dc.drawText(screenWidth / 2, strideY, Graphics.FONT_LARGE, "peepee Data", Graphics.TEXT_JUSTIFY_CENTER);
-        
-        // Extract land, load, launch from session data
         var currSession = _deviceDataModel.getCurrentSessionID();
         var sessionDict = Application.Storage.getValue(currSession);
+        
+        // get the session data from the storage and average it
         System.println("Session: " + sessionDict);
         var arrays = sessionDictToArrays(sessionDict);
         var land = arrays[0];
         var load = arrays[1];
         var launch = arrays[2];
-        System.println("Land average: " + land);
-        System.println("Load average: " + load);
-        System.println("Launch average: " + launch);
+        var imuData = arrays[3];
 
-        // Draw labels for land, load, launch
-        var screenWidth = dc.getWidth();
-        var screenHeight = dc.getHeight();
-        var labelsY = screenHeight * 0.2;
-        var landX = screenWidth * 0.2;
-        var loadX = screenWidth * 0.5;
-        var launchX = screenWidth * 0.8;
-        dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
-        dc.drawText(landX, labelsY, Graphics.FONT_XTINY, "Land", Graphics.TEXT_JUSTIFY_CENTER);
-        dc.drawText(loadX, labelsY, Graphics.FONT_XTINY, "Load", Graphics.TEXT_JUSTIFY_CENTER);
-        dc.drawText(launchX, labelsY, Graphics.FONT_XTINY, "Launch", Graphics.TEXT_JUSTIFY_CENTER);
+        if(_deviceDataModel.getAnalysisPageIndex()==0){   
+            //draw circles on side
+            dc.setColor(Graphics.COLOR_BLUE, Graphics.COLOR_TRANSPARENT);
+            dc.fillCircle(30,200,6);
+            dc.fillCircle(30,220,4);
 
-        // Draw the heat maps under neath the labels
-        drawHeatMap(dc, land, 0.05);
-        drawHeatMap(dc, load, 0.35);
-        drawHeatMap(dc, launch, 0.65);
+            System.println("Land average: " + land);
+            System.println("Load average: " + load);
+            System.println("Launch average: " + launch);
 
+            // Draw labels for land, load, launch
+            var screenWidth = dc.getWidth();
+            var screenHeight = dc.getHeight();
+            var labelsY = screenHeight * 0.2;
+            var landX = screenWidth * 0.2;
+            var loadX = screenWidth * 0.5;
+            var launchX = screenWidth * 0.8;
+            dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
+            dc.drawText(landX, labelsY, Graphics.FONT_XTINY, "Land", Graphics.TEXT_JUSTIFY_CENTER);
+            dc.drawText(loadX, labelsY, Graphics.FONT_XTINY, "Load", Graphics.TEXT_JUSTIFY_CENTER);
+            dc.drawText(launchX, labelsY, Graphics.FONT_XTINY, "Launch", Graphics.TEXT_JUSTIFY_CENTER);
 
+            // Draw the heat maps under neath the labels
+            drawHeatMap(dc, land, 0.05);
+            drawHeatMap(dc, load, 0.35);
+            drawHeatMap(dc, launch, 0.65);
+        } else if(_deviceDataModel.getAnalysisPageIndex()==1){
+            // Draw circles on side
+            dc.setColor(Graphics.COLOR_BLUE, Graphics.COLOR_TRANSPARENT);
+            dc.fillCircle(30,200,4);
+            dc.fillCircle(30,220,6);
+
+            // draw the imu data
+            var x1y1 = imuData.slice(0, 2); // note this x is implied negative
+            System.println("x1y1: " + x1y1);
+            var x2y2 = imuData.slice(2, 4);
+            System.println("x2y2: " + x2y2);
+            var x3y3 = imuData.slice(4, 6); 
+            System.println("x3y3: " + x3y3); 
+            var point4 = imuData.slice(6, 7);
+            System.println("point4: " + point4);
+
+            // Draw graph and title
+            var screenWidth = dc.getWidth();
+            var screenHeight = dc.getHeight();
+            var strideY = screenHeight * 0.2;
+            dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
+            dc.drawText(screenWidth / 2, strideY, Graphics.FONT_MEDIUM, "IMU Data", Graphics.TEXT_JUSTIFY_CENTER);
+            dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_BLACK);
+            dc.drawLine(screenWidth*0.3, screenHeight*0.35, screenWidth*0.3, screenHeight*0.8); // y axis
+            dc.drawLine(screenWidth*0.2, screenHeight*0.8, screenWidth*0.8, screenHeight*0.8); // x axis
+
+            // Calculate points - max y is 100 max x is 200
+            var x1 = (0.3 - ((x1y1[0]/255)*0.5)) * screenWidth; // x was /200 and y was /100
+            var y1 = (((x1y1[1]/255)*0.45) + 0.35) * screenHeight; 
+
+            var x2 = (((x2y2[0]/255)*0.5) + 0.3) * screenWidth;
+            var y2 = (((x2y2[1]/255)*0.45) + 0.35) * screenHeight;
+
+            var x3 = (((x3y3[0]/255)*0.5) + 0.3) * screenWidth;
+            var y3 = (((x3y3[1]/255)*0.45) + 0.35) * screenHeight;
+
+            var x4 = (((point4[0]/255)*0.45) + 0.35) * screenHeight;
+            var y4 = 0.35 * screenWidth;
+
+            // Draw points
+            dc.setColor(Graphics.COLOR_BLUE, Graphics.COLOR_TRANSPARENT);
+            dc.fillCircle(0.3 * screenWidth, 0.8 * screenHeight, 4); // origin
+            dc.fillCircle(x1, y1, 4);
+            dc.fillCircle(x2, y2, 4);
+            dc.fillCircle(x3, y3, 4);
+            dc.fillCircle(x4, y4, 4);
+
+            // Connect points
+            dc.setColor(Graphics.COLOR_BLUE, Graphics.COLOR_BLACK);
+            dc.drawLine(0.3 * screenWidth, 0.8 * screenHeight, x1, y1); // origin to point 1
+            dc.drawLine(x1, y1, x2, y2); // point 1 to point 2
+            dc.drawLine(x2, y2, x3, y3); // point 2 to point 3
+            dc.drawLine(x3, y3, x4, y4); // point 3 to point 4
+        }
     }
 
     private function sessionDictToArrays(sessionDict as Dictionary) as Array<Array<Number>> {
         var land = [] as Array<Number>;
         var load = [] as Array<Number>;
         var launch = [] as Array<Number>;
+        var imuData = [] as Array<Number>;
 
         for (var i = 1; i <= 8; i++) {
             land.add(sessionDict["landPad" + i.toString()] / sessionDict["stepCount"]);
@@ -70,7 +125,15 @@ class AnalysisView extends WatchUi.View {
             launch.add(sessionDict["launchPad" + i.toString()] / sessionDict["stepCount"]);
         }
 
-        return [land, load, launch];
+        imuData.add(sessionDict["footPathPoint1X"] / sessionDict["stepCount"]);
+        imuData.add(sessionDict["footPathPoint1Y"] / sessionDict["stepCount"]);
+        imuData.add(sessionDict["footPathPoint2X"] / sessionDict["stepCount"]);
+        imuData.add(sessionDict["footPathPoint2Y"] / sessionDict["stepCount"]);
+        imuData.add(sessionDict["footPathPoint3X"] / sessionDict["stepCount"]);
+        imuData.add(sessionDict["footPathPoint3Y"] / sessionDict["stepCount"]);
+        imuData.add(sessionDict["footPathPoint4X"] / sessionDict["stepCount"]);
+
+        return [land, load, launch, imuData];
     }
 
     //! Draws a heat map of 8 pads arranged in a rough foot shape.

@@ -14,6 +14,7 @@ class DeviceDataModel {
     private var _environmentProfile as EnvironmentProfileModel?;
     private var _dataModelFactory as DataModelFactory;
     private var _dataPageIndex as Integer;
+    private var _analysisPageIndex as Integer;
     private var _currentSessionID as String;
 
     //! Constructor
@@ -29,6 +30,7 @@ class DeviceDataModel {
         _device = null;
         _environmentProfile = null;
         _dataPageIndex = 0;
+        _analysisPageIndex = 0;
         _currentSessionID = "";
     }
 
@@ -94,6 +96,12 @@ class DeviceDataModel {
     }
     public function setDataPageIndex(index as Integer) as Void {
         _dataPageIndex = index;
+    }
+    public function getAnalysisPageIndex() as Integer {
+        return _analysisPageIndex;
+    }
+    public function setAnalysisPageIndex(index as Integer) as Void {
+        _analysisPageIndex = index;
     }
 
     public function getCurrentSessionID() as String {

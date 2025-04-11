@@ -42,6 +42,13 @@ class SessionManager {
             "launchPad6" => 0,
             "launchPad7" => 0,
             "launchPad8" => 0,
+            "footPathPoint1X" => 0,
+            "footPathPoint1Y" => 0,
+            "footPathPoint2X" => 0,
+            "footPathPoint2Y" => 0,
+            "footPathPoint3X" => 0,
+            "footPathPoint3Y" => 0,
+            "footPathPoint4X" => 0,
         };
         
         System.println("Session started at " + _currentSession["startTime"]);
@@ -50,7 +57,7 @@ class SessionManager {
 
     //! Add a new reading to the current session
     //! Each reading is an array of 8 numbers for land, load, or launch pressure.
-    public function addReading(land as Array<Number>, load as Array<Number>, launch as Array<Number>) as Void {
+    public function addReading(land as Array<Number>, load as Array<Number>, launch as Array<Number>, imuData as Array<Number>) as Void {
         if (_currentSession == null) {
             System.println("No session started. Call startSession() first.");
             return;
@@ -77,14 +84,24 @@ class SessionManager {
                 System.println("Launch data is null for pad " + i.toString() + ". Skipping.");
             }
         }
-
-        // Incrementing step count
-        _currentSession["stepCount"] += 1;
-
         System.println("Added reading, land data: " + land.toString());
         System.println("Added reading, load data: " + load.toString());
         System.println("Added reading, launch data: " + launch.toString());
-    }
+
+        // Adding foot path points) {
+        _currentSession["footPathPoint1X"] += imuData[0];
+        _currentSession["footPathPoint1Y"] += imuData[1];
+        _currentSession["footPathPoint2X"] += imuData[2];
+        _currentSession["footPathPoint2Y"] += imuData[3];
+        _currentSession["footPathPoint3X"] += imuData[4];
+        _currentSession["footPathPoint3Y"] += imuData[5];
+        _currentSession["footPathPoint4X"] += imuData[6];
+
+        System.println("IMU Data: " + imuData.toString());
+
+        // Incrementing step count
+        _currentSession["stepCount"] += 1;\
+}
 
     //! Save the current session to persistent storage
     public function saveSession() as Void {
