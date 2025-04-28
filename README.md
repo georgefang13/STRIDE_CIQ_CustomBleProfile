@@ -209,4 +209,11 @@ Follow this steps to enable debug prints and direct the output to a file:
    You can do this by copying the file from <dev_root_folder>\ciq_projects\STRIDEAPP\logs\STRIDE_CIQ_CustomBleProfile.txt
 1. Eject the smartwatch or remove the USB cable.
 1. Now, after you run the STRIDE application, the debug prints will be written to this file.
-	
+
+## Connect to a new hardware module (different Bluetooth service and characteristic UUID)
+Follow these steps to program the ConnectIQ application to search for a different Bluetooth service:
+1. After establishing the service and characteristic UUIDs in the embedded code (STRIDE_ESP32), copy those numbers to your clipboard.
+1. Open `ProfileManager.mc`
+1. Change the following lines to the updated service and characteristic:
+	`public const STRIDE_SERVICE = BluetoothLowEnergy.stringToUuid("90ca8ba1-ad86-407a-80ce-f2f1d256c27e");`
+   	`public const STRIDE_CHARACTERISTIC = BluetoothLowEnergy.stringToUuid("c04a0c51-1f6d-44ea-bd08-675a0a578e41");`
