@@ -1,6 +1,7 @@
 import Toybox.Application;
 import Toybox.System;
 import Toybox.Lang;
+import Toybox.Attention;
 
 class SessionManager {
     // The session is saved as a dictionary with a start time and arrays for each sensor part.
@@ -13,11 +14,14 @@ class SessionManager {
 
     //! Starts a new session
     public function startSession() as Void {
+        Attention.playTone(Attention.TONE_LOUD_BEEP);
+
         var myTime = System.getClockTime();
         System.println(myTime.hour.format("%02d") + ":" + myTime.min.format("%02d") + ":" + myTime.sec.format("%02d"));
         _currentSession = {
             "startTime" => myTime.hour.format("%02d") + ":" + myTime.min.format("%02d") + ":" + myTime.sec.format("%02d"),
             "stepCount" => 0,
+            "imuCount"  => 0,
             "landPad1" => 0,
             "landPad2" => 0,
             "landPad3" => 0,
@@ -89,22 +93,29 @@ class SessionManager {
         System.println("Added reading, launch data: " + launch.toString());
 
         // Adding foot path points) {
-        _currentSession["footPathPoint1X"] += imuData[0];
-        _currentSession["footPathPoint1Y"] += imuData[1];
-        _currentSession["footPathPoint2X"] += imuData[2];
-        _currentSession["footPathPoint2Y"] += imuData[3];
-        _currentSession["footPathPoint3X"] += imuData[4];
-        _currentSession["footPathPoint3Y"] += imuData[5];
-        _currentSession["footPathPoint4X"] += imuData[6];
+        if (imuData[0] == 0 && imuData[1] == 0 && imuData[2] == 0 && imuData[3] == 0 && imuData[4] == 0 && imuData[5] == 0 && imuData[6] == 0) {
+            System.println("IMU data is null. Skipping.");
+        } else {
+            _currentSession["footPathPoint1X"] += imuData[0];
+            _currentSession["footPathPoint1Y"] += imuData[1];
+            _currentSession["footPathPoint2X"] += imuData[2];
+            _currentSession["footPathPoint2Y"] += imuData[3];
+            _currentSession["footPathPoint3X"] += imuData[4];
+            _currentSession["footPathPoint3Y"] += imuData[5];
+            _currentSession["footPathPoint4X"] += imuData[6];
+            _currentSession["imuCount"] += 1;
+        }
+
 
         System.println("IMU Data: " + imuData.toString());
 
         // Incrementing step count
-        _currentSession["stepCount"] += 1;\
+        _currentSession["stepCount"] += 1;
 }
 
     //! Save the current session to persistent storage
     public function saveSession() as Void {
+        Attention.playTone(Attention.TONE_STOP);
         if (_currentSession == null) {
             System.println("No session to save.");
             return;

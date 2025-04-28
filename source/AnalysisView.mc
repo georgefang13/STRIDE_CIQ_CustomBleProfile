@@ -78,23 +78,23 @@ class AnalysisView extends WatchUi.View {
             var screenHeight = dc.getHeight();
             var strideY = screenHeight * 0.2;
             dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
-            dc.drawText(screenWidth / 2, strideY, Graphics.FONT_MEDIUM, "IMU Data", Graphics.TEXT_JUSTIFY_CENTER);
+            dc.drawText(screenWidth / 2, strideY, Graphics.FONT_MEDIUM, "Foot Path", Graphics.TEXT_JUSTIFY_CENTER);
             dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_BLACK);
             dc.drawLine(screenWidth*0.3, screenHeight*0.35, screenWidth*0.3, screenHeight*0.8); // y axis
             dc.drawLine(screenWidth*0.2, screenHeight*0.8, screenWidth*0.8, screenHeight*0.8); // x axis
 
             // Calculate points - max y is 100 max x is 200
-            var x1 = (0.3 - ((x1y1[0]/255)*0.5)) * screenWidth; // x was /200 and y was /100
-            var y1 = (((x1y1[1]/255)*0.45) + 0.35) * screenHeight; 
+                var x1 = (((x1y1[0]/50.0)*0.3) + 0.3) * screenWidth; // x was /200 and y was /100
+                var y1 = (0.8 - ((x1y1[1]/50.0)*0.45)) * screenHeight; 
 
-            var x2 = (((x2y2[0]/255)*0.5) + 0.3) * screenWidth;
-            var y2 = (((x2y2[1]/255)*0.45) + 0.35) * screenHeight;
+                var x2 = (((x2y2[0]/50.0)*0.5) + 0.3) * screenWidth;
+                var y2 = (0.8 - ((x2y2[1]/50.0)*0.45)) * screenHeight;
 
-            var x3 = (((x3y3[0]/255)*0.5) + 0.3) * screenWidth;
-            var y3 = (((x3y3[1]/255)*0.45) + 0.35) * screenHeight;
+                var x3 = (((x3y3[0]/50.0)*0.5) + 0.3) * screenWidth;
+                var y3 = (0.8 - ((x3y3[1]/50.0)*0.45)) * screenHeight;
 
-            var x4 = (((point4[0]/255)*0.45) + 0.35) * screenHeight;
-            var y4 = 0.35 * screenWidth;
+                var x4 = (((point4[0]/50.0)*0.45) + 0.3) * screenHeight;
+                var y4 = 0.8 * screenWidth;
 
             // Draw points
             dc.setColor(Graphics.COLOR_BLUE, Graphics.COLOR_TRANSPARENT);
@@ -118,6 +118,10 @@ class AnalysisView extends WatchUi.View {
         var load = [] as Array<Number>;
         var launch = [] as Array<Number>;
         var imuData = [] as Array<Number>;
+        if (sessionDict["stepCount"] == 0) {
+            System.println("No data to average. Returning empty arrays.");
+            return [[0,0,0,0,0,0,0,0], [0,0,0,0,0,0,0,0], [0,0,0,0,0,0,0,0], [0,0,0,0,0,0,0]]; // nothing data
+        }
 
         for (var i = 1; i <= 8; i++) {
             land.add(sessionDict["landPad" + i.toString()] / sessionDict["stepCount"]);
@@ -125,13 +129,13 @@ class AnalysisView extends WatchUi.View {
             launch.add(sessionDict["launchPad" + i.toString()] / sessionDict["stepCount"]);
         }
 
-        imuData.add(sessionDict["footPathPoint1X"] / sessionDict["stepCount"]);
-        imuData.add(sessionDict["footPathPoint1Y"] / sessionDict["stepCount"]);
-        imuData.add(sessionDict["footPathPoint2X"] / sessionDict["stepCount"]);
-        imuData.add(sessionDict["footPathPoint2Y"] / sessionDict["stepCount"]);
-        imuData.add(sessionDict["footPathPoint3X"] / sessionDict["stepCount"]);
-        imuData.add(sessionDict["footPathPoint3Y"] / sessionDict["stepCount"]);
-        imuData.add(sessionDict["footPathPoint4X"] / sessionDict["stepCount"]);
+        imuData.add(sessionDict["footPathPoint1X"] / sessionDict["imuCount"]);
+        imuData.add(sessionDict["footPathPoint1Y"] / sessionDict["imuCount"]);
+        imuData.add(sessionDict["footPathPoint2X"] / sessionDict["imuCount"]);
+        imuData.add(sessionDict["footPathPoint2Y"] / sessionDict["imuCount"]);
+        imuData.add(sessionDict["footPathPoint3X"] / sessionDict["imuCount"]);
+        imuData.add(sessionDict["footPathPoint3Y"] / sessionDict["imuCount"]);
+        imuData.add(sessionDict["footPathPoint4X"] / sessionDict["imuCount"]);
 
         return [land, load, launch, imuData];
     }
