@@ -268,43 +268,6 @@ class DeviceView extends WatchUi.View {
             System.println("  new mGpioDataByteArray[GPIO_PAYLOAD_INDEX_GPIO11_OUTPUT]: " + mGpioDataByteArray[GPIO_PAYLOAD_INDEX_GPIO11_OUTPUT]);
             gpioDataUpdated = true;
         }
-
-        // if (gpioDataUpdated) {
-        //     var profile = mDataModel.getActiveProfile();
-        //     if (mDataModel.isConnected() && profile != null) {
-        //         profile.writeGpioDataByteArray(mGpioDataByteArray);
-        //     }
-
-        //     WatchUi.requestUpdate();
-        // }
     }
 
-    // Call this function to set a GPIO state. The new state is compared to the
-    // existing state and if a change is being made then the full GPIO data array
-    // will be written to the accessory.
-    // TODO: Currnetly ONLY supports GPIO_PAYLOAD_INDEX_LED4. Need to add
-    // support for other GPIOs.
-    //! @param gpio indicates which gpio to set 
-    //! @param on set to true to turn the gpio on, false to turn it off
-    public function setGpioState(gpio as Number, on as Boolean) {
-        var gpioDataUpdated = false;
-        if (gpio == GPIO_PAYLOAD_INDEX_LED4) {
-            if (on && mGpioDataByteArray[gpio] == LED_STATE_OFF) {
-                mGpioDataByteArray[gpio] = LED_STATE_ON;
-                gpioDataUpdated = true;
-            }
-            if (!on && mGpioDataByteArray[gpio] == LED_STATE_ON) {
-                mGpioDataByteArray[gpio] = LED_STATE_OFF;
-                gpioDataUpdated = true;
-            }
-        }
-        if (gpioDataUpdated) {
-            var profile = mDataModel.getActiveProfile();
-            if (mDataModel.isConnected() && profile != null) {
-                System.println("DeviceView::setGpioState gpio=" + gpio + "on=" + (on ? "yes": "no"));
-                // profile.writeGpioDataByteArray(mGpioDataByteArray);
-            }
-            WatchUi.requestUpdate();
-        }        
-    }
 }

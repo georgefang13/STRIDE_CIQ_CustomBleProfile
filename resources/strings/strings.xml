@@ -1,5 +1,6 @@
 <strings>
-    <string id="AppName">Duke Sample App</string>
-    <string id="menu_label_1">Start Scanning</string>
-    <string id="menu_label_2">Stop Scanning</string>
+    <string id="AppName">STRIDE App</string>
+    <string id="menu_label_1">Scan Left Foot</string>
+    <string id="menu_label_2">Scan Right Foot</string>
+    <string id="menu_label_3">Stop Scanning</string>
 </strings>

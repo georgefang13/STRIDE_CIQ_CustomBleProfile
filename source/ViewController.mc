@@ -19,9 +19,14 @@ class ViewController {
 
     //! Return the initial views for the app
     //! @return Array Pair [View, InputDelegate]
-    public function getInitialView() as [ScanView] or [ScanView, ScanDelegate] {
+    // public function getInitialView() as [ScanView] or [ScanView, ScanDelegate] {
+    //     var scanDataModel = _modelFactory.getScanDataModel();
+    //     return [new $.ScanView(scanDataModel), new $.ScanDelegate(scanDataModel, self)];
+    // }
+
+    public function getInitialView() as [MainView] or [MainView, MainViewDelegate] {
         var scanDataModel = _modelFactory.getScanDataModel();
-        return [new $.ScanView(scanDataModel), new $.ScanDelegate(scanDataModel, self)];
+        return [new $.MainView(scanDataModel), new $.MainViewDelegate(scanDataModel,self)];
     }
 
     //! Push the scan menu view (hold menu button to push this view)
@@ -29,13 +34,30 @@ class ViewController {
         WatchUi.pushView(new $.Rez.Menus.MainMenu(), new $.ScanMenuDelegate(), WatchUi.SLIDE_UP);
     }
 
-    //! Push the device view
+    //! Push the device view (OLD WE ARE CHANGING THIS TO DATA VIEW)
     //! @param scanResult The scan result for the device view to push
-    public function pushDeviceView(scanResult as ScanResult) as Void {
-        var deviceDataModel = _modelFactory.getDeviceDataModel(scanResult);
-        var deviceView = new $.DeviceView(deviceDataModel);
-        _modelFactory.GetPhoneCommunication().setDeviceView(deviceView);
+    // public function pushDeviceView(scanResult as ScanResult) as Void {
+    //     var deviceDataModel = _modelFactory.getDeviceDataModel(scanResult);
+    //     var deviceView = new $.DeviceView(deviceDataModel);
+    //     _modelFactory.GetPhoneCommunication().setDeviceView(deviceView);
 
-        WatchUi.pushView(deviceView, new $.DeviceDelegate(deviceDataModel, deviceView), WatchUi.SLIDE_UP);
+    //     WatchUi.pushView(deviceView, new $.DeviceDelegate(deviceDataModel, deviceView), WatchUi.SLIDE_UP);
+    // }
+
+
+    public function pushDataView(scanResult as ScanResult) as Void {
+        var deviceDataModel = _modelFactory.getDeviceDataModel(scanResult); 
+        var sessionMgr = new $.SessionManager(deviceDataModel);       
+        var dataView = new $.DataView(sessionMgr, deviceDataModel);
+        _modelFactory.GetPhoneCommunication().setDeviceView(dataView);
+        var scanDataModel = _modelFactory.getScanDataModel();
+
+        WatchUi.pushView(dataView, new $.DataDelegate(scanDataModel, sessionMgr,deviceDataModel, dataView, self), WatchUi.SLIDE_UP);
+    }
+
+    public function pushAnalysisView(scanResult as ScanResult) as Void {
+        var deviceDataModel = _modelFactory.getDeviceDataModel(scanResult); 
+        var analysisView = new $.AnalysisView(deviceDataModel);
+        WatchUi.pushView(analysisView, new $.AnalysisDelegate(analysisView, self, deviceDataModel), WatchUi.SLIDE_UP);
     }
 }

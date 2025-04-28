@@ -25,7 +25,7 @@ class CommListener extends Communications.ConnectionListener {
 
 class PhoneCommunication {
     //  private var _deviceDataModel as DeviceDataModel?;
-    private var _deviceView as DeviceView?;
+    private var _dataView as DataView?;
     private var _isSimulator = false;
     private var msgFromPhoneMethod;
 
@@ -57,24 +57,15 @@ class PhoneCommunication {
         //    "LED4:set:off" - turn off LED4
         if (msg != null && msg.data instanceof Toybox.Lang.String) {
             System.println("PhoneComm::handleMessageFromPhone( " + msg.data + " ) called");
-            if (msg.data.find("LED4:set:on") != null) {
-                if (_deviceView != null) {
-                    _deviceView.setGpioState(DeviceView.GPIO_PAYLOAD_INDEX_LED4, true);
-                }                
-            } else if (msg.data.find("LED4:set:off") != null) {
-                if (_deviceView != null) {
-                    _deviceView.setGpioState(DeviceView.GPIO_PAYLOAD_INDEX_LED4, false);
-                }    
-            }
         }
         // TODO: Filter out old (stale) messages. Since the phone may queue messages for delivery 
         // while it is waiting to be connected to the watch, the messages could become stale and 
         // might should be ignored. Adding a timestamp or a sequence number to the message might help.        
     }
 
-    function setDeviceView(dv as DeviceView) as Void {
+    function setDeviceView(dv as DataView) as Void {
         System.println("PhoneCommunication::setDeviceView");
-        _deviceView = dv;
+        _dataView = dv;
     }
 
     // Send a message to the application running on the phone

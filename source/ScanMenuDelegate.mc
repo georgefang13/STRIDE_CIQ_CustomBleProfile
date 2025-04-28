@@ -12,6 +12,7 @@ class ScanMenuDelegate extends WatchUi.MenuInputDelegate {
 
     //! Constructor
     public function initialize() {
+        System.println("We are in the scan menu!");
         MenuInputDelegate.initialize();
     }
 
@@ -20,7 +21,13 @@ class ScanMenuDelegate extends WatchUi.MenuInputDelegate {
     public function onMenuItem(item as Symbol) as Void {
         if (item == :item_1) {
             BluetoothLowEnergy.setScanState(BluetoothLowEnergy.SCAN_STATE_SCANNING);
+            System.println("Scanning left foot");
         } else if (item == :item_2) {
+            // BluetoothLowEnergy.setScanState(BluetoothLowEnergy.SCAN_STATE_SCANNING);
+            
+            System.println("Scanning right foot");
+
+        } else if (item == :item_3) {
             BluetoothLowEnergy.setScanState(BluetoothLowEnergy.SCAN_STATE_OFF);
         }
     }

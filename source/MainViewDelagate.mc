@@ -7,7 +7,7 @@
 import Toybox.Lang;
 import Toybox.WatchUi;
 
-class ScanDelegate extends WatchUi.BehaviorDelegate {
+class MainViewDelegate extends WatchUi.BehaviorDelegate {
     private var _scanDataModel as ScanDataModel;
     private var _viewController as ViewController;
 
@@ -24,6 +24,7 @@ class ScanDelegate extends WatchUi.BehaviorDelegate {
     //! Handle menu button press
     //! @return true if handled, false otherwise
     public function onMenu() as Boolean {
+        System.println("Pressed up button!");
         _viewController.pushScanMenu();
         return true;
     }
@@ -34,7 +35,9 @@ class ScanDelegate extends WatchUi.BehaviorDelegate {
         var displayResult = _scanDataModel.getDisplayResult();
         if (null != displayResult) {
             _viewController.pushDataView(displayResult);
+            BluetoothLowEnergy.setScanState(BluetoothLowEnergy.SCAN_STATE_OFF);
         }
+
         return true;
     }
 
