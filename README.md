@@ -6,7 +6,7 @@ your CIQ development environment and enable the Bluetooth functionality within t
 
 > [!WARNING]
 > Be sure to complete the [nRF_CustomBleProfile guide](https://github.com/4djelliot/nRF_CustomBleProfile) prior to cloning
-this repo, since we recommend cloning this repo into a new _DukeSampleApp_ folder in your Connect IQ SDK's _samples_ folder.
+this repo, since we recommend cloning this repo into a new _STRIDEAPP_ folder in your Connect IQ SDK's _samples_ folder.
 
 # Step 1: Gather, Install, and Setup System Requirements
 ## Hardware
