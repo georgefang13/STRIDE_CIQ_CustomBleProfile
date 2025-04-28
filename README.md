@@ -1,8 +1,7 @@
-# Duke Project Example - Connect IQ App
-This guide will assist you in getting started with development of a Connect IQ (CIQ) application that uses Bluetooth to 
-communication with an external accessory. In the example, bi-directional communication is established between 
-a [Garmin vívoactive 5 smartwatch](https://www.garmin.com/en-US/p/1057989/pn/010-02862-10) and an accessory 
-([nRF52 DK](https://www.nordicsemi.com/Products/Development-hardware/nRF52-DK)). The guide also explains how to setup 
+# STRIDE Project - Connect IQ App
+This guide will assist you in getting started with usage of the STRIDE Connect IQ (CIQ) application that uses Bluetooth to 
+communication with our hardware module. Bi-directional communication is established between 
+a Garmin forerunner265 smartwatch and the STRIDE hardware module. The guide also explains how to setup 
 your CIQ development environment and enable the Bluetooth functionality within the CIQ device simulator.
 
 > [!WARNING]
@@ -13,11 +12,10 @@ this repo, since we recommend cloning this repo into a new _DukeSampleApp_ folde
 ## Hardware
 In addition to the [hardware list](https://github.com/4djelliot/nRF_CustomBleProfile?tab=readme-ov-file#hardware) in the 
 nRF_CustomBleProfile guide you will need: 
-* [Garmin vívoactive 5 smartwatch](https://www.garmin.com/en-US/p/1057989/pn/010-02862-10) or another compatible smartwatch.
+* Garmin forerunner265 smartwatch or another compatible smartwatch.
 * [Garmin USB-A Charging/Data Cable](https://www.garmin.com/en-US/p/696132/pn/010-12983-00)
 * [nRF52840 USB Dongle](https://www.nordicsemi.com/Products/Development-hardware/nRF52840-Dongle)
     * Used to enable Bluetooth connectivity for the Connect IQ device simulator
-* nRF52 DK that has been flashed with firmware from the [nRF_CustomBleProfile project](https://github.com/4djelliot/nRF_CustomBleProfile).
 * Computer (Windows 10 / Windows 11 were used in our demo)
 
 ## Computer Software
@@ -62,55 +60,39 @@ important info, tips, and steps that may need to be skipped!
 	for generating a key can be found at the bottom of the page linked below.
 	* Recommend storing your key in <dev_root_folder>/ciq_developer_key folder for storing your key.
     * **Instructions**: https://developer.garmin.com/connect-iq/connect-iq-basics/getting-started/	
-1. **Sample CIQ Application**
+1. **STRIDE CIQ Application**
     * After creating a <dev_root_folder>\ciq_projects folder. Use the following commands to clone a copy of this repo
 	to your computer:
 	```
 	cd  <dev_root_folder>/ciq_projects 
-	git  clone https://github.com/4djelliot/CIQ_CustomBleProfile.git DukeSampleApp
+	git  clone https://github.com/4djelliot/CIQ_CustomBleProfile.git STRIDEAPP
 	```	
 
-# Step 2: Build, Install and Run the sample CIQ application
-Now that you have the hardware and software assembled, let's walk through the sample CIQ application
+# Step 2: Build, Install and Run the STRIDE CIQ application
+Now that you have the hardware and software assembled, let's walk through the STRIDE CIQ application
 in this repo and get it running on a Garmin smartwatch. At the end of these steps you should be able to
-toggle on and off an LED on the nRF52-DK board by tapping a button on the smartwatch. The sample uses
+use the STRIDE application to view and track foot pressure and foot path data from the STRIDE hardware module. The application uses
 Bluetooth for wireless communication.
 
-## Run the sample CIQ application in the simulator
-Follow these steps to compile the sample CIQ application and run it in the simulator:
+## Run the STRIDE CIQ application in the simulator
+Follow these steps to compile the STRIDE CIQ application and run it in the simulator:
 
 1. Open Visual Studio Code
-1. Select "File" -> "Open Folder" and then select the <dev_root_folder>\ciq_projects\DukeSampleApp folder that 
+1. Select "File" -> "Open Folder" and then select the <dev_root_folder>\ciq_projects\STRIDEAPP folder that 
    was created when you cloned this repo to your computer.
 1. You may be asked to trust the authors of the code. Answer Yes and also select the option to 
    "Trust the authors of all files in the parent folder".  
    ![Visual Studio Trust Authors](readme_images/VStudio_Trust_Folder.png)
-1. Make a small change to the source code:
-    * Click on the folder icon in the upper left hand corner to open the EXPLORER view.
-    * Expand the "DUKESAMPLEAPP" and expand "source".
-    * Click on "ScanView.mc" to open this Monkey C source code file.
-    * Find the line of code that looks like this:
-       ```
-       subtext = "Hold Menu Button\nto View Scan Menu";
-       ```
-       and modify it to look like this by adding "\nI was here" to the end of the string.
-       ```
-       subtext = "Hold Menu Button\nto View Scan Menu\nI was here";
-       ```  
-	![Visual Studio Trust Authors](readme_images/VStudio_Explorer_View.png)
-1. Add **vivoactive5** to the list of products (only needs to be done one time):
+1. Add **forerunner265** to the list of products (only needs to be done one time):
     * Summon the command palette with *Ctrl + Shift + P*
     * Type "Products" and select "Monkey C: Edit Products"
-    * Make sure "vivoactive5" is selected in the list of products and then click on "OK"
+    * Make sure "forerunner265" is selected in the list of products and then click on "OK"
 1. Run the application in the simulator:
     * Select "Run" -> "Run Without Debugging" (or press *Ctrl + F5*)
-    * Select "vivoactive5" from the list of devices
+    * Select "forerunner265" from the list of devices
 	* Wait for the CIQ Simulator to open
-	* Notice the "I was here" text at the bottom of the screen  
-    ![CIQ Simulator](readme_images/CIQ_Simulator_vva5.png)
-
 ## Configure BLE in the Connect IQ Simulator
-Connect IQ supports BLE connectivity from within its simulator via a second dev-kit or nRF52840 USB Dongle (dongle). 
+Connect IQ supports BLE connectivity from within its simulator via a nRF52840 USB Dongle (dongle). 
 This makes debugging much easier than debugging on watch hardware, as it allows you to use breakpoints in your 
 Connect IQ code and avoid constantly flashing to hardware. Most of our work was done using the nRF USB Dongle, 
 since you can leave the dongle attached to your PC even when re-programming the dev-kit. Follow the instructions 
@@ -141,71 +123,58 @@ below before continuing with these instructions.
 	* Enter the COM port that was assigned to your dongle and click "OK".  
     ![nRF COM port](readme_images/CIQ_Simulator_COM_port_example.png)
 
-## Toggle an nRF52-DK LED from the simulator
-Now that Bluetooth has been configured for the simulator, we can control the nRF52 DK using the sample
+## Connect to the Hardware Module from the Simulator
+Now that Bluetooth has been configured for the simulator, we can connect to the hardware using the STRIDE
 application while running in the simulator.
 1. If the simulator is already running then close it.
-1. Power off and then power on the nRF52 DK board. Note that it should already be programmed with the sample program 
-   software as described in the [nRF_CustomBleProfile](https://github.com/4djelliot/nRF_CustomBleProfile) project. 
-   LED1 should be blinking.
-1. From Visual Studio Code select "Run" -> "Run Without Debugging" -> "vivoactive 5" and wait for the simulator to launch.
-1. Press and hold the menu button for about 2 seconds by clicking the lower, right-hand button on the image of the watch. Then release.   
-   ![CIQ Simulator](readme_images/CIQ_Simulator_vva5.png)
-1. Select the "Start Scaning" menu item by clicking on it.  
-   ![CIQ Simulator](readme_images/CIQ_Simulator_ble_scan.png)
-1. Wait for the "GDuk" device to be found. This might take 15 to 30 seconds. If it takes more than 30 seconds for the
-   device to appear then try powering off and on the nRF52-DK board using the power switch.  
-   ![CIQ Simulator](readme_images/CIQ_Simulator_ble_gduk.png)
-1. Click on the center of the watch to connect to the "GDuk" device. This might take 15 to 30 seconds. If it takes more 
-   than 30 seconds then try powering off and on the nRF52-DK board.
-1. After a successful connection you will see "Connected" displayed at the top of the watch face.
-   Now you can click on the "LED_4" button to turn the nRF52 LED on and off.
-   Note that the "Hello_World" text scrolling across the screen is being transmitted by the nRF52.  
-   ![CIQ Simulator](readme_images/CIQ_Simulator_ble_connected.png)
+1. Power off and then power on the hardware module. Note that it should already be programmed with the embedded code in the `STRIDE_ESP32` folder.
+1. From Visual Studio Code select "Run" -> "Run Without Debugging" -> "forerunner265" and wait for the simulator to launch.
+1. Press and hold the 'Up' button for about 2 seconds by clicking the middle, left-hand button on the image of the watch. Then release.   
+1. Select the "Scan Left Foot" menu item by clicking on it.  
+1. Wait for the hardware module to be found. This might take 15 to 30 seconds. If it takes more than 30 seconds for the
+   device to appear then try powering off and on the hardware module.  
+1. Click on the center of the watch to connect to the device. This might take 15 to 30 seconds. If it takes more 
+   than 30 seconds then try powering off and on again.
+1. After a successful connection you will see "Waiting for data..." displayed on the watch face.
+   Now you can start using the hardware module and data will appear on the screen. Swipe up and down to toggle between the foot pressure and foot path data views.
 1. Select "File" -> "Quit" to close the simulator when you are done.
-   
 
-## Run CIQ application on a Garmin smartwatch
-The sample application can also be packaged, installed and run on a Garmin smartwatch. Follow these steps to control 
+## Run STRIDE CIQ application on a Garmin smartwatch
+The STRIDE application can also be packaged, installed and run on a Garmin smartwatch. Follow these steps to control 
 LED4 using the smartwatch.
 1. Package the CIQ application using Visual Studio Code:
     * Summon the command palette with *Ctrl + Shift + P*
     * Type "Device" and select "Monkey C: Build for Device"
-	* Select **vivoactive5** from the list of products.
-	* When prompted to select a folder, choose <dev_root_folder>\ciq_projects\DukeSampleApp\vva5. Create the vva5 folder if necessary.
+	* Select **forerunner265** from the list of products.
+	* When prompted to select a folder, choose <dev_root_folder>\ciq_projects\STRIDEAPP\vva5. Create the vva5 folder if necessary.
 	* Select the "Debug" option
 	* Wait for "BUILD SUCCESSFUL" to be displayed in the "TERMINAL" window
-	* Several files should be created in the <dev_root_folder>\ciq_projects\DukeSampleApp\vva5 folder including DukeSampleApp.prg	
-1. Install the sample CIQ application on the Garmin smartwatch:
+	* Several files should be created in the <dev_root_folder>\ciq_projects\STRIDEAPP\vva5 folder including STRIDE_CIQ_CustomBleProfile.prg	
+1. Install the STRIDE CIQ application on the Garmin smartwatch:
     * Connect the smartwatch to your computer using a USB cable.
 	* The smartwatch should enter USB mass stoage mode or MTP mode.
-	* Open the Windows File Explorer and look for the Garmin smartwatch ("vivoactive 5")
-	* Copy the DukeSampleApp.prg file to the following location:  
+	* Open the Windows File Explorer and look for the Garmin smartwatch ("forerunner265")
+	* Copy the STRIDE_CIQ_CustomBleProfile.prg file to the following location:  
 	  ```
-	  vívoactive 5\Internal Storage\GARMIN\Apps\DukeSampleApp.prg
+	  forerunner265\Internal Storage\GARMIN\Apps\STRIDE_CIQ_CustomBleProfile.prg
 	  ```
 	* Eject the smartwatch or remove the USB cable.
-	* The sample CIQ should be installed on the smartwatch
-1. Launch the sample CIQ application on a Garmin vívoactive 5 smartwatch:
+	* The STRIDE CIQ should be installed on the smartwatch
+1. Launch the sample CIQ application on a Garmin forerunner265 smartwatch:
     * Press and release the button on the upper right-hand side of the watch. This should open the Activities menu.
 	* Tap on the "Apps" tab (or swipe left) to display the Apps menu.
-	* Scroll through the list and look for "Duke Sample App".
-	* Tap on "Duke Sample App" to run the application.
-1. Make sure the nRF52-DK board is powered on and ready to go.
-    * It should have already been programmed with the sample software as described in the
-	[nRF_CustomBleProfile](https://github.com/4djelliot/nRF_CustomBleProfile) project. 
-	* LED1 should be blinking.
-	* Optionally, power the nRF52-DK board off and back on to make sure it is in a known good state.
+	* Scroll through the list and look for "STRIDE App".
+	* Tap on "STRIDE App" to run the application.
+1. Make sure the hardware module is powered on and ready to go.
+    * It should have already been programmed with the software in STRIDE_ESP32
 1. Establish a Bluetooth connection:
-    * Launch the sample CIQ application on the watch.
-	* Press and release the button on the lower right-hand side of the watch to display the scan menu.
-	* Tap on "Start Scanning".
-	* When the nRF52-DK board has been found, the watch will display the name of the device ("GDuk") and the RSSI (signal strength).
-	* Tap on the display to connect to the "GDuk" device.
-	* The watch should display "Connecting" and then "Connected" when the Bluetooth connection has been established.
-1. Toggle LED4 on and off:
-	* Tap on the "LED_4" button on the watch.
-	* Notice that LED4 on the nRF52-DK board will turn off and on.	
+    * Launch the STRIDE CIQ application on the watch.
+	* Press and release the "Up" button on the middle left-hand side of the watch to display the scan menu.
+	* Tap on "Scan Left Foot".
+	* When the hardware module has been found, the watch will say "Tap to Connect".
+	* Tap on the display to connect to the device.
+	* The watch should display "Waiting for data..." when the Bluetooth connection has been established.
+1. Start running with the STRIDE HARDWARE to view live data.
 
 # Troubleshooting
 ## Visual Studio Code Extension
@@ -235,9 +204,9 @@ Follow this steps to enable debug prints and direct the output to a file:
 1. Open the Windows File Explorer and look for the Garmin smartwatch ("vivoactive 5")
 1. Create an empty file at the following location in the watch's file system:
 	  ```
-	  vívoactive 5\Internal Storage\GARMIN\Apps\Logs\DukeSampleApp.txt
+	  forerunner265\Internal Storage\GARMIN\Apps\Logs\STRIDE_CIQ_CustomBleProfile.txt
 	  ```  
-   You can do this by copying the file from <dev_root_folder>\ciq_projects\DukeSampleApp\logs\DukeSampleApp.txt
+   You can do this by copying the file from <dev_root_folder>\ciq_projects\STRIDEAPP\logs\STRIDE_CIQ_CustomBleProfile.txt
 1. Eject the smartwatch or remove the USB cable.
-1. Now, after you run the DukeSampleApp application, the debug prints will be written to this file.
+1. Now, after you run the STRIDE application, the debug prints will be written to this file.
 	
