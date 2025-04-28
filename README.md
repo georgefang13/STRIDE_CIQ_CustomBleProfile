@@ -65,7 +65,7 @@ important info, tips, and steps that may need to be skipped!
 	to your computer:
 	```
 	cd  <dev_root_folder>/ciq_projects 
-	git  clone https://github.com/4djelliot/CIQ_CustomBleProfile.git STRIDEAPP
+	git  clone https://github.com/georgefang13/STRIDE_CIQ_CustomBleProfile.git STRIDEAPP
 	```	
 
 # Step 2: Build, Install and Run the STRIDE CIQ application
